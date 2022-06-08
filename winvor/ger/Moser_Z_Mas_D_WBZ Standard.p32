@@ -2190,7 +2190,7 @@ State=1
 
 [DATASET WEINMANN_WBZ_MACHINERY TOOLS BTL10_3_4_030 11]
 DarfDieGrundflaecheBeimFreiblattGeaendertWerden=0
-MinAusblattungLaenge=0.100000000000
+MinAusblattungLaenge=0.020000000000
 FingerfraeserDurchmesser=0.020000000000
 FingerfraeserMaximaleLaenge=0.145000000000
 Parameter04=BTL 10 Steuerung
