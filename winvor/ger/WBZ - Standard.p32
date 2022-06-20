@@ -4,7 +4,7 @@ Version=1.1
 [VERSION ENDSEC]
 
 [DATASET WEINMANN_WBZ_MACHINERY]
-Name=KM - WBZ - Standard - original
+Name=WBZ - Standard
 Type=0
 CategoryName=
 
