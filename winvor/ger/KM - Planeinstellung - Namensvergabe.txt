@@ -1,0 +1,7 @@
+Namensvergabe Pläne
+
+Wandplan
+Name:			Wand_#SwAkt##SwAktNum#_W#Wnr[,,0,2]#_
+Zähler:			Einstellig
+Beschreibung:	#Planinfo#
+
