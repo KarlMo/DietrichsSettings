@@ -15,7 +15,7 @@ MarkierungMitNummern=Nein
 
 [DATASET SORT SETTINGS 1 PARAMETER_DATA WAND_DOMAIN PARAMETERS]
 Art=Sortierung mit Vergleich
-Startnummer=500
+Startnummer=501
 Paket beruecksichtigen=Ja
 Neustart Nummerierung=Position
 Beruecksichtigung=GebaudeElement
@@ -24,7 +24,7 @@ Beruecksichtigung=GebaudeElement
 
 [DATASET SORT SETTINGS 1 PARAMETER_DATA DECKE_DOMAIN PARAMETERS]
 Art=Sortierung mit Vergleich
-Startnummer=200
+Startnummer=201
 Paket beruecksichtigen=Ja
 Neustart Nummerierung=Position
 Beruecksichtigung=GebaudeElement
@@ -42,7 +42,7 @@ Beruecksichtigung=GebaudeElement
 
 [DATASET SORT SETTINGS 1 PARAMETER_DATA BINDER_DOMAIN PARAMETERS]
 Art=Sortierung mit Vergleich
-Startnummer=300
+Startnummer=301
 Paket beruecksichtigen=Ja
 Neustart Nummerierung=Position
 Beruecksichtigung=GebaudeElement
@@ -51,7 +51,7 @@ Beruecksichtigung=GebaudeElement
 
 [DATASET SORT SETTINGS 1 PARAMETER_DATA FREIEKONS_DOMAIN PARAMETERS]
 Art=Sortierung mit Vergleich
-Startnummer=400
+Startnummer=401
 Paket beruecksichtigen=Ja
 Neustart Nummerierung=Position
 Beruecksichtigung=Position
