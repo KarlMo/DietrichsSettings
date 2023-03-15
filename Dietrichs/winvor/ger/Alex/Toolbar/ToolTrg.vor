@@ -1,0 +1,697 @@
+﻿[Pack File]
+Name=Toolbar
+
+[#51]
+Dock=0
+Row=1
+0=0,4,didmoneu, ,54050
+1=0,4,didmoeff, ,54051
+2=0,4,didaspei, ,54052
+36=0,4,didmspal, ,54053
+37=0,4,didmkosp, ,55531
+3=0,4,didaende, ,54035
+4=1,4,22, ,0
+5=0,4,didadoun, ,54056
+6=0,4,didadodo, ,54057
+7=1,4,22, ,0
+8=0,4,dimogrun, ,54074
+9=0,4,dimowako, ,54075
+10=0,4,dimodefe, ,54070
+11=0,4,dimodeko, ,54071
+12=0,4,dimodaus, ,54072
+13=0,4,dimogaub, ,55156
+14=0,4,dimobind, ,55155
+15=0,4,dimofrko, ,54076
+16=1,4,22, ,0
+17=0,4,diasabel, ,54501
+18=0,4,diasaxoy, ,54502
+19=0,4,diasayoz, ,54503
+20=0,4,diasazox, ,54504
+35=0,4,diasaspe, ,55105
+21=0,4,aiasscbe, ,54725
+22=0,4,aiasscli, ,54727
+23=1,4,22, ,0
+27=0,4,didlipra, ,54132
+29=1,4,22, ,0
+30=0,4,didplprg, ,54151
+34=0,4,didplanv, ,55461
+33=0,4,aidplspp, ,54158
+34=0,4,aidplscz, ,54810
+33=255,4,didplada, ,55428
+35=1,4,22, ,0
+36=0,4,gidadars, ,54090
+36=0,4,gidadars, ,29531
+36=0,4,gidadars, ,29532
+36=0,4,gidadars, ,29533
+37=0,4,didaopgl, ,54505
+38=1,4,22, ,0
+Show=TRUE
+
+[#48]
+Dock=0
+Row=1
+0=2,4,disakplu,disakmin,55520
+1=0,4,disakall, ,55521
+3=0,4,disakaka, ,55523
+4=0,4,disakein, ,55524
+8=0,4,disakfil, ,55526
+Show=TRUE
+
+[#218]
+Dock=0
+Row=1
+12=0,4,tibiaupr, ,55145
+0=255,4,tibibiei, ,55140
+0=0,4,tibibiei, ,29721
+0=0,4,tibibiei, ,29722
+0=0,4,tibibiei, ,29723
+0=0,4,tibibiei, ,29724
+0=0,4,tibibiei, ,29725
+1=1,4, , ,0
+2=0,4,tibikopa, ,55141
+3=0,4,tibikoib, ,55142
+4=0,4,tibikori, ,55143
+5=0,4,tibispie, ,55144
+6=1,4, , ,0
+7=0,4,tibibeae, ,55147
+8=0,4,tibivers, ,55149
+9=0,4,tibisiae, ,55150
+10=1,4, , ,0
+11=0,4,tibiloes, ,55152
+Show=TRUE
+
+[#52]
+Dock=0
+Row=2
+58=0,4,gidavari, ,54022
+59=1,4, , ,0
+0=0,4,tidfdwah, ,54711
+1=0,4,tidfgada, ,54714
+2=1,4,22, ,0
+57=0,4,wibaplei, ,55229
+59=0,4,wibapllo, ,55231
+58=1,4, , ,0
+7=255,4,tibapfpp, ,54262
+8=255,4,tibapfsm, ,54263
+9=255,4,tibapffp, ,54264
+10=255,4,tibapfsp, ,54265
+11=255,4,tibapupf, ,54269
+12=255,4,tibapukb, ,54270
+56=0,4,tibapups, ,54271
+13=1,4,22, ,0
+14=255,4,tibagkgs, ,54281
+15=255,4,tibagkks, ,54282
+16=255,4,tibagkkb, ,54283
+17=0,4,tibagkus, ,54285
+18=1,4,22, ,0
+19=255,4,tibaspsp, ,54291
+20=255,4,tibaspse, ,54292
+21=255,4,tibaspss, ,54293
+22=0,4,tibaspsu, ,54715
+23=0,4,tibaspsc, ,55002
+24=0,4,tibaspnb, ,54718
+25=1,4,22, ,0
+26=0,4,tibazapr, ,54301
+27=255,4,tibafiza, ,54302
+28=255,4,tibazang, ,54303
+29=0,4,tibakehl, ,54304
+61=0,4,tibazaub, ,54305
+60=0,4,tibazanb, ,54306
+30=1,4,22, ,0
+31=255,4,tibsstma, ,54903
+32=1,4,22, ,0
+33=0,4,tibaneub, ,54209
+34=0,4,tibaaend, ,54211
+35=0,4,tibaloes, ,54212
+36=1,4,22, ,0
+37=0,4,diweinst, ,54440
+38=0,4,diwkeilo, ,54443
+39=1,4,22, ,0
+40=0,4,diwasses, ,54805
+41=0,4,diwasans, ,54769
+42=255,4,diwuebla, ,54784
+43=255,4,diwblend, ,54785
+57=255,4,diwblpan, ,55405
+55=1,4, , ,0
+44=255,4,diwzavfr, ,54796
+45=255,4,diwszvfr, ,54802
+46=1,4, , ,0
+48=0,4,diwatses, ,54771
+49=1,4,22, ,0
+50=255,4,diwekoka, ,54829
+51=255,4,diwekove, ,54831
+52=1,4,22, ,0
+53=0,4,diwmavas, ,54450
+54=0,4,tibehobe, ,54822
+Show=TRUE
+
+[#223]
+Dock=0
+Row=2
+0=0,4,gisykeve, ,55437
+1=1,4, , ,0
+14=0,4,gisykeig, ,55439
+3=0,4,tisykees, ,55453
+4=0,4,tisykeid, ,55452
+5=1,4, , ,0
+6=0,4,gisykenb, ,55440
+7=0,4,gisykesc, ,55441
+8=0,4,gisykedr, ,55442
+9=0,4,gisykeea, ,55443
+10=0,4,gisykeia, ,55444
+11=1,4, , ,0
+12=0,4,gisykeau, ,55445
+13=0,4,gisykelo, ,55446
+Show=TRUE
+
+[#53]
+Dock=0
+Row=3
+1=0,4,didmoneu, ,54050
+2=0,4,didmoeff, ,54051
+3=0,4,didaspei, ,54052
+4=0,4,didaende, ,54035
+5=1,4,22, ,0
+6=0,4,disreglo, ,50000
+7=0,4,disresic, ,50001
+8=1,4,22, ,0
+9=0,4,didadoun, ,54056
+10=0,4,didadodo, ,54057
+Show=FALSE
+
+[#54]
+Dock=0
+Row=3
+1=0,4,dimogrun, ,54074
+2=0,4,dimowako, ,54075
+3=0,4,dimodefe, ,54070
+4=0,4,dimodeko, ,54071
+5=0,4,dimodaus, ,54072
+6=0,4,dimofrko, ,54076
+Show=FALSE
+
+[#55]
+Dock=0
+Row=3
+1=0,4,gidadars, ,54090
+2=0,4,wispgren, ,54095
+Show=FALSE
+
+[#56]
+Dock=0
+Row=3
+1=0,4,didsoneu, ,54121
+2=0,4,didsoanh, ,54122
+Show=FALSE
+
+[#57]
+Dock=0
+Row=3
+1=0,4,didlipra, ,54132
+2=0,4,bimatlis, ,54135
+3=0,4,aiegzili, ,54731
+Show=FALSE
+
+[#58]
+Dock=0
+Row=3
+1=0,4,didplprg, ,54151
+2=0,4,didacprg, ,54153
+3=0,4,didplass, ,54155
+4=0,4,aidpldhp, ,54157
+5=0,4,aidplspp, ,54158
+6=0,4,aidplscz, ,54810
+Show=FALSE
+
+[#59]
+Dock=0
+Row=3
+1=0,4,miprgmas, ,54144
+2=0,4,didmaabl, ,54146
+Show=FALSE
+
+[#60]
+Dock=0
+Row=3
+1=0,4,didildxf, ,54171
+Show=FALSE
+
+[#65]
+Dock=0
+Row=3
+1=0,4,diasabel, ,54501
+2=0,4,diasaxoy, ,54502
+3=0,4,diasayoz, ,54503
+4=0,4,diasazox, ,54504
+5=1,4,22, ,0
+6=0,4,aiasscbe, ,54725
+7=0,4,aiasscve, ,54726
+8=0,4,aiasscli, ,54727
+Show=FALSE
+
+[#202]
+Dock=0
+Row=3
+1=0,4,tibapfpp, ,54262
+2=0,4,tibapfsm, ,54263
+3=0,4,tibapffp, ,54264
+4=0,4,tibapfsp, ,54265
+5=0,4,tibapupf, ,54269
+6=0,4,tibapukb, ,54270
+Show=FALSE
+
+[#203]
+Dock=0
+Row=3
+1=0,4,tibagkgs, ,54281
+2=0,4,tibagkks, ,54282
+3=0,4,tibagkkb, ,54283
+4=0,4,tibagkus, ,54285
+Show=FALSE
+
+[#204]
+Dock=0
+Row=3
+1=0,4,tibaspsp, ,54291
+2=0,4,tibaspse, ,54292
+3=0,4,tibaspss, ,54293
+4=0,4,tibaspsu, ,54715
+5=0,4,tibaspsc, ,55002
+6=0,4,tibaspnb, ,54718
+Show=FALSE
+
+[#205]
+Dock=0
+Row=3
+1=0,4,tibazapr, ,54301
+2=0,4,tibafiza, ,54302
+3=0,4,tibazang, ,54303
+4=0,4,tibakehl, ,54304
+5=0,4,tibazaub, ,54305
+6=0,4,tibazanb, ,54306
+Show=FALSE
+
+[#206]
+Dock=0
+Row=3
+1=0,4,tibaneub, ,54209
+2=0,4,tibaaend, ,54211
+3=0,4,tibaloes, ,54212
+Show=FALSE
+
+[#194]
+Dock=0
+Row=3
+1=0,4,diwasses, ,54805
+2=0,4,diwasans, ,54769
+3=0,4,diwatses, ,54771
+4=1,4,22, ,0
+5=0,4,diwuebla, ,54784
+6=0,4,diwblend, ,54785
+7=0,4,diwblsti, ,54786
+20=0,4,diwtsten, ,55184
+21=0,4,diwblgab, ,55375
+8=1,4,22, ,0
+9=0,4,diwvers1, ,54793
+10=0,4,diwvers2, ,54794
+11=1,4,22, ,0
+12=0,4,diwzavfr, ,54796
+13=1,4,22, ,0
+14=0,4,diwszvfr, ,54802
+15=1,4,22, ,0
+16=0,4,diwekoka, ,54829
+17=0,4,diwekove, ,54831
+22=0,4,diwekoru, ,55132
+23=0,4,diwekogs, ,55185
+18=1,4,22, ,0
+19=0,4,diwmavas, ,54450
+20=0,4,tibehobe, ,54822
+Show=FALSE
+
+[#167]
+Dock=0
+Row=3
+1=0,4,diweinst, ,54440
+2=0,4,diwkeibe, ,54441
+3=0,4,diwkstlo, ,54442
+4=0,4,diwkeilo, ,54443
+5=0,4,tibekowv, ,54716
+6=0,4,diwkneve, ,54446
+7=0,4,diwkbovi, ,55052
+Show=FALSE
+
+[#222]
+Dock=0
+Row=4
+0=0,4,diwevbta, ,55216
+1=0,4,diwevbkr, ,55204
+2=0,4,diwevbpb, ,55205
+3=0,4,diwevbbk, ,55206
+4=1,4, , ,0
+5=0,4,diwevvdg, ,55211
+6=0,4,diwevvdr, ,55212
+7=0,4,diwevveb, ,55213
+8=0,4,diwevvzb, ,55214
+9=0,4,diwevvzr, ,55215
+10=1,4, , ,0
+Show=FALSE
+
+[#195]
+Dock=0
+Row=5
+1=0,4,tibsstma, ,54903
+2=1,4, , ,0
+1=0,4,wibaplei, ,55229
+3=0,4,wibapllo, ,55231
+4=1,4, , ,0
+Show=FALSE
+
+[#50]
+Dock=0
+Row=6
+1=2,4,didwanei,didwanau,55080
+2=2,4,diddlpei,diddlpau,55079
+3=2,4,diddplei,diddplau,55078
+4=2,4,didedhea,didedhae,55077
+5=1,4, , ,0
+6=2,4,diwkhobe,diwkhoba,55083
+7=2,4,diwkblee,diwkblea,55082
+8=2,4,diwbokab,diwbokeb,55081
+Show=FALSE
+
+[#177]
+Dock=0
+Row=7
+0=0,4,cizeeins, ,55233
+1=1,4, , ,0
+2=0,4,cizepuei, ,55234
+3=0,4,cizepuau, ,55235
+4=0,4,cizepuba, ,55236
+5=1,4, , ,0
+6=0,4,cizelini, ,55237
+7=0,4,cizemili, ,55373
+8=0,4,cizereec, ,55239
+9=1,4, , ,0
+10=0,4,cizeaend, ,55249
+11=0,4,cizeloes, ,55250
+12=1,4, , ,0
+Show=FALSE
+
+[#178]
+Dock=0
+Row=8
+0=0,4,cizemira, ,55240
+1=0,4,cize2pun, ,55241
+2=0,4,cize3pun, ,55242
+3=0,4,cizemita, ,55243
+4=1,4, , ,0
+5=0,4,cizeb3pu, ,55244
+6=0,4,cizebsme, ,55245
+7=0,4,cizebsmw, ,55246
+8=0,4,cizebseh, ,55247
+9=1,4, , ,0
+Show=FALSE
+
+[#179]
+Dock=0
+Row=9
+0=0,4,cizesfei, ,55253
+1=0,4,cizesfae, ,55254
+2=0,4,cizesflo, ,55255
+3=1,4, , ,0
+Show=FALSE
+
+[#180]
+Dock=0
+Row=10
+0=0,4,cibekopi, ,55256
+1=0,4,cibekoib, ,55257
+2=0,4,cibespie, ,55258
+3=0,4,cibevers, ,55259
+4=1,4, , ,0
+5=0,4,cibestuz, ,55260
+6=0,4,cibeanpa, ,55261
+7=0,4,cibeecke, ,55262
+8=0,4,cibefase, ,55263
+9=0,4,ciberund, ,55264
+10=0,4,cibetren, ,55265
+11=1,4, , ,0
+12=0,4,cibeschi, ,55266
+13=0,4,cibedreh, ,55267
+14=0,4,cibeskal, ,55268
+15=0,4,cibestre, ,55269
+16=0,4,cibelaen, ,55270
+17=1,4, , ,0
+18=0,4,cibeloes, ,55271
+19=1,4, , ,0
+Show=FALSE
+
+[#181]
+Dock=0
+Row=11
+0=0,4,ciaussch, ,55273
+1=0,4,mikopier, ,55274
+2=0,4,ciaukopi, ,55275
+3=0,4,mieinfue, ,55276
+4=1,4, , ,0
+Show=FALSE
+
+[#183]
+Dock=0
+Row=12
+0=0,4,cibmeins, ,55283
+1=1,4, , ,0
+2=2,4,cibmerzp,cibmerzd,55295
+3=1,4, , ,0
+4=0,4,cibmerhr, ,55285
+5=0,4,cibmerha, ,55286
+6=0,4,cibmerhz, ,55287
+7=1,4, , ,0
+8=0,4,cibmervr, ,55288
+9=0,4,cibmerva, ,55289
+10=0,4,cibmervz, ,55290
+11=1,4, , ,0
+12=0,4,cibmerbr, ,55291
+13=0,4,cibmerba, ,55292
+14=0,4,cibmerbz, ,55293
+15=1,4, , ,0
+16=0,4,cibmeref, ,55294
+17=1,4, , ,0
+Show=FALSE
+
+[#184]
+Dock=0
+Row=13
+0=0,4,cibmscez, ,55296
+1=0,4,cibmscbe, ,55297
+2=0,4,cibmscgk, ,55298
+3=0,4,cibmscgl, ,55299
+4=0,4,cibmscsa, ,55300
+5=0,4,cibmscma, ,55301
+6=0,4,cibmscdr, ,55302
+7=1,4, , ,0
+8=0,4,cibmtren, ,55303
+9=0,4,cibmaddi, ,55304
+10=1,4, , ,0
+11=0,4,cibmaend, ,55305
+12=0,4,cibmmaed, ,55306
+13=1,4, , ,0
+Show=FALSE
+
+[#185]
+Dock=0
+Row=14
+0=0,4,cibmloez, ,55307
+1=0,4,cibmlogk, ,55308
+2=0,4,cibmloal, ,55309
+3=1,4, , ,0
+Show=FALSE
+
+[#186]
+Dock=0
+Row=15
+0=0,4,cibmwimf, ,55310
+1=0,4,cibmwisc, ,55311
+2=0,4,cibmwian, ,55312
+4=1,4, , ,0
+3=0,4,cibmwilo, ,55314
+5=1,4, , ,0
+Show=FALSE
+
+[#187]
+Dock=0
+Row=16
+0=0,4,cibmhouf, ,55315
+1=0,4,cibmhosc, ,55316
+2=0,4,cibmhoan, ,55317
+3=0,4,cibmhoak, ,55318
+5=1,4, , ,0
+4=0,4,cibmholo, ,55319
+6=1,4, , ,0
+Show=FALSE
+
+[#198]
+Dock=0
+Row=17
+0=0,4,cibmraer, ,55321
+1=0,4,cibmradr, ,55322
+2=0,4,cibmraan, ,55323
+4=1,4, , ,0
+3=0,4,cibmralo, ,55325
+5=1,4, , ,0
+Show=FALSE
+
+[#199]
+Dock=0
+Row=18
+0=0,4,cibmduer, ,55326
+1=0,4,cibmdudr, ,55327
+2=0,4,cibmduan, ,55328
+4=1,4, , ,0
+3=0,4,cibmdulo, ,55330
+5=1,4, , ,0
+Show=FALSE
+
+[#200]
+Dock=0
+Row=19
+0=0,4,cibmboer, ,55331
+1=0,4,cibmbosc, ,55332
+2=0,4,cibmboan, ,55333
+4=1,4, , ,0
+3=0,4,cibmbolo, ,55335
+5=1,4, , ,0
+Show=FALSE
+
+[#188]
+Dock=0
+Row=20
+0=0,4,citeeins, ,55336
+1=1,4, , ,0
+2=0,4,citeerze, ,55338
+3=0,4,citeerz1, ,55339
+4=1,4, , ,0
+5=0,4,citeedit, ,55340
+6=0,4,citeaend, ,55341
+7=0,4,citeschi, ,55342
+9=1,4, , ,0
+8=0,4,citeloes, ,55343
+10=1,4, , ,0
+Show=FALSE
+
+[#208]
+Dock=0
+Row=21
+0=0,4,citebemb, ,55345
+1=0,4,citebeeb, ,55346
+2=1,4, , ,0
+3=0,4,citebeed, ,55347
+4=0,4,citebeae, ,55348
+5=0,4,citebesc, ,55349
+6=0,4,citebers, ,55350
+8=1,4, , ,0
+7=0,4,citebelo, ,55351
+9=1,4, , ,0
+Show=FALSE
+
+[#182]
+Dock=1
+Row=1
+0=0,4,ciaflaye, ,55277
+1=8,4,15~230,SORT,129
+2=8,4,15~230,NOSORT,131
+Show=TRUE
+
+[#220]
+Dock=1
+Row=1
+0=0,4,cizeeins, ,55233
+2=8,4,15,NOSORT,130
+19=0,4,cizepuei, ,55234
+20=0,4,cizepuau, ,55235
+23=0,4,cizepuba, ,55236
+5=0,4,cizelini, ,55237
+20=0,4,cizeplze, ,55546
+20=0,4,cizemili, ,55373
+6=0,4,cizereec, ,55239
+7=0,4,cizemira, ,55240
+22=0,4,cizeelli, ,55125
+8=0,4,cizeb3pu, ,55244
+9=0,4,cizeaend, ,55249
+11=1,4, , ,0
+12=0,4,cibekopi, ,55256
+13=0,4,cibespie, ,55258
+14=0,4,cibevers, ,55259
+21=0,4,cibeschi, ,55266
+15=0,4,cibestuz, ,55260
+16=0,4,cibeanpa, ,55261
+17=0,4,cibeecke, ,55262
+23=0,4,cibelaen, ,55270
+21=0,4,cibetren, ,55265
+22=0,4,cibeskal, ,55268
+Show=TRUE
+
+[#221]
+Dock=1
+Row=1
+0=0,4,citeeins, ,55336
+1=1,4, , ,0
+2=0,4,citeerze, ,55338
+3=0,4,citeerz1, ,55339
+4=0,4,citeaend, ,55341
+5=1,4, , ,0
+6=0,4,citebemb, ,55345
+7=0,4,citebeeb, ,55346
+8=0,4,citebeae, ,55348
+34=1,4, , ,0
+32=0,4,citeflae, ,55353
+33=0,4,citelaen, ,55153
+9=1,4, , ,0
+10=0,4,cibmeins, ,55283
+12=2,4,cibmerzp,cibmerzd,55295
+13=1,4, , ,0
+14=0,4,cibmerhr, ,55285
+15=0,4,cibmerha, ,55286
+16=0,4,cibmervr, ,55288
+17=0,4,cibmerva, ,55289
+18=0,4,cibmerbr, ,55291
+19=0,4,cibmerba, ,55292
+20=1,4, , ,0
+23=0,4,cibmaend, ,55305
+21=0,4,cibmscez, ,55296
+25=0,4,cibmloez, ,55307
+24=1,4, , ,0
+28=0,4,cibmwimf, ,55310
+30=0,4,cibmwian, ,55312
+32=1,4, , ,0
+39=0,4,cibmhouf, ,55315
+41=0,4,cibmhoan, ,55317
+42=1,4, , ,0
+30=0,4,cibeeiue, ,55541
+31=0,4,cibeloes, ,55271
+Show=TRUE
+
+[#229]
+Dock=1
+Row=1
+0=2,4,cidaoep1,cidaoep2,146
+1=2,4,cidaosp1,cidaosp2,141
+2=2,4,cidaolp1,cidaolp2,142
+3=2,4,cidaomp1,cidaomp2,143
+4=2,4,cidaohl1,cidaohl2,144
+5=2,4,cidaovl1,cidaovl2,145
+6=2,4,cidaoze1,cidaoze2,147
+Show=TRUE
+
+[#201]
+Dock=4
+Row=1
+1=0,4,aiasoaea, ,55033
+2=0,4,aiasoaei, ,55034
+3=0,4,aiasoave, ,55036
+4=0,4,aiasoafu, ,55037
+5=0,4,aiasoate, ,55038
+6=0,4,aiasoatk, ,55039
+7=0,4,aiasoadu, ,55040
+8=0,4,aiasoark, ,55061
+Show=TRUE

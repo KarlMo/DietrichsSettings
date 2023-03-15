@@ -1,0 +1,553 @@
+﻿[VERSION]
+Version=1.1
+
+[VERSION ENDSEC]
+
+[FAVORITES]
+Alles ein=1,1
+Alles aus=2,1
+Bevorzugt für Profil=3,1
+Bevorzugt für Profil - ohne Bemaßung=4,1
+
+[FAVORITES ENDSEC]
+
+[DATASET PROFILMASK 1]
+Name=Alles ein
+Type=0
+CategoryName=
+ReferenceImagePath=
+FavoriteNumber=1
+FunctionID=200
+OpenMode=1
+FavoriteType=1
+Waende=67629155
+Decke=226
+Dach=71807458
+Freiekonstruktion=-1
+Binder=15100016162
+AutoRecalculateAutoBemassung=0
+GrundansichtenAktuellesStockwerk=0~
+Stockwerk=-1
+Bearbeitung=3
+Ebene=1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+
+[DATASET PROFILMASK 1 PROFILPLAN]
+Name=AH - Profil Konstruktionsbereich
+Type=88
+CategoryName=
+ReferenceImagePath=
+FavoriteNumber=0
+FunctionID=0
+OpenMode=1
+FavoriteType=1
+Auswahl=0
+PlandynamikState=aktiviert
+Bemassungfaktor=1.000000000000
+NumberDigitsFileNameCounter=3
+Planvorlage=0
+VorlageName=
+MassstabRundenAuf=Keine,0.000000000000
+MassstabRundenAufWert=0
+TextHoeheFuerDXF=0.100000000000
+AblageDestination=2
+Hauptkategorie=
+Kategorie=
+Rotate90=0
+OriginalDicamDomain=10
+NameTextStyleBeschriftungen=DHP-Standard
+CreateTextfeld=1
+NameTextStyleTextfeld=DHP-Standard
+NameMeasureStyle=DHP-Standard
+
+[DATASET PROFILMASK 1 PROFILPLAN MASSEINHEITEN]
+Name=Standard
+Type=0
+CategoryName=
+ReferenceImagePath=
+StabquerschnitteUnitType=centimeter
+StabquerschnitteNrZecimale=0
+StablaengenUnitType=meter
+StablaengenNrZecimale=3
+PlattendickenUnitType=centimeter
+PlattendickenNrZecimale=1
+BeschriftungEinzelstabzeichnungUnitType=meter
+BeschriftungEinzelstabzeichnungNrZecimale=3
+DurchmesserBohrungenUnitType=meter
+DurchmesserBohrungenNrZecimale=3
+LinienlaengenUnitType=meter
+LinienlaengenNrZecimale=3
+FlaechenUnitType=Quadratmeter
+FlaechenNrZecimale=3
+OffnungsflaechenUnitType=Quadratmeter
+OffnungsflaechenNrZecimale=3
+OffnungshoehenGrundrissplanUnitType=meter
+OffnungshoehenGrundrissplanNrZecimale=3
+OffnungsabmessungenUnitType=meter
+OffnungsabmessungenNrZecimale=3
+PunktkoordinatenUnitType=meter
+PunktkoordinatenNrZecimale=3
+GewichteUnitType=Kilogramm (kg)
+GewichteNrZecimale=3
+VolumenUnitType=Kubikmeter
+VolumenNrZecimale=3
+MasskettenDXFAblageUnitType=meter
+MasskettenDXFAblageNrZecimale=3
+SteigungTreppenUnitType=centimeter
+SteigungTreppenNrZecimale=1
+Separator=s_/
+MasseinheitAnzeigen=0
+
+[DATASET PROFILMASK 1 PROFILPLAN MASSEINHEITEN ENDSEC]
+
+[DATASET PROFILMASK 1 PROFILPLAN ABLAGE_KOMMENTAR TEXTFELDBESCHRIFTUNG 0]
+
+[DATASET PROFILMASK 1 PROFILPLAN ABLAGE_KOMMENTAR TEXTFELDBESCHRIFTUNG 0 MULTILINE_STRING]
+Line1=#PlanInfo#
+
+[DATASET PROFILMASK 1 PROFILPLAN ABLAGE_KOMMENTAR TEXTFELDBESCHRIFTUNG 0 MULTILINE_STRING ENDSEC]
+
+[DATASET PROFILMASK 1 PROFILPLAN ABLAGE_KOMMENTAR TEXTFELDBESCHRIFTUNG 0 ENDSEC]
+
+[DATASET PROFILMASK 1 PROFILPLAN DARSTELLUNG]
+BeschriftungObholz=1
+BeschriftungKamin=0
+BeschriftungBemassungBildschirm=0
+BeschriftungDachflaechenfenster=1
+Zeichnungselemente=0
+Obholzbeschriftung=winkelr. Obholz
+
+[DATASET PROFILMASK 1 PROFILPLAN DARSTELLUNG BAUTEILBESCHRIFTUNGEN]
+Name=Querschnitt
+Type=0
+CategoryName=
+ReferenceImagePath=
+BezeichnungAnzeigen=0
+BauteilquerschnittAnzeigen=1
+Kennbuchstaben=0
+BauteilgewichtAnzeigen=0
+BauteilvolumenAnzeigen=0
+MaterialAnzeigen=Keine
+Bauteillaenge=keine Stablaenge
+Bauteilnummern=2
+Hoeheneingabe=Keine Hoeheneingabe
+BeschriftungAn=0
+Abstand=1.500000000000
+Beschriftung=0
+BeschriftungAls=0
+
+[DATASET PROFILMASK 1 PROFILPLAN DARSTELLUNG BAUTEILBESCHRIFTUNGEN ENDSEC]
+
+[DATASET PROFILMASK 1 PROFILPLAN DARSTELLUNG BAUTEILBESCHRIFTUNGEN 2]
+Name=Querschnitt
+Type=0
+CategoryName=
+ReferenceImagePath=
+BezeichnungAnzeigen=0
+BauteilquerschnittAnzeigen=1
+Kennbuchstaben=0
+BauteilgewichtAnzeigen=0
+BauteilvolumenAnzeigen=0
+MaterialAnzeigen=Keine
+Bauteillaenge=keine Stablaenge
+Bauteilnummern=2
+Hoeheneingabe=Keine Hoeheneingabe
+BeschriftungAn=2
+Abstand=0.180000000000
+Beschriftung=0
+BeschriftungAls=0
+
+[DATASET PROFILMASK 1 PROFILPLAN DARSTELLUNG BAUTEILBESCHRIFTUNGEN 2 ENDSEC]
+
+[DATASET PROFILMASK 1 PROFILPLAN DARSTELLUNG BAUTEILBESCHRIFTUNGEN 5]
+Name=Beschläge
+Type=0
+CategoryName=
+ReferenceImagePath=
+BezeichnungAnzeigen=0
+BauteilquerschnittAnzeigen=0
+Kennbuchstaben=0
+BauteilgewichtAnzeigen=0
+BauteilvolumenAnzeigen=0
+MaterialAnzeigen=Identnummer
+Bauteillaenge=keine Stablaenge
+Bauteilnummern=2
+Hoeheneingabe=Keine Hoeheneingabe
+BeschriftungAn=0
+Abstand=0.200000000000
+Beschriftung=0
+BeschriftungAls=1
+
+[DATASET PROFILMASK 1 PROFILPLAN DARSTELLUNG BAUTEILBESCHRIFTUNGEN 5 ENDSEC]
+
+[DATASET PROFILMASK 1 PROFILPLAN DARSTELLUNG FIRSTZANGEN BAUTEILBESCHRIFTUNGEN]
+Name=Querschnitt
+Type=0
+CategoryName=
+ReferenceImagePath=
+BezeichnungAnzeigen=0
+BauteilquerschnittAnzeigen=1
+Kennbuchstaben=0
+BauteilgewichtAnzeigen=0
+BauteilvolumenAnzeigen=0
+MaterialAnzeigen=Keine
+Bauteillaenge=keine Stablaenge
+Bauteilnummern=2
+Hoeheneingabe=Keine Hoeheneingabe
+BeschriftungAn=2
+Abstand=0.150000000000
+Beschriftung=0
+BeschriftungAls=0
+
+[DATASET PROFILMASK 1 PROFILPLAN DARSTELLUNG FIRSTZANGEN BAUTEILBESCHRIFTUNGEN ENDSEC]
+
+[DATASET PROFILMASK 1 PROFILPLAN DARSTELLUNG STABWERKHOELZER BAUTEILBESCHRIFTUNGEN]
+Name=Querschnitt
+Type=0
+CategoryName=
+ReferenceImagePath=
+BezeichnungAnzeigen=0
+BauteilquerschnittAnzeigen=1
+Kennbuchstaben=0
+BauteilgewichtAnzeigen=0
+BauteilvolumenAnzeigen=0
+MaterialAnzeigen=Keine
+Bauteillaenge=keine Stablaenge
+Bauteilnummern=2
+Hoeheneingabe=Keine Hoeheneingabe
+BeschriftungAn=0
+Abstand=0.800000000000
+Beschriftung=0
+BeschriftungAls=1
+
+[DATASET PROFILMASK 1 PROFILPLAN DARSTELLUNG STABWERKHOELZER BAUTEILBESCHRIFTUNGEN ENDSEC]
+
+[DATASET PROFILMASK 1 PROFILPLAN DARSTELLUNG ENDSEC]
+
+[DATASET PROFILMASK 1 PROFILPLAN BEMASSUNG]
+Hausbreitevermassen=1
+Hoehenvermassung=1
+Firstpfettevermassen=0
+Traufabschnittevermassen=0
+AbstaendeWanddickenVermassen=Keine
+UKStockwerkVermassen=Zwischenvermaßung
+PfettenVermassen=Endvermaßung
+ZangenVermassen=Keine
+HalbeHausbreite=bezogen auf Wandaußenkante
+KoppelpfetteVermassen=Endvermaßung
+DeckenHoehenHoehenkoten=1
+HoehenkotenFirsTraufeAufbaus=0
+DhpVermassungDachlattung=Keine
+HoehenkotenFirstTraufe=1
+Dachueberstand=1
+Kaminverwahrung=0
+VermassungZangen=0
+WinkelvermassungGeneigtenStaeben=1
+HoehenkotenVermasenPfetten=Keine
+BemasungDerKerven=Keine
+Laengsmas=lotr. Obholz
+HoehenkotenVermasenZangen=Unterseite
+HoehenkotenWandSparren=0
+HoehenkotenWandDachaufbau=1
+
+[DATASET PROFILMASK 1 PROFILPLAN BEMASSUNG ENDSEC]
+
+[DATASET PROFILMASK 1 PROFILPLAN ENDSEC]
+
+[DATASET PROFILMASK 1 ENDSEC]
+
+[DATASET PROFILMASK 2]
+Name=Alles aus
+Type=0
+CategoryName=
+ReferenceImagePath=
+FavoriteNumber=2
+FunctionID=200
+OpenMode=1
+FavoriteType=1
+Waende=67629089
+Decke=160
+Dach=45090
+Freiekonstruktion=-1
+Binder=32
+AutoRecalculateAutoBemassung=0
+GrundansichtenAktuellesStockwerk=0~
+Stockwerk=-1
+Bearbeitung=0
+Ebene=1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+
+[DATASET PROFILMASK 2 ENDSEC]
+
+[DATASET PROFILMASK 3]
+Name=Bevorzugt für Profil
+Type=0
+CategoryName=
+ReferenceImagePath=
+FavoriteNumber=3
+FunctionID=200
+OpenMode=1
+FavoriteType=1
+Waende=67629153
+Decke=224
+Dach=71807200
+Freiekonstruktion=-1
+Binder=15099622944
+AutoRecalculateAutoBemassung=0
+GrundansichtenAktuellesStockwerk=0~
+Stockwerk=-1
+Bearbeitung=0
+Ebene=1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+
+[DATASET PROFILMASK 3 PROFILPLAN]
+Name=AH - Profil Konstruktionsbereich
+Type=88
+CategoryName=
+ReferenceImagePath=
+FavoriteNumber=0
+FunctionID=0
+OpenMode=1
+FavoriteType=1
+Auswahl=0
+PlandynamikState=aktiviert
+Bemassungfaktor=1.000000000000
+NumberDigitsFileNameCounter=3
+Planvorlage=0
+VorlageName=
+MassstabRundenAuf=Keine,0.000000000000
+MassstabRundenAufWert=0
+TextHoeheFuerDXF=0.100000000000
+AblageDestination=2
+Hauptkategorie=
+Kategorie=
+Rotate90=0
+OriginalDicamDomain=10
+NameTextStyleBeschriftungen=DHP-Standard
+CreateTextfeld=1
+NameTextStyleTextfeld=DHP-Standard
+NameMeasureStyle=Architektur
+
+[DATASET PROFILMASK 3 PROFILPLAN MASSEINHEITEN]
+Name=Standard MM
+Type=0
+CategoryName=
+ReferenceImagePath=
+StabquerschnitteUnitType=milimeter
+StabquerschnitteNrZecimale=0
+StablaengenUnitType=milimeter
+StablaengenNrZecimale=0
+PlattendickenUnitType=milimeter
+PlattendickenNrZecimale=0
+BeschriftungEinzelstabzeichnungUnitType=milimeter
+BeschriftungEinzelstabzeichnungNrZecimale=0
+DurchmesserBohrungenUnitType=milimeter
+DurchmesserBohrungenNrZecimale=0
+LinienlaengenUnitType=milimeter
+LinienlaengenNrZecimale=0
+FlaechenUnitType=Quadratmeter
+FlaechenNrZecimale=3
+OffnungsflaechenUnitType=Quadratmeter
+OffnungsflaechenNrZecimale=3
+OffnungshoehenGrundrissplanUnitType=milimeter
+OffnungshoehenGrundrissplanNrZecimale=0
+OffnungsabmessungenUnitType=milimeter
+OffnungsabmessungenNrZecimale=0
+PunktkoordinatenUnitType=milimeter
+PunktkoordinatenNrZecimale=0
+GewichteUnitType=Kilogramm (kg)
+GewichteNrZecimale=3
+VolumenUnitType=Kubikmeter
+VolumenNrZecimale=3
+MasskettenDXFAblageUnitType=milimeter
+MasskettenDXFAblageNrZecimale=0
+SteigungTreppenUnitType=milimeter
+SteigungTreppenNrZecimale=0
+Separator=s_/
+MasseinheitAnzeigen=0
+
+[DATASET PROFILMASK 3 PROFILPLAN MASSEINHEITEN ENDSEC]
+
+[DATASET PROFILMASK 3 PROFILPLAN FIX_PART_FILE_NAME TEXTFELDBESCHRIFTUNG 0]
+
+[DATASET PROFILMASK 3 PROFILPLAN FIX_PART_FILE_NAME TEXTFELDBESCHRIFTUNG 0 MULTILINE_STRING]
+Line1=001
+
+[DATASET PROFILMASK 3 PROFILPLAN FIX_PART_FILE_NAME TEXTFELDBESCHRIFTUNG 0 MULTILINE_STRING ENDSEC]
+
+[DATASET PROFILMASK 3 PROFILPLAN FIX_PART_FILE_NAME TEXTFELDBESCHRIFTUNG 0 ENDSEC]
+
+[DATASET PROFILMASK 3 PROFILPLAN ABLAGE_KOMMENTAR TEXTFELDBESCHRIFTUNG 0]
+
+[DATASET PROFILMASK 3 PROFILPLAN ABLAGE_KOMMENTAR TEXTFELDBESCHRIFTUNG 0 MULTILINE_STRING]
+Line1=#PlanInfo#
+
+[DATASET PROFILMASK 3 PROFILPLAN ABLAGE_KOMMENTAR TEXTFELDBESCHRIFTUNG 0 MULTILINE_STRING ENDSEC]
+
+[DATASET PROFILMASK 3 PROFILPLAN ABLAGE_KOMMENTAR TEXTFELDBESCHRIFTUNG 0 ENDSEC]
+
+[DATASET PROFILMASK 3 PROFILPLAN DARSTELLUNG]
+BeschriftungObholz=1
+BeschriftungKamin=0
+BeschriftungBemassungBildschirm=0
+BeschriftungDachflaechenfenster=1
+Zeichnungselemente=0
+Obholzbeschriftung=winkelr. Obholz
+
+[DATASET PROFILMASK 3 PROFILPLAN DARSTELLUNG BAUTEILBESCHRIFTUNGEN]
+Name=Querschnitt
+Type=0
+CategoryName=
+ReferenceImagePath=
+BezeichnungAnzeigen=0
+BauteilquerschnittAnzeigen=1
+Kennbuchstaben=0
+BauteilgewichtAnzeigen=0
+BauteilvolumenAnzeigen=0
+MaterialAnzeigen=Keine
+Bauteillaenge=keine Stablaenge
+Bauteilnummern=2
+Hoeheneingabe=Keine Hoeheneingabe
+BeschriftungAn=0
+Abstand=1.500000000000
+Beschriftung=0
+BeschriftungAls=0
+
+[DATASET PROFILMASK 3 PROFILPLAN DARSTELLUNG BAUTEILBESCHRIFTUNGEN ENDSEC]
+
+[DATASET PROFILMASK 3 PROFILPLAN DARSTELLUNG BAUTEILBESCHRIFTUNGEN 2]
+Name=Querschnitt
+Type=0
+CategoryName=
+ReferenceImagePath=
+BezeichnungAnzeigen=0
+BauteilquerschnittAnzeigen=1
+Kennbuchstaben=0
+BauteilgewichtAnzeigen=0
+BauteilvolumenAnzeigen=0
+MaterialAnzeigen=Keine
+Bauteillaenge=keine Stablaenge
+Bauteilnummern=2
+Hoeheneingabe=Keine Hoeheneingabe
+BeschriftungAn=2
+Abstand=0.180000000000
+Beschriftung=0
+BeschriftungAls=0
+
+[DATASET PROFILMASK 3 PROFILPLAN DARSTELLUNG BAUTEILBESCHRIFTUNGEN 2 ENDSEC]
+
+[DATASET PROFILMASK 3 PROFILPLAN DARSTELLUNG BAUTEILBESCHRIFTUNGEN 5]
+Name=Beschläge
+Type=0
+CategoryName=
+ReferenceImagePath=
+BezeichnungAnzeigen=0
+BauteilquerschnittAnzeigen=0
+Kennbuchstaben=0
+BauteilgewichtAnzeigen=0
+BauteilvolumenAnzeigen=0
+MaterialAnzeigen=Identnummer
+Bauteillaenge=keine Stablaenge
+Bauteilnummern=2
+Hoeheneingabe=Keine Hoeheneingabe
+BeschriftungAn=0
+Abstand=0.200000000000
+Beschriftung=0
+BeschriftungAls=1
+
+[DATASET PROFILMASK 3 PROFILPLAN DARSTELLUNG BAUTEILBESCHRIFTUNGEN 5 ENDSEC]
+
+[DATASET PROFILMASK 3 PROFILPLAN DARSTELLUNG FIRSTZANGEN BAUTEILBESCHRIFTUNGEN]
+Name=Querschnitt
+Type=0
+CategoryName=
+ReferenceImagePath=
+BezeichnungAnzeigen=0
+BauteilquerschnittAnzeigen=1
+Kennbuchstaben=0
+BauteilgewichtAnzeigen=0
+BauteilvolumenAnzeigen=0
+MaterialAnzeigen=Keine
+Bauteillaenge=keine Stablaenge
+Bauteilnummern=2
+Hoeheneingabe=Keine Hoeheneingabe
+BeschriftungAn=2
+Abstand=0.150000000000
+Beschriftung=0
+BeschriftungAls=0
+
+[DATASET PROFILMASK 3 PROFILPLAN DARSTELLUNG FIRSTZANGEN BAUTEILBESCHRIFTUNGEN ENDSEC]
+
+[DATASET PROFILMASK 3 PROFILPLAN DARSTELLUNG STABWERKHOELZER BAUTEILBESCHRIFTUNGEN]
+Name=Querschnitt
+Type=0
+CategoryName=
+ReferenceImagePath=
+BezeichnungAnzeigen=0
+BauteilquerschnittAnzeigen=1
+Kennbuchstaben=0
+BauteilgewichtAnzeigen=0
+BauteilvolumenAnzeigen=0
+MaterialAnzeigen=Keine
+Bauteillaenge=keine Stablaenge
+Bauteilnummern=2
+Hoeheneingabe=Keine Hoeheneingabe
+BeschriftungAn=0
+Abstand=0.800000000000
+Beschriftung=0
+BeschriftungAls=1
+
+[DATASET PROFILMASK 3 PROFILPLAN DARSTELLUNG STABWERKHOELZER BAUTEILBESCHRIFTUNGEN ENDSEC]
+
+[DATASET PROFILMASK 3 PROFILPLAN DARSTELLUNG ENDSEC]
+
+[DATASET PROFILMASK 3 PROFILPLAN BEMASSUNG]
+Hausbreitevermassen=1
+Hoehenvermassung=1
+Firstpfettevermassen=0
+Traufabschnittevermassen=1
+AbstaendeWanddickenVermassen=Keine
+UKStockwerkVermassen=Zwischenvermaßung
+PfettenVermassen=Endvermaßung
+ZangenVermassen=Keine
+HalbeHausbreite=bezogen auf Referenzachse
+KoppelpfetteVermassen=Endvermaßung
+DeckenHoehenHoehenkoten=1
+HoehenkotenFirsTraufeAufbaus=0
+DhpVermassungDachlattung=Keine
+HoehenkotenFirstTraufe=1
+Dachueberstand=1
+Kaminverwahrung=0
+VermassungZangen=0
+WinkelvermassungGeneigtenStaeben=1
+HoehenkotenVermasenPfetten=Keine
+BemasungDerKerven=Keine
+Laengsmas=lotr. Obholz
+HoehenkotenVermasenZangen=Unterseite
+HoehenkotenWandSparren=0
+HoehenkotenWandDachaufbau=1
+
+[DATASET PROFILMASK 3 PROFILPLAN BEMASSUNG ENDSEC]
+
+[DATASET PROFILMASK 3 PROFILPLAN ENDSEC]
+
+[DATASET PROFILMASK 3 ENDSEC]
+
+[DATASET PROFILMASK 4]
+Name=Bevorzugt für Profil - ohne Bemaßung
+Type=0
+CategoryName=
+ReferenceImagePath=
+FavoriteNumber=4
+FunctionID=200
+OpenMode=1
+FavoriteType=1
+Waende=67629153
+Decke=224
+Dach=71807200
+Freiekonstruktion=-1
+Binder=15099622944
+AutoRecalculateAutoBemassung=0
+GrundansichtenAktuellesStockwerk=0~
+Stockwerk=-1
+Bearbeitung=0
+Ebene=1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+
+[DATASET PROFILMASK 4 ENDSEC]

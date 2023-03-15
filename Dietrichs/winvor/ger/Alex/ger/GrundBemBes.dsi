@@ -1,0 +1,188 @@
+﻿[VERSION]
+Version=1.1
+
+[VERSION ENDSEC]
+
+[FAVORITES]
+
+[FAVORITES ENDSEC]
+
+[DATASET BEMASSUNG_BESCHRIFTUNG_DATA 1]
+ButtonsState=0,0,0,0
+Name=AH - Grundriss - Standard
+Type=160
+CategoryName=
+ReferenceImagePath=
+
+[DATASET BEMASSUNG_BESCHRIFTUNG_DATA 1 ALGEMEIN_STILE_DATA]
+AutomatischVerteilen=1
+AutomatischNeuberechnen=1
+AutomatischAnzeigen=1
+Textstil=AH - Beschriftung - 2mm
+Bemassungsstil=Architektur
+Bemassungsfaktor=1.000000000000
+BemassungsgrenzenLayer=Bemaßungsgrenze
+
+[DATASET BEMASSUNG_BESCHRIFTUNG_DATA 1 ALGEMEIN_STILE_DATA MASSEINHEITEN]
+Name=Standard M
+Type=0
+CategoryName=
+ReferenceImagePath=
+StabquerschnitteUnitType=meter
+StabquerschnitteNrZecimale=3
+StablaengenUnitType=meter
+StablaengenNrZecimale=3
+PlattendickenUnitType=meter
+PlattendickenNrZecimale=3
+BeschriftungEinzelstabzeichnungUnitType=meter
+BeschriftungEinzelstabzeichnungNrZecimale=3
+DurchmesserBohrungenUnitType=meter
+DurchmesserBohrungenNrZecimale=3
+LinienlaengenUnitType=meter
+LinienlaengenNrZecimale=3
+FlaechenUnitType=Quadratmeter
+FlaechenNrZecimale=3
+OffnungsflaechenUnitType=Quadratmeter
+OffnungsflaechenNrZecimale=3
+OffnungshoehenGrundrissplanUnitType=meter
+OffnungshoehenGrundrissplanNrZecimale=3
+OffnungsabmessungenUnitType=meter
+OffnungsabmessungenNrZecimale=3
+PunktkoordinatenUnitType=meter
+PunktkoordinatenNrZecimale=3
+GewichteUnitType=Kilogramm (kg)
+GewichteNrZecimale=3
+VolumenUnitType=Kubikmeter
+VolumenNrZecimale=3
+MasskettenDXFAblageUnitType=meter
+MasskettenDXFAblageNrZecimale=3
+SteigungTreppenUnitType=meter
+SteigungTreppenNrZecimale=3
+Separator=s_/
+MasseinheitAnzeigen=0
+
+[DATASET BEMASSUNG_BESCHRIFTUNG_DATA 1 ALGEMEIN_STILE_DATA MASSEINHEITEN ENDSEC]
+
+[DATASET BEMASSUNG_BESCHRIFTUNG_DATA 1 ALGEMEIN_STILE_DATA SCHRAFFUREN UND FUELLUNGEN]
+Name=Wände schraffieren
+Type=0
+CategoryName=
+ReferenceImagePath=
+DachlagenSchraffirenSchnittFlaechen=ohne
+DachlagenSchraffirenUngeschnitteneFlaechen=fuellen
+DeckenlagenSchraffirenSchnittFlaechen=ohne
+DeckenlagenSchraffirenUngeschnitteneFlaechen=fuellen
+WandlagenSchraffirenSchnittFlaechen=ohne
+WaendeSchraffirenSchnittFlaechen=schraffieren
+WaendeSchraffirenUngeschnitteneFlaechen=schraffieren
+Gruppen0=
+DeckenlagenSchraffirenSchnittFlaechen0=ohne
+DeckenlagenSchraffirenUngeschnitteneFlaechen0=ohne
+Gruppen1=
+DeckenlagenSchraffirenSchnittFlaechen1=ohne
+DeckenlagenSchraffirenUngeschnitteneFlaechen1=ohne
+Gruppen2=
+DeckenlagenSchraffirenSchnittFlaechen2=ohne
+DeckenlagenSchraffirenUngeschnitteneFlaechen2=ohne
+Gruppen3=
+DeckenlagenSchraffirenSchnittFlaechen3=ohne
+DeckenlagenSchraffirenUngeschnitteneFlaechen3=ohne
+
+[DATASET BEMASSUNG_BESCHRIFTUNG_DATA 1 ALGEMEIN_STILE_DATA SCHRAFFUREN UND FUELLUNGEN ENDSEC]
+
+[DATASET BEMASSUNG_BESCHRIFTUNG_DATA 1 ALGEMEIN_STILE_DATA ENDSEC]
+
+[DATASET BEMASSUNG_BESCHRIFTUNG_DATA 1 WANDBESCHRIFTUNG_DATA]
+Oeffnungsabmessung Aussenwand=Hoehe an Oeffungsmasskette as MeasureAtomText
+Oeffnungsabmessung Innenwand=Keine
+Bruestungshoehe anzeigen=Keine
+
+[DATASET BEMASSUNG_BESCHRIFTUNG_DATA 1 WANDBESCHRIFTUNG_DATA FENSTER OEFFNUNGSBESCHRIFTUNGEN]
+Name=AH - BRH
+Type=0
+CategoryName=Fenster
+ReferenceImagePath=
+PositionDerBeschriftung=Sichtseite
+AusrichtungDerBeschriftung=parallel zur Wand
+BeschriftungAls=Text
+NameTextStyle=AH - Beschriftung - 2mm
+
+[DATASET BEMASSUNG_BESCHRIFTUNG_DATA 1 WANDBESCHRIFTUNG_DATA FENSTER OEFFNUNGSBESCHRIFTUNGEN TEXTFELDBESCHRIFTUNG 0]
+
+[DATASET BEMASSUNG_BESCHRIFTUNG_DATA 1 WANDBESCHRIFTUNG_DATA FENSTER OEFFNUNGSBESCHRIFTUNGEN TEXTFELDBESCHRIFTUNG 0 MULTILINE_STRING]
+Line1=BRH FF: #OBhOkF[m,3]#
+
+[DATASET BEMASSUNG_BESCHRIFTUNG_DATA 1 WANDBESCHRIFTUNG_DATA FENSTER OEFFNUNGSBESCHRIFTUNGEN TEXTFELDBESCHRIFTUNG 0 MULTILINE_STRING ENDSEC]
+
+[DATASET BEMASSUNG_BESCHRIFTUNG_DATA 1 WANDBESCHRIFTUNG_DATA FENSTER OEFFNUNGSBESCHRIFTUNGEN TEXTFELDBESCHRIFTUNG 0 ENDSEC]
+
+[DATASET BEMASSUNG_BESCHRIFTUNG_DATA 1 WANDBESCHRIFTUNG_DATA FENSTER OEFFNUNGSBESCHRIFTUNGEN ENDSEC]
+
+[DATASET BEMASSUNG_BESCHRIFTUNG_DATA 1 WANDBESCHRIFTUNG_DATA TUEREN_AUSSENWAND OEFFNUNGSBESCHRIFTUNGEN]
+Name=AH - BRH
+Type=0
+CategoryName=Fenster
+ReferenceImagePath=
+PositionDerBeschriftung=Sichtseite
+AusrichtungDerBeschriftung=parallel zur Wand
+BeschriftungAls=Text
+NameTextStyle=AH - Beschriftung - 2mm
+
+[DATASET BEMASSUNG_BESCHRIFTUNG_DATA 1 WANDBESCHRIFTUNG_DATA TUEREN_AUSSENWAND OEFFNUNGSBESCHRIFTUNGEN TEXTFELDBESCHRIFTUNG 0]
+
+[DATASET BEMASSUNG_BESCHRIFTUNG_DATA 1 WANDBESCHRIFTUNG_DATA TUEREN_AUSSENWAND OEFFNUNGSBESCHRIFTUNGEN TEXTFELDBESCHRIFTUNG 0 MULTILINE_STRING]
+Line1=BRH FF: #OBhOkF[m,3]#
+
+[DATASET BEMASSUNG_BESCHRIFTUNG_DATA 1 WANDBESCHRIFTUNG_DATA TUEREN_AUSSENWAND OEFFNUNGSBESCHRIFTUNGEN TEXTFELDBESCHRIFTUNG 0 MULTILINE_STRING ENDSEC]
+
+[DATASET BEMASSUNG_BESCHRIFTUNG_DATA 1 WANDBESCHRIFTUNG_DATA TUEREN_AUSSENWAND OEFFNUNGSBESCHRIFTUNGEN TEXTFELDBESCHRIFTUNG 0 ENDSEC]
+
+[DATASET BEMASSUNG_BESCHRIFTUNG_DATA 1 WANDBESCHRIFTUNG_DATA TUEREN_AUSSENWAND OEFFNUNGSBESCHRIFTUNGEN ENDSEC]
+
+[DATASET BEMASSUNG_BESCHRIFTUNG_DATA 1 WANDBESCHRIFTUNG_DATA TUEREN_INNENWAND OEFFNUNGSBESCHRIFTUNGEN]
+Name=AH - Standard Tür
+Type=0
+CategoryName=Türen
+ReferenceImagePath=
+PositionDerBeschriftung=Sichtseite
+AusrichtungDerBeschriftung=parallel zur Wand
+BeschriftungAls=Text
+NameTextStyle=AH - Beschriftung - 2mm
+
+[DATASET BEMASSUNG_BESCHRIFTUNG_DATA 1 WANDBESCHRIFTUNG_DATA TUEREN_INNENWAND OEFFNUNGSBESCHRIFTUNGEN TEXTFELDBESCHRIFTUNG 0]
+
+[DATASET BEMASSUNG_BESCHRIFTUNG_DATA 1 WANDBESCHRIFTUNG_DATA TUEREN_INNENWAND OEFFNUNGSBESCHRIFTUNGEN TEXTFELDBESCHRIFTUNG 0 MULTILINE_STRING]
+Line1=#OBez#
+Line2=#OB[mm,0]# x #OH[mm,0]#
+Line3=BRH FF: #OBhOkF[m,3]#
+
+[DATASET BEMASSUNG_BESCHRIFTUNG_DATA 1 WANDBESCHRIFTUNG_DATA TUEREN_INNENWAND OEFFNUNGSBESCHRIFTUNGEN TEXTFELDBESCHRIFTUNG 0 MULTILINE_STRING ENDSEC]
+
+[DATASET BEMASSUNG_BESCHRIFTUNG_DATA 1 WANDBESCHRIFTUNG_DATA TUEREN_INNENWAND OEFFNUNGSBESCHRIFTUNGEN TEXTFELDBESCHRIFTUNG 0 ENDSEC]
+
+[DATASET BEMASSUNG_BESCHRIFTUNG_DATA 1 WANDBESCHRIFTUNG_DATA TUEREN_INNENWAND OEFFNUNGSBESCHRIFTUNGEN ENDSEC]
+
+[DATASET BEMASSUNG_BESCHRIFTUNG_DATA 1 WANDBESCHRIFTUNG_DATA ENDSEC]
+
+[DATASET BEMASSUNG_BESCHRIFTUNG_DATA 1 WANDVERMASSUNG_DATA]
+Kernlage verwenden=0
+Aussenverm.Gebaudeabmess=1
+Aussenverm.Anschlusswaende=1
+Aussenverm.Innenwaende=1
+Aussenverm.Wandverspruenge=1
+Innenvermass.Waende=0
+Vermass.Oeffnungen Aussenw.=Oeffnungsbreite Aussen
+Vermass.Referenzachsen=0
+Pfostenverm. Aussenwand=0
+Pfostenverm. Innenwand=0
+Vermass.Elementgrenzen. Aussenwand=0
+Vermass.Elementgrenzen. Innenwand=0
+
+[DATASET BEMASSUNG_BESCHRIFTUNG_DATA 1 WANDVERMASSUNG_DATA ENDSEC]
+
+[DATASET BEMASSUNG_BESCHRIFTUNG_DATA 1 SPEZIELLE_BAUTEILE_DATA]
+Schwellenbemass.erzeugen=0
+
+[DATASET BEMASSUNG_BESCHRIFTUNG_DATA 1 SPEZIELLE_BAUTEILE_DATA ENDSEC]
+
+[DATASET BEMASSUNG_BESCHRIFTUNG_DATA 1 ENDSEC]

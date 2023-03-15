@@ -1,0 +1,167 @@
+﻿[Pack File]
+Name=Toolbar
+
+[#51]
+Dock=0
+Row=1
+1=0,4,didmoneu, ,48027
+2=0,4,didmoeff, ,48071
+3=0,4,didaspei, ,48029
+34=0,4,didmspal, ,48030
+4=0,4,didaende, ,48006
+5=1,4,22, ,0
+31=0,4,didadoun, ,48567
+32=0,4,didadodo, ,48568
+30=1,4, , ,0
+32=2,4,siegein1,siegein2,48538
+6=0,4,diasabel, ,48269
+32=0,4,diasaxoy, ,48270
+33=0,4,diasayoz, ,48271
+7=0,4,diasazox, ,48272
+34=1,4, , ,0
+35=0,4,sigaelew, ,48558
+36=0,4,sigaazla, ,48560
+37=0,4,sigaazer, ,48561
+8=1,4,22, ,0
+9=0,4,gidadars, ,48044
+9=0,4,gidadars, ,29801
+9=0,4,gidadars, ,29802
+9=0,4,gidadars, ,29803
+9=0,4,gidadars, ,29804
+9=0,4,gidadars, ,29805
+9=0,4,gidadars, ,29806
+9=0,4,gidadars, ,29807
+10=0,4,didaopgl, ,48294
+11=1,4,22, ,0
+16=0,4,sialprpv, ,48495
+17=1,4,22, ,0
+22=0,4,sidaeran, ,48207
+22=0,4,sidaeran, ,29901
+22=0,4,sidaeran, ,29902
+22=0,4,sidaeran, ,29903
+22=0,4,sidaeran, ,29904
+22=0,4,sidaeran, ,29905
+22=0,4,sidaeran, ,29906
+23=1,4,22, ,0
+24=0,4,sibebequ, ,48493
+25=1,4,22, ,0
+25=0,4,sidanlsn, ,48199
+26=1,4,22, ,0
+27=0,4,didplprg, ,48101
+28=0,4,didplass, ,48202
+29=0,4,didplaap, ,48105
+30=0,4,sidplaea, ,48549
+31=255,4,didplada, ,48565
+Show=TRUE
+
+[#233]
+Dock=0
+Row=1
+0=255,4,wibarieg, ,48593
+1=255,4,wibapfos, ,48594
+2=255,4,wibastaw, ,48595
+3=255,4,wibastap, ,48596
+4=0,4,wibastlo, ,48598
+5=1,4, , ,0
+6=0,4,wibaschi, ,48605
+8=0,4,wibaausr, ,48606
+8=0,4,wibadime, ,48607
+Show=TRUE
+
+[#232]
+Dock=0
+Row=1
+0=0,4,diwasses, ,48634
+3=1,4, , ,0
+1=0,4,diwkbovi, ,48547
+2=0,4,diwkvevo, ,48548
+Show=TRUE
+
+[Layer]
+Dock=1
+Row=1
+0=0,4,ciaflaye, ,48401
+1=8,4,15~230,SORT,129
+2=8,4,15~230,NOSORT,131
+Show=TRUE
+
+[#219]
+Dock=1
+Row=1
+17=0,4,cizeeins, ,48114
+15=8,4,15,NOSORT,130
+1=0,4,cizepuei, ,48116
+2=0,4,cizepuau, ,48123
+18=0,4,cizepuba, ,48124
+3=0,4,cizelini, ,48126
+23=0,4,cizeplze, ,48655
+15=0,4,cizemili, ,48539
+4=0,4,cizereec, ,48128
+17=0,4,cizemira, ,48362
+18=0,4,cizeelli, ,48325
+19=0,4,cizeb3pu, ,48366
+13=0,4,cizeaend, ,48371
+5=1,4,22, ,0
+6=0,4,cibekopi, ,48380
+7=0,4,cibespie, ,48382
+8=0,4,cibevers, ,48383
+19=0,4,cibeschi, ,48390
+9=0,4,cibestuz, ,48384
+10=0,4,cibeanpa, ,48385
+11=0,4,cibeecke, ,48386
+22=0,4,cibelaen, ,48394
+20=0,4,cibetren, ,48389
+21=0,4,cibeskal, ,48392
+Show=TRUE
+
+[#52]
+Dock=1
+Row=1
+15=0,4,citeeins, ,48460
+16=1,4,22, ,0
+17=0,4,citeerze, ,48462
+18=0,4,citeerz1, ,48463
+19=0,4,citeaend, ,48465
+20=1,4,22, ,0
+21=0,4,citebemb, ,48469
+22=0,4,citebeeb, ,48470
+23=0,4,citebeae, ,48472
+24=1,4,22, ,0
+32=0,4,citeflae, ,48491
+34=0,4,citelaen, ,48662
+33=1,4, , ,0
+25=0,4,cibmeins, ,48407
+32=2,4,cibmerzp,cibmerzd,48419
+33=1,4, , ,0
+26=0,4,cibmerhr, ,48409
+27=0,4,cibmerha, ,48410
+28=0,4,cibmervr, ,48412
+29=0,4,cibmerva, ,48413
+30=0,4,cibmerbr, ,48415
+31=0,4,cibmerba, ,48416
+32=1,4,22, ,0
+34=0,4,cibmaend, ,48429
+33=0,4,cibmscez, ,48420
+33=0,4,cibmloez, ,48431
+35=1,4,22, ,0
+36=0,4,cibmwimf, ,48434
+36=0,4,cibmwian, ,48436
+38=1,4,22, ,0
+39=0,4,cibmhouf, ,48439
+39=0,4,cibmhoan, ,48441
+41=1,4,22, ,0
+30=0,4,cibeeiue, ,48652
+31=0,4,cibeloes, ,48395
+Show=TRUE
+
+[#229]
+Dock=1
+Row=1
+0=2,4,cidaoep1,cidaoep2,146
+1=2,4,cidaosp1,cidaosp2,141
+2=2,4,cidaolp1,cidaolp2,142
+3=2,4,cidaomp1,cidaomp2,143
+4=2,4,cidaohl1,cidaohl2,144
+5=2,4,cidaovl1,cidaovl2,145
+6=2,4,cidaoze1,cidaoze2,147
+Show=TRUE

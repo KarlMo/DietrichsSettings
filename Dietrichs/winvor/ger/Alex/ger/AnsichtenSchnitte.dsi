@@ -1,0 +1,1624 @@
+ï»¿[VERSION]
+Version=1.1
+
+[VERSION ENDSEC]
+
+[DATASET DhpSectionView 1]
+Name=Ansicht - Architektur - 1_100
+Type=0
+CategoryName=
+ReferenceImagePath=
+NumberOfSectionView=1
+NameOfSectionView=* Ansicht von vorne
+Kennung=* AV
+DarstellInGrundriss-Sparren-Pfettenplan=0
+DarstellungLinien=nur sichbar
+Darstellung OpenGL=deaktiviert
+Verdeckte Linien Neuberechnen=1
+Massstab=100.000000000000
+ZoomRectangle=false,0.000000000000,0.000000000000,0.000000000000,0.000000000000
+ApplyNamesOfVisibleLayers=1
+NamesOfVisibleLayers_1=BemaÃŸungsgrenze
+NamesOfVisibleLayers_2=Dachlagenplatten_Schraffur
+NamesOfVisibleLayers_3=DeckenvermaÃŸung
+NamesOfVisibleLayers_4=Elektro
+NamesOfVisibleLayers_5=FÃ¼llung
+NamesOfVisibleLayers_6=GelÃ¤ndekontur manuell
+NamesOfVisibleLayers_7=Gruppe -2_Schraffur
+NamesOfVisibleLayers_8=HausbreitenvermaÃŸung
+NamesOfVisibleLayers_9=HÃ¶henkoten Architektur
+NamesOfVisibleLayers_10=InnenvermaÃŸung
+NamesOfVisibleLayers_11=Kommentare
+NamesOfVisibleLayers_12=Konstruktionslinien
+NamesOfVisibleLayers_13=Lagen_Schraffur
+NamesOfVisibleLayers_14=Raum Beschriftung
+NamesOfVisibleLayers_15=Sichtrichtung
+NamesOfVisibleLayers_16=Standard
+NamesOfVisibleLayers_17=StockwerkshÃ¶hen
+NamesOfVisibleLayers_18=StockwerkshÃ¶hen - VermaÃŸung
+NamesOfVisibleLayers_19=Treppe oberhalb SchnitthÃ¶he
+NamesOfVisibleLayers_20=Treppe unter SchnitthÃ¶he
+NamesOfVisibleLayers_21=VermaÃŸung AnschlusswÃ¤nde
+NamesOfVisibleLayers_22=VermaÃŸung Elemente
+NamesOfVisibleLayers_23=VermaÃŸung GebÃ¤udeabmessung
+NamesOfVisibleLayers_24=VermaÃŸung InnenwÃ¤nde
+NamesOfVisibleLayers_25=VermaÃŸung Referenzachse
+NamesOfVisibleLayers_26=VermaÃŸung WandversprÃ¼nge
+NamesOfVisibleLayers_27=Wandbeschriftung
+NamesOfVisibleLayers_28=Wandinformationen
+NamesOfVisibleLayers_29=WandvermaÃŸung
+NamesOfVisibleLayers_30=Ã–ffnungsarten
+NamesOfVisibleLayers_31=Ã–ffnungsbeschriftung
+NamesOfVisibleLayers_32=Ã–ffnungsvermaÃŸung
+NameOfActiveLayer=Standard
+ApplyDarstellungPanelSetting=1
+ApplyBemassungBeschriftungData=1
+
+[DATASET DhpSectionView 1 DARSTEL_PANEL]
+Name=Ansicht - Architektur
+Type=0
+CategoryName=
+ReferenceImagePath=
+FavoriteNumber=3
+FunctionID=0
+OpenMode=0
+FavoriteType=1
+ButtonsState=0,0,0,0,1
+
+[DATASET DhpSectionView 1 DARSTEL_PANEL STOCKWERK_LISTE_DATA]
+GrundansichtenUebrigeStockwerke~BS 0=1~0
+GrundansichtenUebrigeStockwerke~GF 0=1~0
+GrundansichtenUebrigeStockwerke~AG 0=1~0
+GrundansichtenUebrigeStockwerke~AG 1=1~0
+
+[DATASET DhpSectionView 1 DARSTEL_PANEL STOCKWERK_LISTE_DATA ENDSEC]
+
+[DATASET DhpSectionView 1 DARSTEL_PANEL BAUTEILE_DATA]
+Mask_Sparren=001000
+Mask_Pfetten=001000
+Mask_Gratkehlsparren=001000
+Mask_Zangen=001000
+Mask_StaebeProfilstaebe=111111
+Mask_Platten=111111
+Mask_Beschl.Hilfsbau.Verbindugsm=111111
+Filter_Stockwerk=1~-19..20
+Filter_Wand=1~18
+Filter_Decke=1~
+Filter_Dach=1~
+Filter_Stabwerk=1~
+Filter_Freiekons=1~
+
+[DATASET DhpSectionView 1 DARSTEL_PANEL BAUTEILE_DATA ENDSEC]
+
+[DATASET DhpSectionView 1 DARSTEL_PANEL GEBAUDE_PLANELEMENTE_DATA]
+Etagenschnitt=0.000000
+VisibleEtagenschnitt=0
+WaendeTyp=Aktuelle
+GebPlanElemMask_WaendeDeckeLagenplatten=001110
+GebPlanElemMask_TreppenKamin=100001
+GebPlanElemMask_ReferenzAKonturenDachaut=000000
+GebPlanElemMask_LagenZiegellagen=000000
+GebPlanElemMask_Elemente=000000
+GebPlanElemMask_Aufmasselemente=000000
+PlanElementeMask_LinienKreiseSchraffuren=000000
+PlanElementeMask_BemassungTexte=000000
+PlanElementeMask_Bilder=000000
+PlanElementeMask_Punkte=000000
+
+[DATASET DhpSectionView 1 DARSTEL_PANEL GEBAUDE_PLANELEMENTE_DATA ENDSEC]
+
+[DATASET DhpSectionView 1 DARSTEL_PANEL INFO_DARSTELL_OPTIONEN_DATA]
+VollDarstellungKanten=
+Achse=Empty
+Visible_Bohrungen=0
+Visible_Markierung=0
+Visible_Hobelflaeche=0
+Visible_Bundseite=0
+Visible_BearbeitTyp4=0
+
+[DATASET DhpSectionView 1 DARSTEL_PANEL INFO_DARSTELL_OPTIONEN_DATA BAUTEILE DATASET INFORMATION_LINE]
+Aktuelle=0
+Andere=0
+
+[DATASET DhpSectionView 1 DARSTEL_PANEL INFO_DARSTELL_OPTIONEN_DATA BAUTEILE DATASET INFORMATION_LINE ENDSEC]
+
+[DATASET DhpSectionView 1 DARSTEL_PANEL INFO_DARSTELL_OPTIONEN_DATA BAUGRUPPE DATASET INFORMATION_LINE]
+Aktuelle=0
+Andere=0
+
+[DATASET DhpSectionView 1 DARSTEL_PANEL INFO_DARSTELL_OPTIONEN_DATA BAUGRUPPE DATASET INFORMATION_LINE ENDSEC]
+
+[DATASET DhpSectionView 1 DARSTEL_PANEL INFO_DARSTELL_OPTIONEN_DATA ELEMENTE DATASET INFORMATION_LINE]
+Aktuelle=0
+Andere=0
+
+[DATASET DhpSectionView 1 DARSTEL_PANEL INFO_DARSTELL_OPTIONEN_DATA ELEMENTE DATASET INFORMATION_LINE ENDSEC]
+
+[DATASET DhpSectionView 1 DARSTEL_PANEL INFO_DARSTELL_OPTIONEN_DATA ENDSEC]
+
+[DATASET DhpSectionView 1 DARSTEL_PANEL ANSICHTENSCHNITTE_DATA]
+AnsichtenSchnitteAnzeigePlanelemente=1~
+Visible_LinienKreiseSchraffuren=1~1
+Visible_BemassungTexte=1~1
+Visible_Bilder=1~1
+
+[DATASET DhpSectionView 1 DARSTEL_PANEL ANSICHTENSCHNITTE_DATA ENDSEC]
+
+[DATASET DhpSectionView 1 DARSTEL_PANEL ENDSEC]
+
+[DATASET DhpSectionView 1 BEMASSUNG_BESCHRIFTUNG_DATA]
+ButtonsState=0,0,0,0,1
+Name=Ansicht - Standard
+Type=159
+CategoryName=
+ReferenceImagePath=
+FavoriteNumber=0
+FunctionID=0
+OpenMode=0
+FavoriteType=0
+
+[DATASET DhpSectionView 1 BEMASSUNG_BESCHRIFTUNG_DATA ALGEMEIN_STILE_DATA]
+GelaendekonturLayer=GelÃ¤ndekontur manuell
+AutomatischNeuberechnen=1
+AutomatischAnzeigen=1
+Textstil=AH - Beschriftung - 2mm
+Bemassungsstil=Architektur
+Bemassungsfaktor=1.000000000000
+BemassungsgrenzenLayer=BemaÃŸungsgrenze
+
+[DATASET DhpSectionView 1 BEMASSUNG_BESCHRIFTUNG_DATA ALGEMEIN_STILE_DATA MASSEINHEITEN]
+Name=Standard M
+Type=0
+CategoryName=
+ReferenceImagePath=
+StabquerschnitteUnitType=meter
+StabquerschnitteNrZecimale=3
+StablaengenUnitType=meter
+StablaengenNrZecimale=3
+PlattendickenUnitType=meter
+PlattendickenNrZecimale=3
+BeschriftungEinzelstabzeichnungUnitType=meter
+BeschriftungEinzelstabzeichnungNrZecimale=3
+DurchmesserBohrungenUnitType=meter
+DurchmesserBohrungenNrZecimale=3
+LinienlaengenUnitType=meter
+LinienlaengenNrZecimale=3
+FlaechenUnitType=Quadratmeter
+FlaechenNrZecimale=3
+OffnungsflaechenUnitType=Quadratmeter
+OffnungsflaechenNrZecimale=3
+OffnungshoehenGrundrissplanUnitType=meter
+OffnungshoehenGrundrissplanNrZecimale=3
+OffnungsabmessungenUnitType=meter
+OffnungsabmessungenNrZecimale=3
+PunktkoordinatenUnitType=meter
+PunktkoordinatenNrZecimale=3
+GewichteUnitType=Kilogramm (kg)
+GewichteNrZecimale=3
+VolumenUnitType=Kubikmeter
+VolumenNrZecimale=3
+MasskettenDXFAblageUnitType=meter
+MasskettenDXFAblageNrZecimale=3
+SteigungTreppenUnitType=meter
+SteigungTreppenNrZecimale=3
+Separator=s_/
+MasseinheitAnzeigen=0
+
+[DATASET DhpSectionView 1 BEMASSUNG_BESCHRIFTUNG_DATA ALGEMEIN_STILE_DATA MASSEINHEITEN ENDSEC]
+
+[DATASET DhpSectionView 1 BEMASSUNG_BESCHRIFTUNG_DATA ALGEMEIN_STILE_DATA SCHRAFFUREN UND FUELLUNGEN]
+Name=FÃ¼r Ansichten WÃ¤nde fÃ¼llen, Dach schraffieren
+Type=0
+CategoryName=
+ReferenceImagePath=
+DachlagenSchraffirenSchnittFlaechen=ohne
+DachlagenSchraffirenUngeschnitteneFlaechen=schraffieren
+DeckenlagenSchraffirenSchnittFlaechen=ohne
+DeckenlagenSchraffirenUngeschnitteneFlaechen=ohne
+WandlagenSchraffirenSchnittFlaechen=ohne
+WaendeSchraffirenSchnittFlaechen=ohne
+WaendeSchraffirenUngeschnitteneFlaechen=ohne
+Gruppen0=
+DeckenlagenSchraffirenSchnittFlaechen0=ohne
+DeckenlagenSchraffirenUngeschnitteneFlaechen0=ohne
+Gruppen1=
+DeckenlagenSchraffirenSchnittFlaechen1=ohne
+DeckenlagenSchraffirenUngeschnitteneFlaechen1=ohne
+Gruppen2=
+DeckenlagenSchraffirenSchnittFlaechen2=ohne
+DeckenlagenSchraffirenUngeschnitteneFlaechen2=ohne
+Gruppen3=
+DeckenlagenSchraffirenSchnittFlaechen3=ohne
+DeckenlagenSchraffirenUngeschnitteneFlaechen3=ohne
+
+[DATASET DhpSectionView 1 BEMASSUNG_BESCHRIFTUNG_DATA ALGEMEIN_STILE_DATA SCHRAFFUREN UND FUELLUNGEN ENDSEC]
+
+[DATASET DhpSectionView 1 BEMASSUNG_BESCHRIFTUNG_DATA ALGEMEIN_STILE_DATA ENDSEC]
+
+[DATASET DhpSectionView 1 BEMASSUNG_BESCHRIFTUNG_DATA BESCHRIFTUNGEN_DATA]
+Kamin=0
+DachflaechenFenster=0
+FensterOeffnungsart=0
+
+[DATASET DhpSectionView 1 BEMASSUNG_BESCHRIFTUNG_DATA BESCHRIFTUNGEN_DATA ENDSEC]
+
+[DATASET DhpSectionView 1 BEMASSUNG_BESCHRIFTUNG_DATA HOEHEKOTTEN_DATA]
+Erzeugen OK_RFB_DECKE=0
+Erzeugen OK_FFB_DECKE=0
+Erzeugen WAND_OK_AUFBAU=0
+Erzeugen FIRST_TRAUFE_AUFBAU=0
+Erzeugen WAND_OK_SPARREN=0
+Erzeugen FIRST_TRAUFE_SPARREN=0
+Seite ZANGEN=Keine
+Seite PFETTEN=Keine
+
+[DATASET DhpSectionView 1 BEMASSUNG_BESCHRIFTUNG_DATA HOEHEKOTTEN_DATA OK_RFB_DECKE HOEHENKOTEN]
+Name=AH - OK RFB
+Type=1
+CategoryName=
+ReferenceImagePath=
+FavoriteNumber=0
+FunctionID=0
+OpenMode=0
+FavoriteType=0
+Bemassungsstil=Architektur
+FarbsetIndex=-10
+DreieckDarstellen=gefÃ¼llt
+MasshilfslinieDarstellen=Ja
+HoehenkoteSeite=Oberseite
+
+[DATASET DhpSectionView 1 BEMASSUNG_BESCHRIFTUNG_DATA HOEHEKOTTEN_DATA OK_RFB_DECKE HOEHENKOTEN ZUSATZTEXT_UNTER_HOEHENKOTE TEXTFELDBESCHRIFTUNG 0]
+
+[DATASET DhpSectionView 1 BEMASSUNG_BESCHRIFTUNG_DATA HOEHEKOTTEN_DATA OK_RFB_DECKE HOEHENKOTEN ZUSATZTEXT_UNTER_HOEHENKOTE TEXTFELDBESCHRIFTUNG 0 MULTILINE_STRING]
+Line1=OK RFB
+
+[DATASET DhpSectionView 1 BEMASSUNG_BESCHRIFTUNG_DATA HOEHEKOTTEN_DATA OK_RFB_DECKE HOEHENKOTEN ZUSATZTEXT_UNTER_HOEHENKOTE TEXTFELDBESCHRIFTUNG 0 MULTILINE_STRING ENDSEC]
+
+[DATASET DhpSectionView 1 BEMASSUNG_BESCHRIFTUNG_DATA HOEHEKOTTEN_DATA OK_RFB_DECKE HOEHENKOTEN ZUSATZTEXT_UNTER_HOEHENKOTE TEXTFELDBESCHRIFTUNG 0 ENDSEC]
+
+[DATASET DhpSectionView 1 BEMASSUNG_BESCHRIFTUNG_DATA HOEHEKOTTEN_DATA OK_RFB_DECKE HOEHENKOTEN ENDSEC]
+
+[DATASET DhpSectionView 1 BEMASSUNG_BESCHRIFTUNG_DATA HOEHEKOTTEN_DATA OK_FFB_DECKE HOEHENKOTEN]
+Name=AH - OK FFB
+Type=1
+CategoryName=
+ReferenceImagePath=
+FavoriteNumber=0
+FunctionID=0
+OpenMode=0
+FavoriteType=0
+Bemassungsstil=Architektur
+FarbsetIndex=-10
+DreieckDarstellen=ungefÃ¼llt
+MasshilfslinieDarstellen=Ja
+HoehenkoteSeite=Oberseite
+
+[DATASET DhpSectionView 1 BEMASSUNG_BESCHRIFTUNG_DATA HOEHEKOTTEN_DATA OK_FFB_DECKE HOEHENKOTEN ZUSATZTEXT_UNTER_HOEHENKOTE TEXTFELDBESCHRIFTUNG 0]
+
+[DATASET DhpSectionView 1 BEMASSUNG_BESCHRIFTUNG_DATA HOEHEKOTTEN_DATA OK_FFB_DECKE HOEHENKOTEN ZUSATZTEXT_UNTER_HOEHENKOTE TEXTFELDBESCHRIFTUNG 0 MULTILINE_STRING]
+Line1=OK FFB
+
+[DATASET DhpSectionView 1 BEMASSUNG_BESCHRIFTUNG_DATA HOEHEKOTTEN_DATA OK_FFB_DECKE HOEHENKOTEN ZUSATZTEXT_UNTER_HOEHENKOTE TEXTFELDBESCHRIFTUNG 0 MULTILINE_STRING ENDSEC]
+
+[DATASET DhpSectionView 1 BEMASSUNG_BESCHRIFTUNG_DATA HOEHEKOTTEN_DATA OK_FFB_DECKE HOEHENKOTEN ZUSATZTEXT_UNTER_HOEHENKOTE TEXTFELDBESCHRIFTUNG 0 ENDSEC]
+
+[DATASET DhpSectionView 1 BEMASSUNG_BESCHRIFTUNG_DATA HOEHEKOTTEN_DATA OK_FFB_DECKE HOEHENKOTEN ENDSEC]
+
+[DATASET DhpSectionView 1 BEMASSUNG_BESCHRIFTUNG_DATA HOEHEKOTTEN_DATA WAND_OK_AUFBAU HOEHENKOTEN]
+Name=AH - OK Aufbau
+Type=1
+CategoryName=
+ReferenceImagePath=
+FavoriteNumber=0
+FunctionID=0
+OpenMode=0
+FavoriteType=0
+Bemassungsstil=Architektur
+FarbsetIndex=-10
+DreieckDarstellen=ungefÃ¼llt
+MasshilfslinieDarstellen=Ja
+HoehenkoteSeite=Oberseite
+
+[DATASET DhpSectionView 1 BEMASSUNG_BESCHRIFTUNG_DATA HOEHEKOTTEN_DATA WAND_OK_AUFBAU HOEHENKOTEN ZUSATZTEXT_UNTER_HOEHENKOTE TEXTFELDBESCHRIFTUNG 0]
+
+[DATASET DhpSectionView 1 BEMASSUNG_BESCHRIFTUNG_DATA HOEHEKOTTEN_DATA WAND_OK_AUFBAU HOEHENKOTEN ZUSATZTEXT_UNTER_HOEHENKOTE TEXTFELDBESCHRIFTUNG 0 MULTILINE_STRING]
+Line1=OK Aufbau
+
+[DATASET DhpSectionView 1 BEMASSUNG_BESCHRIFTUNG_DATA HOEHEKOTTEN_DATA WAND_OK_AUFBAU HOEHENKOTEN ZUSATZTEXT_UNTER_HOEHENKOTE TEXTFELDBESCHRIFTUNG 0 MULTILINE_STRING ENDSEC]
+
+[DATASET DhpSectionView 1 BEMASSUNG_BESCHRIFTUNG_DATA HOEHEKOTTEN_DATA WAND_OK_AUFBAU HOEHENKOTEN ZUSATZTEXT_UNTER_HOEHENKOTE TEXTFELDBESCHRIFTUNG 0 ENDSEC]
+
+[DATASET DhpSectionView 1 BEMASSUNG_BESCHRIFTUNG_DATA HOEHEKOTTEN_DATA WAND_OK_AUFBAU HOEHENKOTEN ENDSEC]
+
+[DATASET DhpSectionView 1 BEMASSUNG_BESCHRIFTUNG_DATA HOEHEKOTTEN_DATA FIRST_TRAUFE_AUFBAU HOEHENKOTEN]
+Name=AH - OK Dacheindeckung
+Type=1
+CategoryName=
+ReferenceImagePath=
+FavoriteNumber=0
+FunctionID=0
+OpenMode=0
+FavoriteType=0
+Bemassungsstil=Architektur
+FarbsetIndex=-10
+DreieckDarstellen=ungefÃ¼llt
+MasshilfslinieDarstellen=Ja
+HoehenkoteSeite=Oberseite
+
+[DATASET DhpSectionView 1 BEMASSUNG_BESCHRIFTUNG_DATA HOEHEKOTTEN_DATA FIRST_TRAUFE_AUFBAU HOEHENKOTEN ZUSATZTEXT_UNTER_HOEHENKOTE TEXTFELDBESCHRIFTUNG 0]
+
+[DATASET DhpSectionView 1 BEMASSUNG_BESCHRIFTUNG_DATA HOEHEKOTTEN_DATA FIRST_TRAUFE_AUFBAU HOEHENKOTEN ZUSATZTEXT_UNTER_HOEHENKOTE TEXTFELDBESCHRIFTUNG 0 MULTILINE_STRING]
+Line1=OK Dacheindeckung
+
+[DATASET DhpSectionView 1 BEMASSUNG_BESCHRIFTUNG_DATA HOEHEKOTTEN_DATA FIRST_TRAUFE_AUFBAU HOEHENKOTEN ZUSATZTEXT_UNTER_HOEHENKOTE TEXTFELDBESCHRIFTUNG 0 MULTILINE_STRING ENDSEC]
+
+[DATASET DhpSectionView 1 BEMASSUNG_BESCHRIFTUNG_DATA HOEHEKOTTEN_DATA FIRST_TRAUFE_AUFBAU HOEHENKOTEN ZUSATZTEXT_UNTER_HOEHENKOTE TEXTFELDBESCHRIFTUNG 0 ENDSEC]
+
+[DATASET DhpSectionView 1 BEMASSUNG_BESCHRIFTUNG_DATA HOEHEKOTTEN_DATA FIRST_TRAUFE_AUFBAU HOEHENKOTEN ENDSEC]
+
+[DATASET DhpSectionView 1 BEMASSUNG_BESCHRIFTUNG_DATA HOEHEKOTTEN_DATA ENDSEC]
+
+[DATASET DhpSectionView 1 BEMASSUNG_BESCHRIFTUNG_DATA VERMASSUNG_DATA]
+Vermassung  Hausbreite=ZwischenvermaÃŸung
+Vermassung  Abstaende_Wanddicken=Keine
+Vermassung  Stockwerke=ZwischenvermaÃŸung
+Vermassung  Deckenabstaende=ZwischenvermaÃŸung
+Vermassung  Dachueberstand=ZwischenvermaÃŸung
+Vermassung  Kaminverwahrung=Keine
+Vermassung  Pfettenabstand=Keine
+Vermassung  Koppelpfetten=Keine
+Vermassung  Zangen_an_Sparren=Keine
+Vermassung  Zangen_Bearbeit=Keine
+Vermassung  Dachlatten=Keine
+BemassungKerven=Keine
+LaengsmassVon=lotr. Obholz
+TraufabschnitteSparren=0
+Winkelvermassung=0
+FirstpfetteVermassen=0
+Kervenbeschriftung=keine
+
+[DATASET DhpSectionView 1 BEMASSUNG_BESCHRIFTUNG_DATA VERMASSUNG_DATA ENDSEC]
+
+[DATASET DhpSectionView 1 BEMASSUNG_BESCHRIFTUNG_DATA SCHATTEN_TIEFEN_DATA]
+
+[DATASET DhpSectionView 1 BEMASSUNG_BESCHRIFTUNG_DATA SCHATTEN_TIEFEN_DATA LICHT_DATA]
+FarbeUmgebungslicht=16777215
+FarbeGerichtetesLicht=16777215
+Lichteinfall Horiz=0.000000000000
+Lichteinfall Vert=0.000000000000
+SchattenDarstellen=0
+
+[DATASET DhpSectionView 1 BEMASSUNG_BESCHRIFTUNG_DATA SCHATTEN_TIEFEN_DATA LICHT_DATA ENDSEC]
+
+[DATASET DhpSectionView 1 BEMASSUNG_BESCHRIFTUNG_DATA SCHATTEN_TIEFEN_DATA TIEFENVERLAUF_FLAECHEN]
+Darstellen=0
+Farbe=16777215
+Tiefenverlauf=0 , 0
+Wirkgrad=0 , 0
+
+[DATASET DhpSectionView 1 BEMASSUNG_BESCHRIFTUNG_DATA SCHATTEN_TIEFEN_DATA TIEFENVERLAUF_FLAECHEN ENDSEC]
+
+[DATASET DhpSectionView 1 BEMASSUNG_BESCHRIFTUNG_DATA SCHATTEN_TIEFEN_DATA TIEFENVERLAUF_LINIEN]
+Darstellen=1
+Farbe=24
+Strichstaerke=0.000180000000
+
+[DATASET DhpSectionView 1 BEMASSUNG_BESCHRIFTUNG_DATA SCHATTEN_TIEFEN_DATA TIEFENVERLAUF_LINIEN TIEFENABSETZUNG 1]
+Position=0
+Strichstaerke=0.000000000000
+Saettigung=0
+
+[DATASET DhpSectionView 1 BEMASSUNG_BESCHRIFTUNG_DATA SCHATTEN_TIEFEN_DATA TIEFENVERLAUF_LINIEN TIEFENABSETZUNG 1 ENDSEC]
+
+[DATASET DhpSectionView 1 BEMASSUNG_BESCHRIFTUNG_DATA SCHATTEN_TIEFEN_DATA TIEFENVERLAUF_LINIEN TIEFENABSETZUNG 2]
+Position=0
+Strichstaerke=0.000000000000
+Saettigung=0
+
+[DATASET DhpSectionView 1 BEMASSUNG_BESCHRIFTUNG_DATA SCHATTEN_TIEFEN_DATA TIEFENVERLAUF_LINIEN TIEFENABSETZUNG 2 ENDSEC]
+
+[DATASET DhpSectionView 1 BEMASSUNG_BESCHRIFTUNG_DATA SCHATTEN_TIEFEN_DATA TIEFENVERLAUF_LINIEN TIEFENABSETZUNG 3]
+Position=0
+Strichstaerke=0.000000000000
+Saettigung=0
+
+[DATASET DhpSectionView 1 BEMASSUNG_BESCHRIFTUNG_DATA SCHATTEN_TIEFEN_DATA TIEFENVERLAUF_LINIEN TIEFENABSETZUNG 3 ENDSEC]
+
+[DATASET DhpSectionView 1 BEMASSUNG_BESCHRIFTUNG_DATA SCHATTEN_TIEFEN_DATA TIEFENVERLAUF_LINIEN ENDSEC]
+
+[DATASET DhpSectionView 1 BEMASSUNG_BESCHRIFTUNG_DATA SCHATTEN_TIEFEN_DATA ENDSEC]
+
+[DATASET DhpSectionView 1 BEMASSUNG_BESCHRIFTUNG_DATA ENDSEC]
+
+[DATASET DhpSectionView 1 PARAMETERS IMAGE]
+Position=0.000000000000,0.000000000000,0.000000000000,0.000000000000
+
+[DATASET DhpSectionView 1 PARAMETERS IMAGE DATA]
+DataSize=14194
+‰PNG
+
+   IHDR  Y   ì   †îlh   gAMA  ±üa   	pHYs  Â  Â(J€  7IDATx^íİ=ãJ–öñw%m·İæà®á"ÇÑ
+:²´€Ú¨È ıÔ†vP:gZIïbÀ—'È Oœˆ %J©¿ñÃŸ¤D*dVŞÿ÷÷¿ÿ½ùã?     + d   ÀŠBÈ    ¬ƒ'Y    °"B    ¬ˆ    +"d   ÀŠY    °"BP!×È³y•ã  ¸&oM%Y@Å³]#¹ãá^   0!¸ !   !ëam›ıéÔœ»f3Ù·o¶“zî¾“   ‹õ°º ±ßŸšãn3Ù÷|!ë~“Õy{{o>ŸÍûÛ›[~-ooÍáth>
+ãÎ©  °&BÖÃêƒÆf×‡À¡Ã‡"i™—“<%jI€Ùšmİn^İV˜W¶ivÇc³Ûíû²~.¡~»Ó·OôóÎ§ô;'öÛiÛËç7+||}5Ÿï±À_²º Ó¯6`IÈúøüjÏ]ùx‡67
+>¥õöşÙ|}İ> €çFÈzXcĞĞĞ>ôk»-¯UéÃÅtûÜºzÌ>X… Õ‡¡ı¶/ë…ö3BVûÚ?Nã*sÏ+]#ï!pH˜xŞ½}Â±~}¾»åZ¨{øh>§æğAÈ  Ï‡õ°T(Â‚
+64Ì-» î6>¥šêBÍ¼Ğ’Rı»ÇÙJÆekÍ=¯>x’•ˆá*†­¸?†¡C[Ï¿mÒn|oº1l€
+¡i¨ÓµÏõÛ½7ã>=—(e³_æçÃeCcíX´óÇè?[Ÿ±\ÎCy\ïüÄ2  °BÖÃš†î)ÏNí+ŒRÙu%¨Ø'UƒBV+9Îró[kîy¯²¢pœ3şM–~rÔ‘ñÜtÛ*D„@Ğ¨$µÛ!¨õ¡"ÔñúkÛûUó‰}kº»İõcçßm—ÆŒ}GçÑ‡D}^
+ã¦ã<Ög €GBÈzX^`ŸNë€¡BÍ$ŒÂF²½´îôéÏfw¬<ÉJÛ¤åv<uœ6]tœ¹¹ç²–‘§6úé‰Ş.…€.,Èû>–Û66ˆyuºmÓoå×õS¥É|ñ†§tÍyc¤}Uú
+çp*2  °BÖÃ²¡ú©N·İ/¦ö{(raÃn/©ÛêÿİÓ¸ˆ‹e™5ùwQ;^zœúYœœ­ìÜóYóuçBŸßŞäÉV9˜tuºv6Ì\+dOƒ¤Ÿq>k†¬óÆÈŸÌ±fÎ  X!ßëÌ_Ó»„¬ùÂ"ßšîüÔƒ‰<İÑO\âÓIÈ
+AE)kCE1xáfìÛ‚ÍaR’ñÔviÌØŞZ>FÚgñXCYw®c}{^ À:YøVÛı9ÿNë~”®YÀzOl¼º÷âš!+>±ûã–zJÏeÒÆÔ³AÌö+Û2¯P¿ğ”'Ì±­cçoÇ‹åµ1=ËÇX²¼¾nõgô x5„,àÏv\3d  ¼
+BpB   ,BpB   ,BpB   ,Bp¹FÍ«'  À5yk*AÈ   €²    `E„,    X!¨käÙxÇ	  €u²€Šg»F¸æ  ®‹õ6»æx:5§Ó±ÙmœòÕl›ıißlİ²5”ú¿öØy„,   ,ñB!kÓì&„Äp²ßªzÆ9.H¶ûS³ßê²éO›2œBÖ3 d  \×ë†¬°®ıäçÖih“ vÜmÚ×„,ÏÛÛ{óyølŞßŞÜò{CÈ  ¸®×Y¹€5üÚ]§RÖ-ğ÷mØ8§lz»Ô®eæršô3’ 4Ô9îšMqÌşìö…>ÓõÇ¶­fÙ¾ÔØ­ñ‰YéØÎm7wìVéÜeßã¼Ü5òööÑ¤Ÿ6`IÈúøüjûüj>ßóakhs:4*”}NÍá#m÷öqhûÿHö_‚  p]¯²¶™€5YÄ6¤L-äÃB=Ö­•é>õv­£íG+a·ûpRüõH}Üq;Î³0ÙçÄ(µÛú=˜ÛGîÜÙ>ì±új×HBí¼¿>ßİr-†&ªÂş¯éÓ°ğ„ìË_— d  \×‹…,y‚Ğ=)I`ÈÓšv¡lùáB/Î—”Í\ğOb™­«•Æ°ÛsBE<O#ÿiR+9g±ÌÎÁŒ;»]áWs}”Î]Ò¦3†:_î9çIVWö	U¨¦mßŞ?›/¼Ö@È  ¸®—ı7Yãâ½/OçZ)4,)ÓÛ…v¥ (a·MØq•ê¨¾B`Écç`mv;ı‡;f]:wIÙ<µkdî¿ÉÒ¡©hÓPõŞ†4ı4Ìn¯…  p]¯û‡/Â¶}J3}ª±ÙWx’¥Æœ„ƒB;ûëu¥_·Kú)iÏ§TGeËÜc[ÔNËÌ±‹çNúÈ½Çyk]#µUak!d  \×‡¬¸ï4.ØÃ‚\ÿ*™^œ«…û¤¯RY·ˆúÛïUİíÚıóCViLïX¥:Ó±&tcÁ±•Û©²Ö€æ]9wÙ÷8ok$şûªqÜùuÀÜ¯®‰  p]/²˜<©	9Ğ)CÙ
+çn•5ó[äş0Æš¸æ  ®‹u—äÉ~âQÚ‚hıs·Æ52÷O´çşÄûš¸æ  ®‹T<Û5Â5  p]„, ‚  €%Y@!   K²€
+B   – dr<ï8  °B    ¬ˆ    +"d   ÀŠY@…\#kğú  Àó!dk\#\g   ¯ƒT²   °!¨ dYÛfÚ7Ûäõ-Üz¼µÔæ}»ãÚìÍq·qË^Æf×O§æt:6»Sş­õ3 ĞY@Å÷…¬M³;ÊBP»Ò¢PÇ]³ñÊzø`ÂíŞœÏÖ~ë×]Õ½œ§Ê<†ğqëó³6çÚCÊf^GöºXtœ‹ Ï€T|oÈ²‹AY€Öñ!Kàœ’c\°à¾Èœ'	™ÙĞ$sô>o¸àOß×í>^7‰ 8!¨¸¯%ôbXêLb¿ßÆz}û]|zÓ-Üd±9Ö—~Lq.Ê¡vz˜{í—íÕØ“ hÆŠsÊúœ°sóxçË¶[0~òÔ,¶«“¾GåısIûñóaTDéx—~½}mİÊgnŞ{-úşõùéæäÆãuÇ5Ç´ß™íy×‰?çzÙøYëˆñ¼.=' €["d÷²
+‹å°à34ıäÂ>Éh·C?É[/ô„‹.Ë½öÊÔœ'ó”2}œ¶mnŸFñ	Näœ¯d.sÇ—²Ü1UÆÉ½G¹ıq»ª£òFtÁn79F¥ö9œu®ígnæ{è¶q;¶·ãÆ•qô9³ÛgÏÙ”…mİ.sl¥>ªç pK„, âîC–,¾ÛÅÖ(.´œöa!¦ë¨ızñ˜ôÙI©¹×µ257’ºÚÌ>‡}=;ÆpDlãµ·cÌ¿xL•qJïQq¿>–ÔÒ?x1®8=Ş®ÎĞç’Ï¡·oögN¨öÙ÷rÚÿ¤¨UWú.…¬sç\<—µùÅ²Rÿ €ïFÈ*î/d©ÅUX€é…–^x•]RO-½Åã$$hzŒÜëZ™š[2–­«ÍìsØ×q¯Oé#¶ñÚÛ1f_<¦9ãÄ}zÑ^Û_R87c Oç8”-ş:ûfæDíxJå¦¯Ò¸sBÖYs.œK]V<¯¥ş ßTÜWÈ’…•yz y“EYÚ^fè…ùğt#	!İ8¶nºØ¶¯Õx“¹èzBÍÍD"7¶(/2Ã¾HúÕsÎï©ò¾è¾rïQnÜ.’ùdÃ@Ï~–}ŒöxÕ¹±m«Ç›;s>sÂk¯•Ê½ãÈŒ[ıl;goNYñ¼–ú |7BPñ½!+şŠP”.¢ä'àCù~¯^Î¢+,U}õSù¡Ÿ¸¨³uİÅİt¡'Ì¡şd.åá¤]»ÿ!+‹Ô~œŞTüö«Sí}Ñ}åŞ£Â{W3>%)‘y©ş=O™ã´\÷¹ès˜9×ó>s"Ó~V¹í«•7½.Î»N„Sé\NÛåÏëÒs ¸%BPñ}!ëEIZ Pã„Š³¬Õ8— ğüY@!ëÚä'ğê§õ,>ïÁ`=œK xv„, ‚  €%Y@!   K²€
+B   – dr¬Áë   Ï‡    +"d   ÀŠY    °"BP!× Àçİ7àÕ²€
+® ğq !¨àğ¬şùÏºûçâş >BPÁ5àY² à:Y@Å3\#ooÍáth>ŞŞÜr1§N´¤.€ûõº!kÛìOûf›¼~TsáóÜ9|×Üç{ç÷†Tx×Èßÿ§Iö=ºRpz{ÿl¾¾>›÷¾Œ<‡\Èúñ%¼zõ5Ä¦ÙOÍé¤›İÆ«{¡Í®9wÍÆ+KèEñw.àå|ÜjìÂq.:w=i3y_[û­_w°Â¹¶s=gî‰ïúà™²€
+{HÀ"d²€gp›eCU.»Ú·‚GYÛ}%Ûı©ÙoòÕsqP‘¾¼÷µvW8×„,<BPá]#—„¬P‡ñ§_Ÿï“²^ôöÛÛ{óùõÕ|~úv~ÈùPıNmıwikú•Ğ4ÔéÆÏÍ«wÜw:|dë†¾mıÖá#Ï¼c pß²„^¤§O»ÆĞÑ·ßµ$”ua	&c}éÇôŸ¨È|¨§ƒ^Tç^ûe{5ö$(š±jO¨†pÕ‡­±¬<Nzìc›a<÷¸sıfÎ]Éœ`³hÒ¦^¶Mæº[>w—9îş9óëÛU>w¹÷Ï…T\'d©àOR&©í!¼´!G÷§½}´áE•Ë¶Œ3íG^wá+Ô‘í!8eæå>ÉÒáiÚ§6=¾ú1 ¸²¼peéúç‡,2Ìşn¬ı¢Z/m(i·C?ÉÂß.œõ\ÒÅsúÚ+SsÌSÊôqÚ~ŒÉ\½¶™qrÇ>Ïé/´)ô›œ»:öÒ pÆªe™¹1÷”ê?»æü’¾ìç.×!¨¸NÈÒAªºã=qRÛºîOŸP}„ıºÄ¼:İ¶š—²¦cÈ´ái–ŒæÍ? ·ã=Éò‚Udë®²$<Lîqáé´S]Gí×‹í¤ÏN7fnQlÈ¥257~’ºS›İqL¦Û…qrÇ®Û$sqê¦ß‚Ê¸.˜ÃÜ2;×ÚÜ‡s&b–ÛÛ?s~³?w¶<BPñH!+êÚu7öäIÖCV+¬ËÀõ}ï¯êE©^xê…hi*õÔÖ.¶³}¡ÇÈ½®•©¹%cÙºš´›.Àƒaî…q†}R§k—,ŞÏ	8†¬hÎçÌanÙÒ5‹ÛÛ?s~³?wÂ{oñ,Y@…½F$`Ezÿ\Å0ÊÆ¢Ëœ€òşù5ü
+_ÜÖÿŞ*ôv©1¤løuÁÌ¼Ô¯üm’í¾®	qKÀíäB–¨,q^È’…¦ú3»(•ía!š¶—§>]°·C_á‰…^ÀvãØºI(I^«ñ&sÑõ„š›;™‹"}&¡@úª?íÈ»nÆÖç¬-çwÁüÅäØûÎanÙ’s=›ÛÛ?wîòzÎçNè>ğlY@ÅÚ×H)ÌÈ¶£á'›‡Ãf”ñ×{ıÓ§dLSÏ±PÇŒ7üA!í…w“?¾±ğ ÜN)d‰RÀóB–ºé¢RÿûÓ~¯¢Î"4,ªU}X†~b °uİótá+â¡şd.åò¤]»?·ğŸüš¤6—Â8Ùc7mL½$ˆÙ~Ûm{îd{üFkÆûºxóË¼¹êíå¤ÿ¾Œ§Ç]0÷YŸ;1}ğ\Y@×€gUY5Ü3Ü§U„Å?p)BPÁ5àY²Ö"¡Ä{rñ¨¶Íş¡C"ğıY@× ø¸?€Tp €û# øY@…\#  Ÿwß€WGÈ   €²    `E„,    X!¨k àóî› ğêY@× ø¸?€Tp xVüÏˆà:Y@×€gEÈ€ë d×¾FŞŞ>šÃéĞ|¼½¹ås¼½½7Ÿ__Íç{½¹ã­1/ ÷íuCÖ¶ÙŸöÍ6yı¨æÃ=ç¹sx†÷¯†Tx×Èßÿ§IöëÚ!ëíı³ùúúlŞo–¾cL ËåBÖü+áÕ«¯!6ÍîxjN'íØì6^İmvÍñ¸k6^YB/Ú¿k/ãÊù¸ÕØ…ã\tîzÒfò¾¶ö[¿î`…smçzÎÜ36»ãÂãYÉv?w2öw}>q)BPa¯	X„¬2Bğn²l¨êÂÅq·QûVğh!KÖíBz»?5û­S¾ºÂq.*Ò—÷¾ÖÎã
+çúJ!KŞ‡“é'ì»rĞ
+Á.™¿¾n¾éó‰‹²€
+ï¹4d½}ÌO­ÆŠ*ûú|ïö‡ ¥ÛœšÃGßÆ„¬ØÇ×çÇ´ÍácêŞ?¿Â>i}º1mø+Ï«û3ÓW°Æz¶ ÷ã{B–Ğ‹ôôi×:úö»ø“şn±¿C}éÇôÆ² êé`§®¹×~Ù^=	Šf¬Úª!\õak,+“ûØfÏ=î\¿™sW2'Ø,šƒ´©—m“¹î–Ïİæê½_2îôÏ}ÿ—Wß‡kNÜ#BP±vÈêÂ‹
+D*Ì$Á¦ö„jh7ÖÓû‡zê©Ry<¿¬4¯îuûÅ¡Â”À}²!ËW–®~ÈR!ÃìŸ.xûEµ^<ÛPÒn‡~’…¿]œê¹è²Ük¯LÍy2O)ÓÇiû1&sõÚfÆÉûd<§¿Ğ¦ĞorîêtØ›„àŒ9TË2s=cî‰$èÆÏ©™_Øö>OÂ~Ö2ÇUwdûÆ£ d«‡,yŠ¥‰3É®ÎğÄ*ólú4iC¡M!dÉv|r%¯åÉÖø„jŞ¼¼ HÈƒ÷$ËV‘­»ZÈ’Åæäş•Nû°HÕuÔ~½ØNúìŒæØ>÷ºV¦æ–,–mİ)ù1L¦Û…qrÇ®Ûdî•~/*càº`sËì\ksÎ™ˆıÙùÚ¥ç×•…÷mögM>7î\ÓqñY@ÅÍCVæ×ëº 3†£I»áiÒ¡İ7†²P¯²ByØ–ıcXš=/Bğ°¾÷×û…cX êE¤^TæÚ©§³v±]X8OÇÈ½®•ËI]MÚÅ…´2Ì½0Î°Oêtí’…|ö¸ıÖ‚ÊLC 9gsËì\×˜{7zìHÆÍÍoÎñŠÂq9.!¨°×ˆ¬HïŸk5}˜Qá©6Ó$O—Â#Î&íÆ cûHÆ3!KÈÓ¬CĞ²á¯4¯\È2c ¸?¹%jKœ²dÑ¨~ÅÌ.Pe{XT¦íå©O,ÆíĞW²`íÆ±u“P’¼VãMæ¢ë‰Âb9»xnIŸI(¾œÀ4”uãd]·	cësÖ–…ó»`şbrì†}Ï‚ç0·lÉ¹^ <3ïKØ7§ŸlëùÍù¬	}\]½ô<Û¾/?>Ü!¨¸Æ5şàD{CÂÓ'‚B@éË‚±LÂ×ÎŠNıÓ¤¡]¢¼Õ6óÌÔËÍËYB©÷¸¥%JKÌYú¾!Æf³±|¿W‹Êé‚4‹jU_-Œ‡~âÂØÖúÕ×é"¶[ôÆ~ô\æ,–ûvíşÜÂxúaË†àR'{ì¦©—1Ûo»mÏlA81ã}]<‡ùeŞ\õö¹&ïaÒŸÌA•µ&ïã¬Ïš˜÷ ZİVŸûtÜløÅ]!d\# U-dÕpÌpŸV='¼<–€2BPÁ5àY²ÖbŸì<úb¼¯…eY@× ø¸?€Tp €û# øY@…\#  Ÿwß€WGÈ   €²    `E„,    X!¨kd^ß   x>„, bk„ë  àu²€
+B   – dç\#ñÿú·¹Î   ^!¨XzØ€%Ö½Î¶Íş´o¶n™6·Öñˆç[Ï™ÏË|—œ«ï>Ï¯>> Ü!¨XrxKœw=Îbd³;Çì·n½Õm÷Óq'cßúü•ÆÛ4»£™çéØì6^İmvÍñ¸k6^YBÏùA>o‹o%«ùİçùÕÇ€Û d„¬²í¾=f³ û®´B°K¾fbx¹õù+§çIıSsÜmÔ¾²ÖGÈZÑƒ|Î àB„, bî5’Xbİ¥÷w¯÷júñÇE»i/Å¾WÏï£"ô™›ã4ìdû?k^æØ\sê[Oo—æĞJ¤åÆóB–şãşôi×~ëõíwq¼nœf‡úÒé#İÊ9ÖÇš¾öËæ¾Ÿås¢ëéãÍŸ9>ó>Ø~ì\õyç›7æt~éûĞï÷Êù›¨Ôõ¾Úísû”ó~óõse¥ñ/;Şyç nƒTØk$~‰o¿Ş]7d©EeX„LSékÑ/˜†”ë£B·™'V²ğìú4ı‡m=öó*Œ;²}çØzz»0‡P¦ÔÅñôqMçÉ˜ŒÕ/ôõ1ÛsĞn‡~¤İä©‹—=Çúx¼×^ÙçÄHúÉŒo/´³cêã³sÍÍİĞevL=ŸÜû0™G¿êysÊÌ¡XWÍ!È½¯vÛô¶sítŸÎg°X_÷ÛoW¿VVkî9€Û d¥C•~í¹nÈ*-<ú2Yª9Gİ¢¤ÔG…]`*Ó5=)?i>w^vÜ°¨Šíã/²õôö‚9ÇËŸÓIÈJÎGìÏi?³Söë@0û—»Tvî9ie·0¾w|æ3˜ÿìU¶só±cÚùLæŞsæÕ±sÈ6Šu“¹vêÇmËæ^Î<KõÏ:şµ·tNà6Y@…wx_öÂÖ‹î"d¹qÁ%,0ssÌ-œÔ"øÜy9®ÏÖÓÛ…9$s/—;§ªMXDææQzO¤^÷ùçtFé1r¯keg“âñÆŸq|g…¬Ò|ì˜I?qŸz²çİ¶­½·™ºÙş…m§·mÙÜëÑ™g©şYÇ¿Öñ–Î) Ü!¨È]#:\	¯Nôí!+¼Ïüá!j(²¸qçÑ‘Zù_Øşe[Ïñ¼yuÑĞÎËöŸ÷H·iM·0ôŠçÉ[ôIßêßØEä¤¿´ıxÆíĞW@»qêçØ¾^áœ$sQŠÇ[ßCÕlÛ¹¶KóIclW~Ô¼¤MèßÎÁûlD¥ºRVz_UŸÉ¹µÇ2§ÏügØ­Öñ×ÊÎ»W Àw d¥käú!kì¿#	½ ¨-JTYXôØ¾œzf"i²Ø™ÌS/VãĞ¥sç„Å£n«çš;ö=5™ÿ~¯Æ-Ï!ßÎ’v}½AºáÔíÏ9v{ŞTĞú‰ïÃ¬s<=ÖUÎI»?²Zùã-ŸÛÚñŸ/;×òvi>Ó1U»Âû`ËºÏfùüMUêfß×Úû§ÛÌ½3ó,ÌaùñŸ{¼KÎ) Ü!¨¨]#òeïí×÷:[c±b@x‚ÍSN  ^!¨XãyÜë¬H/’	Y¯CB¹÷¤ €×BÈ*^;d  `)BPAÈ  À„, B®‘5x}  àù²    `E„,    X!    VDÈ   €²    `E„,    X!    VDÈ   €…    XO²    `E„,    X!    VDÈ   €²    `E„,    X!¨kd^ßš× îw?€WGÈ*Ö¸Fæô!uşö·¿ÀÃ` >BÖbÛfÚ7[·,šSçÚÎs·Y à»üş¨ïÛ¥{ø=|7E÷õà>½HÈ’Û©9İìæV¸‘nvÍñ¸k6^Y´	óWö[¿î`…›¹ë9sŸ#é·6÷M³;›İæf³;6Çİ¦ß¯Ú­8WB øê÷6¹_›ï¯SwÿNë–îı+|§­æ¾_|›×YÛ}%Ûı©ÙoòÕnÀ‹o¤Ò—ıBšsƒ /¤ßsç®Ú­8WBÖ+û³ùùûwóóO¯l-?š_§_Íäõç¶[Ó=Ì·6/d™ï0ùNvïÏ¥{ÿ
+ßi«y ïW ßæ%BÖ®ú°5–u7Ê}[Â6>éÚ¥?y37W¹1ubû\¿æ'zÕ§Q­97ŞEs6õ²m2×İ¼¹»s‘²%ç¤4¿ô§¢cpÎÍ½Ÿk˜[î'¨y„¬WVYşl~ÿşÙüi÷/¶$då?~š_?Òıi›[!d½¢sCVúc_wõô½~üm”9ßş¶ÿ½ßWß¯ Êó‡¬IH‘œ¾ÙË¶º9‡›i3¶¬İîêÅ›d|múBB¦ßÉ|æÑ7ÿñf1‡jYf®Õ¹«¶şr-Œ™ô[šŸ1)+Ì}¨«ÏÕ<„¬Wvo!+‡…ï1/d© Ñîï“ïûÚ~_/ü°Û¹ïõâ÷ı½|¿x4O²¦ÿf§ğox
+ÂQ¾t¹PmìÙ«˜~/¸‘ë‚9Ì-[ú% s	s›¿¬æ“ÒüZÉ8±naî d=;	Rúó¤Ÿ™%Áª-ÿıóÇ´Í¯m¹f»oÛüşù§S¯TJıw¯ıòúoeÇîïç¯¾Lú;·¯R;¿LÆ¥uÏßa^ÈR÷ïaŸ÷İ ^'ßmæ{aÎ÷€İ–ï…Iİ^nÿ=}¿x8O²ºùôFÜnd¥›a$uºvÉÂ97à•n¤¶Â|îéK ;±äœê†/V]¦ëæ~BÖ‹	ü^TÈšìï·'O²º P
+Ac™o¥zZ­ûëƒ^ÿB-¯Ûû[‰±Üô59îR_µv¶lí1ğÎYú™{xò}bÊ†6¦lòÚÛûô÷zfÿ=}¿x8Ï²ä™Ü´ä†çı-–u7CùĞ7_÷AnŠÙ_%ÈÜdC]ÖJ¾0LYr“¿psËì\½¹OHÛé—Öxc&ıêÚó19w…¹ûô¹š‡õ~Ä'9Q\¸÷üğ¤Ç,æe?7d%ıwº° ÛÙ>´BÿN;yJòÇÖ&²}©:³Ã´+ÎİlŸ=¾Ãy!KWèû}á®ïõÕï5*Ë}¯g¿ï“ïŒ¶ïoû~ğh:dO{lÙpƒ.ÜÃO}ÉaÍ´1õÒŸÌ‰é—Ìğ+ı—„lwíb}MÚıwôM¿µxóË¼¹êí„=oC_KÎÉÌº¡ş^Õ-Ï½››9w3²\XÔç€,âÛÏĞ¯_í>õE,Y“§EšngûĞ
+ı;í†?ŒQûŒ5ë8Ä!ë¬1ğæ…¬ş^¬ŒßÍú¾=½‡KØÚLîõ¥ïB»Ü÷zn¿Sö­ß¯ Êóÿá‹»7¸?„¬'gõ²=,ämPPA+ùU5)WşI?¦mëÏŸ¿§36Dhµşss‘×¹±†¬b_µvv~¹ísÇÀw` >BÖ·Û6{~û®²ŸşİS«¸·‹ø. œú'XC»>¤Iğûi…PÖ—:Tx¯Sùşûy):¤äÇ^²Z³Ã¶³e•í³ÆÀw` >BPAÈ k ğ²€
+B øXC €T² ÀÇ |„, ‚ >Ö à#dr¬Áë[óÚ À½óîg ğêY    °"B    ¬ˆ    +"dr¬Áë[óÚ À½óîg ğêY@…\#ıë_/2ç:“:Ş_ï€{Å |„, ‚ ¾Ë×ÛfÚ7[·,šS'ZR·fÓìÇf·ñÊJÖœÃ·÷»x<„, âœ%mt»9×™Ôñ1 p¯æÜÛşØìšãéÔœ´ıÖ¯ë*,ì¥ïã®Ùûî!d)Éü®éUBATè°4‡Ô·mæ\gRÇ[Ä ·ó£ùuúÕüpË´¹õğìê÷6YÛ ²t‘\¨OÈRn>n1FÍ=Ì¨#d60•H]¯şœëLêx‹<¢{!6?›§	§ßÍÏ?½º5„,tª÷¶jÈ0f©¯>£Çİf¨³ßÛı‚Æ}İÓ±\]éßÔoí·q} Úíû2™“	YıÜ†şÜ¹JİxLŞüú¾z›İ1Ù¿mç>ôµóé”ç{î±—ÚµÌº±ú²Ê9Èö™mçWßfÏ¯İŸ?Æêy¾h>€Tx¡)Gêzõç\gRÇ[ÄàİkÈ²¡Jæyj~ÿüSí›ƒ…Îœ{›,fÓÅk¤ÌòZ…Ù‚“
+aAÜ·‘×É“, tŸŠî'.Ğ'ñ~-m'u…ô«·U]]–ÌÏ²ı˜¶ö|ÛŞ|¥<s¬IY©3në2İ¿=¥>sí¼ã²lûŒÒq¬:ÀGÈ*¼Ğä‘z¹ºs®3©ã-bğˆr!$}šôëGWöçÏßÍé×Iı¿T úógó[µƒQ~şêËráÇYBæ÷ëyççšß8¶­×2óÎÏhÎ½M—³À•'&îb¶°–Årå×KO†Æyè…uÔïO1¦}¦ıtºP¡æÌ/¥ç'O\&s5çCêvcxó-……VöØí’9¨ºsÏ×g¶w\–í[ÉãôÜ–?ùó|„, Â'Ù¼ızŸ.óúÖ¤·ˆÁ#šù¤'XO‡¯L÷§S†L@KåBVæº`T˜wn>a¿îW‡9¦RÿxHsîm1,˜Eû•BV+,¦u™®ë-¦e_{mí÷m½8ß^v®Bõ;#dOU¤šƒ3ÆÙ!«xì•v¥5ç¥>5ï¸,Ûw¯xŒzÛì¿x>€TØà$ÛšŞ§ëiRæõ­IoƒGTæ©~²#O³âªÉS¬¤M§FNxš<=Šeg„¬ì\U=©ã<ı%e„¬gS½·¹X½ÈU¯CØĞÚ¶,´5‹b½ğŠj“lg÷“E¹·˜Öû¤´ìv÷¤¤ÛVsHæçá©s“ùÙó1Ùöæk]Õ){¡ÒnÆ9JçR·óË²}÷ŠÇØ‘ó,÷²á)Vpé| !¨ğÂ“ìóØz‘”y}kRÇ[ÄàeÂD-z¿­·Í~'ÈŒòái*WO¥^çjê²^VıŞ&‹TÔ…^´šsXÔu»ÅpiÁ>.œ»v·`Çš.‡º"<¡Šız‹i»¯ï;>™2sÍ…–éüb_FÓ¹fŒ±Ü›ïÌó$&Ç^n'Ão×šy’ùfÛyÇeõïƒÓ>Œ½0®Ù7ìWmÍğ²€Š\x’ıšW'’r¯oMêx‹<¢L˜°¡#	2]@‘/ùé£şâÓ¦<õÊ>Éryõº~Ç±
+ái2WUÏşº ŞüŠ¡³‡7çŞÜ	ŒÓ§XÀõ²€ŠR€’²È+æ\gRÇ[Äàuáeü©¨èÂEQÁ¯_cX‰rA$ìWm‡:KB–n/¼Ğ5Ÿë´›ƒCí<	YÏeÎ½¸áiO¥p;„, bN€òöks®3©ã-bğZô¿Ëz:ò4ì÷ÏæO¯‰5 øY@ÅœUCÈÂ,á‰Ğœ§RÂ>=ã)Ö³a >BPAÈ k ğ²€
+B øXC €TÈ5²¯oÍk ÷Î»ŸÀ«#d   ÀŠY    °"B    ¬ˆTÈ5²¯oÍk ÷Î»ŸÀ«#drx1p‰9××"€[’{Î¼¾àÕ²€
+¹F¼à´ÄœëŒkÀÿüç?İısÉ=Çû³ìsIûËî[ÛfÚ7[·lmz¬[ûŒ8—À„, B®/8•ÄÅ‡ŞöúÖ¸,q«õŸÿı¿q¼Ïy}d~jNÆ~ëÕ]h³kÇ]³ñÊ6ÍîhÏİ±Ùm¼ºzús	Ü!¨kD¨š¸ğ°û¼¾µ[^‹ooÍáth>ŞŞÜr1§Î½(ÍõÜãx{{o>¿¾šÏ÷û?~¼¦[†¬æ/	ÎYWZ„¿DÈ²¡Jæ~j»Ú·B°:BP!×ˆL%qÑáí÷úÖjuº° ?É¼Mğ)—÷Ïæëë³y_ak×Ü µdŞ¥µæñçÊ…¬ÿøWÂ«'÷¦<ñéÕuBVºXßïÇ§6:HlÕşîiyÊ³ßvu%,õt¹``ç7Nv¬“î§2lŸ^ÈÒGÜŸ>íŸöíwû¾¬›ßÃKàA²€
+¹FlhÊ‰‹o¿×·V«óöqhN‡æãpj×_Üß,d­p\„,¼¢5CÖ¿ÿıo—„ªÿû¯ÿÂÖy!K/;]°‹pÂ¢»/Û¶!!.üûíPOêL¾èş„)v,ïµW–™S(Ó¨Ô§G®OK·›’ 4ô¡MúëÃ“9wu.ÇEÈ*ä±¡É¹2¯o­V'†Jâş0my\À|}¾OÚ‹›.4ØPBÃP§kŸë·ã>=—sä«9Ÿíş0V7ß%síú‰ÇêÏÛëo2~²b½¯Ï¤Ÿä|ªíÜqH=àk‡¬ø:Š+ÒKÄ{×÷¨´`¶‹p]O-êÃ‚\®Ó âu©tûÜXvÜ™s²aE×=‘R¥²IÈJÆ‹ı;íí\ŒTÈ5bSäí×ût™×·Vª£ŸœtxµøÛãS .ô|\Úíh&!Àéo™~Õ|bßç(WŠ&ÁëŒ¹†2Şº¬ÛƒÕäµêoè¿ØÓ9`6dyáÊÒõåSYñ	–¼Ö!Ë,ïyºÏTiÁ<s>©¯û^0˜,ÖµÜXvÜRÙÌ`0{"¤òef¬IºÿRßRïÎ%ğÀY@…\#60izŸ®§I™×·Vªóşù5<a±ÛÅ Â|‘å¶b^nÛô[Yã¸bEVù¸ÆñbùYsÕÇjÃ‘ô7ÌsÔÑ¾ğÊœ¿Å!+€syO²¼`ÙºrÏ‰É†,ï)–`·Y›İq|jÓ’íğïyÂSİFúPOxúºõ§/*ˆLBK~NÉØ“í¹ó¥ ä•u}ÿÉ”ÉüÓöw.ÇEÈ*äñB“ÇÖ‹¤Ìë[ËÕééi8õ‹üRÀû:]»äIÖBÖõãrã!+ó„i˜ßáÎ]|JÊY¸Ş“¬ø_K—GrÏ±!+ª=Åñ¾§ûLu‹u{—ëÂ.ÂU{õÄeø#1hØºnÿÓ±$<õ÷ûys²íÚıiPèË‚y}NI™îC¤u'Èb2§ïG<—Àƒ"drä‚“æÕ‰¤Üë[ËÕ	AÀš l`ËºE½<Òá >)J‚GöWğü~»6cÙ9êÇ•†“³æš«®'eÓ ÏYÚÇXÏïGÍK-é°†Ü“¬øßRÀrÏ‰)†¬ø´Ê†¬¸?Ö›²^„<µÑ¿n‡óq.ñ$Y@…\#^pq‘Qª#æ\g¹:¹¿ºŸÂFıOÅğ”È´1õl³ıÊöğ52O‚jêÇå‡“¥sµevŞÉ9êëÚñ»~ÚòşÚ~$œ}„§_~?ÀZJøÂû¯%÷²"	V‘Ş¯Å{Ÿ×÷ó³O™xòr>Î%!¨kÄNQ­\Ì¹Î¸,‘Y¢°„Üsb`Š!+>­Š+nk„, ¨#drxÁi‰9××"€%J!K”–{YQé	V$í¹o€TÈ5â§%æ\g\‹ nIî9^xšKÚsß !¨kÄNKÌ¹Î¸Ü’ÜsÖàõ ¯TØÅ¹¼¾5¯ Ü;ï~ ¯    +"d   ÀŠY    °"BP!×È¼¾5¯ Ü;ï~ ¯TÈ5âıÅÀ%æ\g\‹ nIî9kğú€WGÈ*äñ‚Ós®3®E KÔşgÄ5rÏñşÿWsIûËî[ÛfÚ7[·lmz¬[ûä|šSo¿õêÜ»{yÏ—ÎÃÔßìšcxÍn£ëá²€
+¹F¼àTzÛë[ãZ°Ä­BÖş÷ÿNÄıñ>çõ=š.ĞW]¨Ë‚ó¸k6^YB/VïeÁ]³ivG{în½¸îæ0¼_‹Îù=)½ç·<Ï—|ödj^û^¼BP!×ˆP5qáa÷y}k·¼ßŞ>šÃéĞ|¼½¹åbNG´æq=ë9Âc¸eÈjşò—à¼u¥@ó!Ë,ö·ûætÓ…µ9W2ş~kê<‚Ò{~Ëó|ÉgÏ´%dİ=BP!×ˆL%qÑáí÷úÖjuº½ü„í6‹úR€x{ÿl¾¾>›÷çú™üô°uøËVÃ"dáYäBÖü+áÕ“{Søôê:!K—u¯÷ûñ^pÜm†º[µ¿{Ê`>Ä…¿,<‡zºt¬ôµ_–›“ë¤û©Ì#Ûç„¿ø/Í¡6>c]s.[ã“Æx>ä¿mÙ$`Å2oÛh[:wŒ!AiÖ—œgï³YjSšs?]œ·Ìw<ŞÉ8Ç¶äóÁ¹šı~`	BP!×ˆM9qÑáí÷úÖjuŞ>!€|NÍáãú‹úk‡¬®ÿ¯æó}ìCIÈÊÖYÿş÷¿]ªşï¿şc[ç…,½xët‹x»4¿–ËìÓ“v;Ô“:“Ÿäëş„^<Û±¼×^YfN¡L/ÌK}Úyäú´Òğ3;±tœ™ã&Ç©ê…à’)›l{ãë²Ü¹³n1Æç9÷ÙôÆ‚PnÎı<²AÖÌCÚ?ÿ¶íç
+K²€
+¹FlhòÄG®Ìë[«Õ‰á*†­¸?.ômyürøú|Ÿ´¿8ºPcÃ}¢$ísı¾½½7Ÿ_ã>=—%J!Ê#Ù×Ša³vÂ9SíâÓÀrŸRÖ¯ÏØ¶o“é+ÜÊÚ!+¾bÀŠtÀñçõ=*-Øì"P×SÙ° ”kÍôc™! èk³3.z½±ì¸3çd×ºîìyÕç°¯TÖ-ÄC_‹Æ©l'}Å2Û®{¢RÃ–Í<w‰[ŒqÁyÎ}6“ñ£ÂœİywqÈÊŒ»è\a	BP!×ˆL‘·_ïÓe^ßZ©$] Ÿ uÛ*„À¤dívj*d¹ı…PSè·–ĞP‡"Qc2ŸÒ\½ãëËti»>€%v^_ÀµÙå…+K×—{NL1dÅ'XòZ‡,°D¼çé>S¥ÛÌEà¤¾YàÚå.lEn,;n©læÂtö<„wœå²ÍîØıª×¢q
+ÛÒO¶®m÷*!kîy¤õÙÌ¶)ÌÙGáx	YwTÈ5b“¦÷ézš”y}k¥:ïŸ_“¢·íBx#O¬Bhÿ4è66ˆyuºmÓo5 u_8ñé™WOW?/gŒü©Â\mĞ´u³}}m+}·ä=Éò‚UdëÊ='&²¼§X:€İ2dÉb·[Ôw†ÅoxŠ ÛH1 ŒuÓ@`_«…­,8gÌ){²=wÂ[X—ÊtßKÆ)lÛEvñèmy½ö¹³VcÒÎ:ÿ<ç{Ü?~6uŸmáæœGæx“ó&åªıUŞ,AÈ*äñB“ÇÖ‹¤Ìë[ËÕ¨´7ù‰É“-?`Œ}H®]ò$ë
+!ëÃ¯Eš1º0¤ç£¡4×B0*÷IÈÂ}ódÅÿZº<’{YQí)–ˆ÷=İgJwæŞÕJƒ@m¨Ú«ŸŞ †[×í:–,Œ‡úûı¼9Ùvíşt¡Ú—óúœ’2İGG/êçSŞüQï„»”Oçz•sg¬2Æ¤uÁy.|6mY÷‡&JsÎ¿£ëÛ¶éçÿïæ#drä‚“æÕ‰¤Üë[ËÕ	{ûD§^60e]8'^ñWèD|6	á©Ó&BY$Jıvm.6°„}É¼Ôø6à¨€´d®“vÅ>Uè+Ön%÷$+ş·°„Üsb`Š!+>­²!+îõæ‡¬!!dò«[˜sw_x?VCÈ*äñ‚“ˆ‹ŒR1ç:ËÕ‰Ovìşê£ÿé”È=ı2õl³ıÊöğë}&(ÍÕõ7Ù™†;Æø+…²ï0²Ê\%\zíÊ}¦!«ÖpK¥?|áı×’{Y‘«Hï×â½ÏëûùÙ§üä>Îİ}áı¸BP!×ˆœ¢Z¹˜sq-X"²D-`	¹çÄÀCV|ZVÜÖY PGÈ*äñ‚Ós®3®E K”B–(,!÷²¢Ò¬HÚsß !¨kÄNKÌ¹Î¸Ü’Üs¼ğ4—´ç¾ >BP!×ˆœ–˜sq-¸%¹ç¬Áë ^!¨°Šsy}k^ ¸wŞı ^!    VDÈ   €²    `E„,    X!    VDÈ   €²    `E„,    X!    VóGóÿp³«Á—    IEND®B`‚
+[DATASET DhpSectionView 1 PARAMETERS IMAGE DATA ENDSEC]
+
+[DATASET DhpSectionView 1 PARAMETERS IMAGE ENDSEC]
+
+[DATASET DhpSectionView 1 ENDSEC]
+
+[DATASET DhpSectionView 2]
+Name=Ansicht - Architektur - 1_100 - Schatten
+Type=0
+CategoryName=
+ReferenceImagePath=
+NumberOfSectionView=1
+NameOfSectionView=* Ansicht von vorne
+Kennung=* AV
+DarstellInGrundriss-Sparren-Pfettenplan=0
+DarstellungLinien=nur sichbar
+Darstellung OpenGL=Texturen
+Verdeckte Linien Neuberechnen=1
+Massstab=100.000000000000
+ZoomRectangle=false,0.000000000000,0.000000000000,0.000000000000,0.000000000000
+ApplyNamesOfVisibleLayers=1
+NamesOfVisibleLayers_1=BemaÃŸungsgrenze
+NamesOfVisibleLayers_2=Dachlagenplatten_Schraffur
+NamesOfVisibleLayers_3=DeckenvermaÃŸung
+NamesOfVisibleLayers_4=Elektro
+NamesOfVisibleLayers_5=FÃ¼llung
+NamesOfVisibleLayers_6=GelÃ¤ndekontur manuell
+NamesOfVisibleLayers_7=Gruppe -2_Schraffur
+NamesOfVisibleLayers_8=HausbreitenvermaÃŸung
+NamesOfVisibleLayers_9=HÃ¶henkoten Architektur
+NamesOfVisibleLayers_10=InnenvermaÃŸung
+NamesOfVisibleLayers_11=Kommentare
+NamesOfVisibleLayers_12=Konstruktionslinien
+NamesOfVisibleLayers_13=Lagen_Schraffur
+NamesOfVisibleLayers_14=Raum Beschriftung
+NamesOfVisibleLayers_15=Sichtrichtung
+NamesOfVisibleLayers_16=Standard
+NamesOfVisibleLayers_17=StockwerkshÃ¶hen
+NamesOfVisibleLayers_18=StockwerkshÃ¶hen - VermaÃŸung
+NamesOfVisibleLayers_19=Treppe oberhalb SchnitthÃ¶he
+NamesOfVisibleLayers_20=Treppe unter SchnitthÃ¶he
+NamesOfVisibleLayers_21=VermaÃŸung AnschlusswÃ¤nde
+NamesOfVisibleLayers_22=VermaÃŸung Elemente
+NamesOfVisibleLayers_23=VermaÃŸung GebÃ¤udeabmessung
+NamesOfVisibleLayers_24=VermaÃŸung InnenwÃ¤nde
+NamesOfVisibleLayers_25=VermaÃŸung Referenzachse
+NamesOfVisibleLayers_26=VermaÃŸung WandversprÃ¼nge
+NamesOfVisibleLayers_27=Wandbeschriftung
+NamesOfVisibleLayers_28=Wandinformationen
+NamesOfVisibleLayers_29=WandvermaÃŸung
+NamesOfVisibleLayers_30=Ã–ffnungsarten
+NamesOfVisibleLayers_31=Ã–ffnungsbeschriftung
+NamesOfVisibleLayers_32=Ã–ffnungsvermaÃŸung
+NameOfActiveLayer=Standard
+ApplyDarstellungPanelSetting=1
+ApplyBemassungBeschriftungData=1
+
+[DATASET DhpSectionView 2 DARSTEL_PANEL]
+Name=Ansicht - Architektur
+Type=0
+CategoryName=
+ReferenceImagePath=
+FavoriteNumber=3
+FunctionID=0
+OpenMode=0
+FavoriteType=1
+ButtonsState=0,0,0,0,1
+
+[DATASET DhpSectionView 2 DARSTEL_PANEL STOCKWERK_LISTE_DATA]
+GrundansichtenUebrigeStockwerke~BS 0=1~0
+GrundansichtenUebrigeStockwerke~GF 0=1~0
+GrundansichtenUebrigeStockwerke~AG 0=1~0
+GrundansichtenUebrigeStockwerke~AG 1=1~0
+
+[DATASET DhpSectionView 2 DARSTEL_PANEL STOCKWERK_LISTE_DATA ENDSEC]
+
+[DATASET DhpSectionView 2 DARSTEL_PANEL BAUTEILE_DATA]
+Mask_Sparren=001000
+Mask_Pfetten=001000
+Mask_Gratkehlsparren=001000
+Mask_Zangen=001000
+Mask_StaebeProfilstaebe=111111
+Mask_Platten=111111
+Mask_Beschl.Hilfsbau.Verbindugsm=111111
+Filter_Stockwerk=1~-19..20
+Filter_Wand=1~18
+Filter_Decke=1~
+Filter_Dach=1~
+Filter_Stabwerk=1~
+Filter_Freiekons=1~
+
+[DATASET DhpSectionView 2 DARSTEL_PANEL BAUTEILE_DATA ENDSEC]
+
+[DATASET DhpSectionView 2 DARSTEL_PANEL GEBAUDE_PLANELEMENTE_DATA]
+Etagenschnitt=0.000000
+VisibleEtagenschnitt=0
+WaendeTyp=Aktuelle
+GebPlanElemMask_WaendeDeckeLagenplatten=001110
+GebPlanElemMask_TreppenKamin=100001
+GebPlanElemMask_ReferenzAKonturenDachaut=000000
+GebPlanElemMask_LagenZiegellagen=000000
+GebPlanElemMask_Elemente=000000
+GebPlanElemMask_Aufmasselemente=000000
+PlanElementeMask_LinienKreiseSchraffuren=000000
+PlanElementeMask_BemassungTexte=000000
+PlanElementeMask_Bilder=000000
+PlanElementeMask_Punkte=000000
+
+[DATASET DhpSectionView 2 DARSTEL_PANEL GEBAUDE_PLANELEMENTE_DATA ENDSEC]
+
+[DATASET DhpSectionView 2 DARSTEL_PANEL INFO_DARSTELL_OPTIONEN_DATA]
+VollDarstellungKanten=
+Achse=Empty
+Visible_Bohrungen=0
+Visible_Markierung=0
+Visible_Hobelflaeche=0
+Visible_Bundseite=0
+Visible_BearbeitTyp4=0
+
+[DATASET DhpSectionView 2 DARSTEL_PANEL INFO_DARSTELL_OPTIONEN_DATA BAUTEILE DATASET INFORMATION_LINE]
+Aktuelle=0
+Andere=0
+
+[DATASET DhpSectionView 2 DARSTEL_PANEL INFO_DARSTELL_OPTIONEN_DATA BAUTEILE DATASET INFORMATION_LINE ENDSEC]
+
+[DATASET DhpSectionView 2 DARSTEL_PANEL INFO_DARSTELL_OPTIONEN_DATA BAUGRUPPE DATASET INFORMATION_LINE]
+Aktuelle=0
+Andere=0
+
+[DATASET DhpSectionView 2 DARSTEL_PANEL INFO_DARSTELL_OPTIONEN_DATA BAUGRUPPE DATASET INFORMATION_LINE ENDSEC]
+
+[DATASET DhpSectionView 2 DARSTEL_PANEL INFO_DARSTELL_OPTIONEN_DATA ELEMENTE DATASET INFORMATION_LINE]
+Aktuelle=0
+Andere=0
+
+[DATASET DhpSectionView 2 DARSTEL_PANEL INFO_DARSTELL_OPTIONEN_DATA ELEMENTE DATASET INFORMATION_LINE ENDSEC]
+
+[DATASET DhpSectionView 2 DARSTEL_PANEL INFO_DARSTELL_OPTIONEN_DATA ENDSEC]
+
+[DATASET DhpSectionView 2 DARSTEL_PANEL ANSICHTENSCHNITTE_DATA]
+AnsichtenSchnitteAnzeigePlanelemente=1~
+Visible_LinienKreiseSchraffuren=1~1
+Visible_BemassungTexte=1~1
+Visible_Bilder=1~1
+
+[DATASET DhpSectionView 2 DARSTEL_PANEL ANSICHTENSCHNITTE_DATA ENDSEC]
+
+[DATASET DhpSectionView 2 DARSTEL_PANEL ENDSEC]
+
+[DATASET DhpSectionView 2 BEMASSUNG_BESCHRIFTUNG_DATA]
+ButtonsState=0,0,0,0,0
+Name=Ansicht - Schatten
+Type=159
+CategoryName=
+ReferenceImagePath=
+FavoriteNumber=0
+FunctionID=0
+OpenMode=0
+FavoriteType=0
+
+[DATASET DhpSectionView 2 BEMASSUNG_BESCHRIFTUNG_DATA ALGEMEIN_STILE_DATA]
+GelaendekonturLayer=GelÃ¤ndekontur manuell
+AutomatischNeuberechnen=1
+AutomatischAnzeigen=1
+Textstil=AH - Beschriftung - 2mm
+Bemassungsstil=Architektur
+Bemassungsfaktor=1.000000000000
+BemassungsgrenzenLayer=BemaÃŸungsgrenze
+
+[DATASET DhpSectionView 2 BEMASSUNG_BESCHRIFTUNG_DATA ALGEMEIN_STILE_DATA MASSEINHEITEN]
+Name=Standard M
+Type=0
+CategoryName=
+ReferenceImagePath=
+StabquerschnitteUnitType=meter
+StabquerschnitteNrZecimale=3
+StablaengenUnitType=meter
+StablaengenNrZecimale=3
+PlattendickenUnitType=meter
+PlattendickenNrZecimale=3
+BeschriftungEinzelstabzeichnungUnitType=meter
+BeschriftungEinzelstabzeichnungNrZecimale=3
+DurchmesserBohrungenUnitType=meter
+DurchmesserBohrungenNrZecimale=3
+LinienlaengenUnitType=meter
+LinienlaengenNrZecimale=3
+FlaechenUnitType=Quadratmeter
+FlaechenNrZecimale=3
+OffnungsflaechenUnitType=Quadratmeter
+OffnungsflaechenNrZecimale=3
+OffnungshoehenGrundrissplanUnitType=meter
+OffnungshoehenGrundrissplanNrZecimale=3
+OffnungsabmessungenUnitType=meter
+OffnungsabmessungenNrZecimale=3
+PunktkoordinatenUnitType=meter
+PunktkoordinatenNrZecimale=3
+GewichteUnitType=Kilogramm (kg)
+GewichteNrZecimale=3
+VolumenUnitType=Kubikmeter
+VolumenNrZecimale=3
+MasskettenDXFAblageUnitType=meter
+MasskettenDXFAblageNrZecimale=3
+SteigungTreppenUnitType=meter
+SteigungTreppenNrZecimale=3
+Separator=s_/
+MasseinheitAnzeigen=0
+
+[DATASET DhpSectionView 2 BEMASSUNG_BESCHRIFTUNG_DATA ALGEMEIN_STILE_DATA MASSEINHEITEN ENDSEC]
+
+[DATASET DhpSectionView 2 BEMASSUNG_BESCHRIFTUNG_DATA ALGEMEIN_STILE_DATA ENDSEC]
+
+[DATASET DhpSectionView 2 BEMASSUNG_BESCHRIFTUNG_DATA BESCHRIFTUNGEN_DATA]
+Kamin=0
+DachflaechenFenster=0
+FensterOeffnungsart=0
+
+[DATASET DhpSectionView 2 BEMASSUNG_BESCHRIFTUNG_DATA BESCHRIFTUNGEN_DATA ENDSEC]
+
+[DATASET DhpSectionView 2 BEMASSUNG_BESCHRIFTUNG_DATA HOEHEKOTTEN_DATA]
+Erzeugen OK_RFB_DECKE=0
+Erzeugen OK_FFB_DECKE=0
+Erzeugen WAND_OK_AUFBAU=0
+Erzeugen FIRST_TRAUFE_AUFBAU=0
+Erzeugen WAND_OK_SPARREN=0
+Erzeugen FIRST_TRAUFE_SPARREN=0
+Seite ZANGEN=Keine
+Seite PFETTEN=Keine
+
+[DATASET DhpSectionView 2 BEMASSUNG_BESCHRIFTUNG_DATA HOEHEKOTTEN_DATA OK_RFB_DECKE HOEHENKOTEN]
+Name=AH - OK RFB
+Type=1
+CategoryName=
+ReferenceImagePath=
+FavoriteNumber=0
+FunctionID=0
+OpenMode=0
+FavoriteType=0
+Bemassungsstil=Architektur
+FarbsetIndex=-10
+DreieckDarstellen=gefÃ¼llt
+MasshilfslinieDarstellen=Ja
+HoehenkoteSeite=Oberseite
+
+[DATASET DhpSectionView 2 BEMASSUNG_BESCHRIFTUNG_DATA HOEHEKOTTEN_DATA OK_RFB_DECKE HOEHENKOTEN ZUSATZTEXT_UNTER_HOEHENKOTE TEXTFELDBESCHRIFTUNG 0]
+
+[DATASET DhpSectionView 2 BEMASSUNG_BESCHRIFTUNG_DATA HOEHEKOTTEN_DATA OK_RFB_DECKE HOEHENKOTEN ZUSATZTEXT_UNTER_HOEHENKOTE TEXTFELDBESCHRIFTUNG 0 MULTILINE_STRING]
+Line1=OK RFB
+
+[DATASET DhpSectionView 2 BEMASSUNG_BESCHRIFTUNG_DATA HOEHEKOTTEN_DATA OK_RFB_DECKE HOEHENKOTEN ZUSATZTEXT_UNTER_HOEHENKOTE TEXTFELDBESCHRIFTUNG 0 MULTILINE_STRING ENDSEC]
+
+[DATASET DhpSectionView 2 BEMASSUNG_BESCHRIFTUNG_DATA HOEHEKOTTEN_DATA OK_RFB_DECKE HOEHENKOTEN ZUSATZTEXT_UNTER_HOEHENKOTE TEXTFELDBESCHRIFTUNG 0 ENDSEC]
+
+[DATASET DhpSectionView 2 BEMASSUNG_BESCHRIFTUNG_DATA HOEHEKOTTEN_DATA OK_RFB_DECKE HOEHENKOTEN ENDSEC]
+
+[DATASET DhpSectionView 2 BEMASSUNG_BESCHRIFTUNG_DATA HOEHEKOTTEN_DATA OK_FFB_DECKE HOEHENKOTEN]
+Name=AH - OK FFB
+Type=1
+CategoryName=
+ReferenceImagePath=
+FavoriteNumber=0
+FunctionID=0
+OpenMode=0
+FavoriteType=0
+Bemassungsstil=Architektur
+FarbsetIndex=-10
+DreieckDarstellen=ungefÃ¼llt
+MasshilfslinieDarstellen=Ja
+HoehenkoteSeite=Oberseite
+
+[DATASET DhpSectionView 2 BEMASSUNG_BESCHRIFTUNG_DATA HOEHEKOTTEN_DATA OK_FFB_DECKE HOEHENKOTEN ZUSATZTEXT_UNTER_HOEHENKOTE TEXTFELDBESCHRIFTUNG 0]
+
+[DATASET DhpSectionView 2 BEMASSUNG_BESCHRIFTUNG_DATA HOEHEKOTTEN_DATA OK_FFB_DECKE HOEHENKOTEN ZUSATZTEXT_UNTER_HOEHENKOTE TEXTFELDBESCHRIFTUNG 0 MULTILINE_STRING]
+Line1=OK FFB
+
+[DATASET DhpSectionView 2 BEMASSUNG_BESCHRIFTUNG_DATA HOEHEKOTTEN_DATA OK_FFB_DECKE HOEHENKOTEN ZUSATZTEXT_UNTER_HOEHENKOTE TEXTFELDBESCHRIFTUNG 0 MULTILINE_STRING ENDSEC]
+
+[DATASET DhpSectionView 2 BEMASSUNG_BESCHRIFTUNG_DATA HOEHEKOTTEN_DATA OK_FFB_DECKE HOEHENKOTEN ZUSATZTEXT_UNTER_HOEHENKOTE TEXTFELDBESCHRIFTUNG 0 ENDSEC]
+
+[DATASET DhpSectionView 2 BEMASSUNG_BESCHRIFTUNG_DATA HOEHEKOTTEN_DATA OK_FFB_DECKE HOEHENKOTEN ENDSEC]
+
+[DATASET DhpSectionView 2 BEMASSUNG_BESCHRIFTUNG_DATA HOEHEKOTTEN_DATA WAND_OK_AUFBAU HOEHENKOTEN]
+Name=AH - OK Aufbau
+Type=1
+CategoryName=
+ReferenceImagePath=
+FavoriteNumber=0
+FunctionID=0
+OpenMode=0
+FavoriteType=0
+Bemassungsstil=Architektur
+FarbsetIndex=-10
+DreieckDarstellen=ungefÃ¼llt
+MasshilfslinieDarstellen=Ja
+HoehenkoteSeite=Oberseite
+
+[DATASET DhpSectionView 2 BEMASSUNG_BESCHRIFTUNG_DATA HOEHEKOTTEN_DATA WAND_OK_AUFBAU HOEHENKOTEN ZUSATZTEXT_UNTER_HOEHENKOTE TEXTFELDBESCHRIFTUNG 0]
+
+[DATASET DhpSectionView 2 BEMASSUNG_BESCHRIFTUNG_DATA HOEHEKOTTEN_DATA WAND_OK_AUFBAU HOEHENKOTEN ZUSATZTEXT_UNTER_HOEHENKOTE TEXTFELDBESCHRIFTUNG 0 MULTILINE_STRING]
+Line1=OK Aufbau
+
+[DATASET DhpSectionView 2 BEMASSUNG_BESCHRIFTUNG_DATA HOEHEKOTTEN_DATA WAND_OK_AUFBAU HOEHENKOTEN ZUSATZTEXT_UNTER_HOEHENKOTE TEXTFELDBESCHRIFTUNG 0 MULTILINE_STRING ENDSEC]
+
+[DATASET DhpSectionView 2 BEMASSUNG_BESCHRIFTUNG_DATA HOEHEKOTTEN_DATA WAND_OK_AUFBAU HOEHENKOTEN ZUSATZTEXT_UNTER_HOEHENKOTE TEXTFELDBESCHRIFTUNG 0 ENDSEC]
+
+[DATASET DhpSectionView 2 BEMASSUNG_BESCHRIFTUNG_DATA HOEHEKOTTEN_DATA WAND_OK_AUFBAU HOEHENKOTEN ENDSEC]
+
+[DATASET DhpSectionView 2 BEMASSUNG_BESCHRIFTUNG_DATA HOEHEKOTTEN_DATA FIRST_TRAUFE_AUFBAU HOEHENKOTEN]
+Name=AH - OK Dacheindeckung
+Type=1
+CategoryName=
+ReferenceImagePath=
+FavoriteNumber=0
+FunctionID=0
+OpenMode=0
+FavoriteType=0
+Bemassungsstil=Architektur
+FarbsetIndex=-10
+DreieckDarstellen=ungefÃ¼llt
+MasshilfslinieDarstellen=Ja
+HoehenkoteSeite=Oberseite
+
+[DATASET DhpSectionView 2 BEMASSUNG_BESCHRIFTUNG_DATA HOEHEKOTTEN_DATA FIRST_TRAUFE_AUFBAU HOEHENKOTEN ZUSATZTEXT_UNTER_HOEHENKOTE TEXTFELDBESCHRIFTUNG 0]
+
+[DATASET DhpSectionView 2 BEMASSUNG_BESCHRIFTUNG_DATA HOEHEKOTTEN_DATA FIRST_TRAUFE_AUFBAU HOEHENKOTEN ZUSATZTEXT_UNTER_HOEHENKOTE TEXTFELDBESCHRIFTUNG 0 MULTILINE_STRING]
+Line1=OK Dacheindeckung
+
+[DATASET DhpSectionView 2 BEMASSUNG_BESCHRIFTUNG_DATA HOEHEKOTTEN_DATA FIRST_TRAUFE_AUFBAU HOEHENKOTEN ZUSATZTEXT_UNTER_HOEHENKOTE TEXTFELDBESCHRIFTUNG 0 MULTILINE_STRING ENDSEC]
+
+[DATASET DhpSectionView 2 BEMASSUNG_BESCHRIFTUNG_DATA HOEHEKOTTEN_DATA FIRST_TRAUFE_AUFBAU HOEHENKOTEN ZUSATZTEXT_UNTER_HOEHENKOTE TEXTFELDBESCHRIFTUNG 0 ENDSEC]
+
+[DATASET DhpSectionView 2 BEMASSUNG_BESCHRIFTUNG_DATA HOEHEKOTTEN_DATA FIRST_TRAUFE_AUFBAU HOEHENKOTEN ENDSEC]
+
+[DATASET DhpSectionView 2 BEMASSUNG_BESCHRIFTUNG_DATA HOEHEKOTTEN_DATA ENDSEC]
+
+[DATASET DhpSectionView 2 BEMASSUNG_BESCHRIFTUNG_DATA VERMASSUNG_DATA]
+Vermassung  Hausbreite=ZwischenvermaÃŸung
+Vermassung  Abstaende_Wanddicken=Keine
+Vermassung  Stockwerke=ZwischenvermaÃŸung
+Vermassung  Deckenabstaende=ZwischenvermaÃŸung
+Vermassung  Dachueberstand=ZwischenvermaÃŸung
+Vermassung  Kaminverwahrung=Keine
+Vermassung  Pfettenabstand=Keine
+Vermassung  Koppelpfetten=Keine
+Vermassung  Zangen_an_Sparren=Keine
+Vermassung  Zangen_Bearbeit=Keine
+Vermassung  Dachlatten=Keine
+BemassungKerven=Keine
+LaengsmassVon=lotr. Obholz
+TraufabschnitteSparren=0
+Winkelvermassung=0
+FirstpfetteVermassen=0
+Kervenbeschriftung=keine
+
+[DATASET DhpSectionView 2 BEMASSUNG_BESCHRIFTUNG_DATA VERMASSUNG_DATA ENDSEC]
+
+[DATASET DhpSectionView 2 BEMASSUNG_BESCHRIFTUNG_DATA SCHATTEN_TIEFEN_DATA]
+
+[DATASET DhpSectionView 2 BEMASSUNG_BESCHRIFTUNG_DATA SCHATTEN_TIEFEN_DATA LICHT_DATA]
+FarbeUmgebungslicht=16777215
+FarbeGerichtetesLicht=16777215
+Lichteinfall Horiz=-70.000000000000
+Lichteinfall Vert=15.000000000000
+SchattenDarstellen=1
+
+[DATASET DhpSectionView 2 BEMASSUNG_BESCHRIFTUNG_DATA SCHATTEN_TIEFEN_DATA LICHT_DATA ENDSEC]
+
+[DATASET DhpSectionView 2 BEMASSUNG_BESCHRIFTUNG_DATA SCHATTEN_TIEFEN_DATA TIEFENVERLAUF_FLAECHEN]
+Darstellen=1
+Farbe=6908265
+Tiefenverlauf=10 , 100
+Wirkgrad=10 , 30
+
+[DATASET DhpSectionView 2 BEMASSUNG_BESCHRIFTUNG_DATA SCHATTEN_TIEFEN_DATA TIEFENVERLAUF_FLAECHEN ENDSEC]
+
+[DATASET DhpSectionView 2 BEMASSUNG_BESCHRIFTUNG_DATA SCHATTEN_TIEFEN_DATA TIEFENVERLAUF_LINIEN]
+Darstellen=1
+Farbe=24
+Strichstaerke=0.000180000000
+
+[DATASET DhpSectionView 2 BEMASSUNG_BESCHRIFTUNG_DATA SCHATTEN_TIEFEN_DATA TIEFENVERLAUF_LINIEN TIEFENABSETZUNG 1]
+Position=0
+Strichstaerke=0.000000000000
+Saettigung=0
+
+[DATASET DhpSectionView 2 BEMASSUNG_BESCHRIFTUNG_DATA SCHATTEN_TIEFEN_DATA TIEFENVERLAUF_LINIEN TIEFENABSETZUNG 1 ENDSEC]
+
+[DATASET DhpSectionView 2 BEMASSUNG_BESCHRIFTUNG_DATA SCHATTEN_TIEFEN_DATA TIEFENVERLAUF_LINIEN TIEFENABSETZUNG 2]
+Position=0
+Strichstaerke=0.000000000000
+Saettigung=0
+
+[DATASET DhpSectionView 2 BEMASSUNG_BESCHRIFTUNG_DATA SCHATTEN_TIEFEN_DATA TIEFENVERLAUF_LINIEN TIEFENABSETZUNG 2 ENDSEC]
+
+[DATASET DhpSectionView 2 BEMASSUNG_BESCHRIFTUNG_DATA SCHATTEN_TIEFEN_DATA TIEFENVERLAUF_LINIEN TIEFENABSETZUNG 3]
+Position=0
+Strichstaerke=0.000000000000
+Saettigung=0
+
+[DATASET DhpSectionView 2 BEMASSUNG_BESCHRIFTUNG_DATA SCHATTEN_TIEFEN_DATA TIEFENVERLAUF_LINIEN TIEFENABSETZUNG 3 ENDSEC]
+
+[DATASET DhpSectionView 2 BEMASSUNG_BESCHRIFTUNG_DATA SCHATTEN_TIEFEN_DATA TIEFENVERLAUF_LINIEN ENDSEC]
+
+[DATASET DhpSectionView 2 BEMASSUNG_BESCHRIFTUNG_DATA SCHATTEN_TIEFEN_DATA ENDSEC]
+
+[DATASET DhpSectionView 2 BEMASSUNG_BESCHRIFTUNG_DATA ENDSEC]
+
+[DATASET DhpSectionView 2 PARAMETERS IMAGE]
+Position=0.000000000000,0.000000000000,0.000000000000,0.000000000000
+
+[DATASET DhpSectionView 2 PARAMETERS IMAGE DATA]
+DataSize=14085
+‰PNG
+
+   IHDR  Y   ì   †îlh   gAMA  ±üa   	pHYs  Á  Á¸‘kí  6§IDATx^íİ=ãJ–öñw%m·İæà®á"ÇÑ
+:²´€Ú¨È ıÔ†vP:gZIïbÀ—'È Oœˆ %J©¿ñÃŸ¤D*dVŞÿ÷÷¿ÿ½ùã?     + d   ÀŠBÈ    ¬ƒ'Y    °"B    ¬ˆ    +"d   ÀŠY    °"BP!×È³y•ã  ¸&oM%Y@Å³]#¹ãá^   0!¸ !   !ëam›ıéÔœ»f3Ù·o¶“zî¾“   ‹õ°º ±ßŸšãn3Ù÷|!ë~“Õy{{o>ŸÍûÛ›[~-ooÍáth>
+ãÎ©  °&BÖÃêƒÆf×‡À¡Ã‡"i™—“<%jI€Ùšmİn^İV˜W¶ivÇc³Ûíû²~.¡~»Ó·OôóÎ§ô;'öÛiÛËç7+||}5Ÿï±À_²º Ó¯6`IÈúøüjÏ]ùx‡67
+>¥õöşÙ|}İ> €çFÈzXcĞĞĞ>ôk»-¯UéÃÅtûÜºzÌ>X… Õ‡¡ı¶/ë…ö3BVûÚ?Nã*sÏ+]#ï!pH˜xŞ½}Â±~}¾»åZ¨{øh>§æğAÈ  Ï‡õ°T(Â‚
+64Ì-» î6>¥šêBÍ¼Ğ’Rı»ÇÙJÆekÍ=¯>x’•ˆá*†­¸?†¡C[Ï¿mÒn|oº1l€
+¡i¨ÓµÏõÛ½7ã>=—(e³_æçÃeCcíX´óÇè?[Ÿ±\ÎCy\ïüÄ2  °BÖÃš†î)ÏNí+ŒRÙu%¨Ø'UƒBV+9Îró[kîy¯²¢pœ3şM–~rÔ‘ñÜtÛ*D„@Ğ¨$µÛ!¨õ¡"ÔñúkÛûUó‰}kº»İõcçßm—ÆŒ}GçÑ‡D}^
+ã¦ã<Ög €GBÈzX^`ŸNë€¡BÍ$ŒÂF²½´îôéÏfw¬<ÉJÛ¤åv<uœ6]tœ¹¹ç²–‘§6úé‰Ş.…€.,Èû>–Û66ˆyuºmÓoå×õS¥É|ñ†§tÍyc¤}Uú
+çp*2  °BÖÃ²¡ú©N·İ/¦ö{(raÃn/©ÛêÿİÓ¸ˆ‹e™5ùwQ;^zœúYœœ­ìÜóYóuçBŸßŞäÉV9˜tuºv6Ì\+dOƒ¤Ÿq>k†¬óÆÈŸÌ±fÎ  X!ßëÌ_Ó»„¬ùÂ"ßšîüÔƒ‰<İÑO\âÓIÈ
+AE)kCE1xáfìÛ‚ÍaR’ñÔviÌØŞZ>FÚgñXCYw®c}{^ À:YøVÛı9ÿNë~”®YÀzOl¼º÷âš!+>±ûã–zJÏeÒÆÔ³AÌö+Û2¯P¿ğ”'Ì±­cçoÇ‹åµ1=ËÇX²¼¾nõgô x5„,àÏv\3d  ¼
+BpB   ,BpB   ,BpB   ,Bp¹FÍ«'  À5yk*AÈ   €²    `E„,    X!¨käÙxÇ	  €u²€Šg»F¸æ  ®‹õ6»æx:5§Ó±ÙmœòÕl›ıißlİ²5”ú¿öØy„,   ,ñB!kÓì&„Äp²ßªzÆ9.H¶ûS³ßê²éO›2œBÖ3 d  \×ë†¬°®ıäçÖih“ vÜmÚ×„,ÏÛÛ{óyølŞßŞÜò{CÈ  ¸®×Y¹€5üÚ]§RÖ-ğ÷mØ8§lz»Ô®eæršô3’ 4Ô9îšMqÌşìö…>ÓõÇ¶­fÙ¾ÔØ­ñ‰YéØÎm7wìVéÜeßã¼Ü5òööÑ¤Ÿ6`IÈúøüjûüj>ßóakhs:4*”}NÍá#m÷öqhûÿHö_‚  p]¯²¶™€5YÄ6¤L-äÃB=Ö­•é>õv­£íG+a·ûpRüõH}Üq;Î³0ÙçÄ(µÛú=˜ÛGîÜÙ>ì±új×HBí¼¿>ßİr-†&ªÂş¯éÓ°ğ„ìË_— d  \×‹…,y‚Ğ=)I`ÈÓšv¡lùáB/Î—”Í\ğOb™­«•Æ°ÛsBE<O#ÿiR+9g±ÌÎÁŒ;»]áWs}”Î]Ò¦3†:_î9çIVWö	U¨¦mßŞ?›/¼Ö@È  ¸®—ı7Yãâ½/OçZ)4,)ÓÛ…v¥ (a·MØq•ê¨¾B`Écç`mv;ı‡;f]:wIÙ<µkdî¿ÉÒ¡©hÓPõŞ†4ı4Ìn¯…  p]¯û‡/Â¶}J3}ª±ÙWx’¥Æœ„ƒB;ûëu¥_·Kú)iÏ§TGeËÜc[ÔNËÌ±‹çNúÈ½Çyk]#µUak!d  \×‡¬¸ï4.ØÃ‚\ÿ*™^œ«…û¤¯RY·ˆúÛïUİíÚıóCViLïX¥:Ó±&tcÁ±•Û©²Ö€æ]9wÙ÷8ok$şûªqÜùuÀÜ¯®‰  p]/²˜<©	9Ğ)CÙ
+çn•5ó[äş0Æš¸æ  ®‹u—äÉ~âQÚ‚hıs·Æ52÷O´çşÄûš¸æ  ®‹T<Û5Â5  p]„, ‚  €%Y@!   K²€
+B   – dr<ï8  °B    ¬ˆ    +"d   ÀŠY@…\#kğú  Àó!dk\#\g   ¯ƒT²   °!¨ dYÛfÚ7Ûäõ-Üz¼µÔæ}»ãÚìÍq·qË^Æf×O§æt:6»Sş­õ3 ĞY@Å÷…¬M³;ÊBP»Ò¢PÇ]³ñÊzø`ÂíŞœÏÖ~ë×]Õ½œ§Ê<†ğqëó³6çÚCÊf^GöºXtœ‹ Ï€T|oÈ²‹AY€Öñ!Kàœ’c\°à¾Èœ'	™ÙĞ$sô>o¸àOß×í>^7‰ 8!¨¸¯%ôbXêLb¿ßÆz}û]|zÓ-Üd±9Ö—~Lq.Ê¡vz˜{í—íÕØ“ hÆŠsÊúœ°sóxçË¶[0~òÔ,¶«“¾GåısIûñóaTDéx—~½}mİÊgnŞ{-úşõùéæäÆãuÇ5Ç´ß™íy×‰?çzÙøYëˆñ¼.=' €["d÷²
+‹å°à34ıäÂ>Éh·C?É[/ô„‹.Ë½öÊÔœ'ó”2}œ¶mnŸFñ	Näœ¯d.sÇ—²Ü1UÆÉ½G¹ıq»ª£òFtÁn79F¥ö9œu®ígnæ{è¶q;¶·ãÆ•qô9³ÛgÏÙ”…mİ.sl¥>ªç pK„, âîC–,¾ÛÅÖ(.´œöa!¦ë¨ızñ˜ôÙI©¹×µ257’ºÚÌ>‡}=;ÆpDlãµ·cÌ¿xL•qJïQq¿>–ÔÒ?x1®8=Ş®ÎĞç’Ï¡·oögN¨öÙ÷rÚÿ¤¨UWú.…¬sç\<—µùÅ²Rÿ €ïFÈ*î/d©ÅUX€é…–^x•]RO-½Åã$$hzŒÜëZ™š[2–­«ÍìsØ×q¯Oé#¶ñÚÛ1f_<¦9ãÄ}zÑ^Û_R87c Oç8”-ş:ûfæDíxJå¦¯Ò¸sBÖYs.œK]V<¯¥ş ßTÜWÈ’…•yz y“EYÚ^fè…ùğt#	!İ8¶nºØ¶¯Õx“¹èzBÍÍD"7¶(/2Ã¾HúÕsÎï©ò¾è¾rïQnÜ.’ùdÃ@Ï~–}ŒöxÕ¹±m«Ç›;s>sÂk¯•Ê½ãÈŒ[ıl;goNYñ¼–ú |7BPñ½!+şŠP”.¢ä'àCù~¯^Î¢+,U}õSù¡Ÿ¸¨³uİÅİt¡'Ì¡şd.åá¤]»ÿ!+‹Ô~œŞTüö«Sí}Ñ}åŞ£Â{W3>%)‘y©ş=O™ã´\÷¹ès˜9×ó>s"Ó~V¹í«•7½.Î»N„Sé\NÛåÏëÒs ¸%BPñ}!ëEIZ Pã„Š³¬Õ8— ğüY@!ëÚä'ğê§õ,>ïÁ`=œK xv„, ‚  €%Y@!   K²€
+B   – dr¬Áë   Ï‡    +"d   ÀŠY    °"BP!× Àçİ7àÕ²€
+® ğq !¨àğ¬şùÏºûçâş >BPÁ5àY² à:Y@Å3\#ooÍáth>ŞŞÜr1§N´¤.€ûõº!kÛìOûf›¼~TsáóÜ9|×Üç{ç÷†Tx×Èßÿ§Iö=ºRpz{ÿl¾¾>›÷¾Œ<‡\Èúñ%¼zõ5Ä¦ÙOÍé¤›İÆ«{¡Í®9wÍÆ+KèEñw.àå|ÜjìÂq.:w=i3y_[û­_w°Â¹¶s=gî‰ïúà™²€
+{HÀ"d²€gp›eCU.»Ú·‚GYÛ}%Ûı©ÙoòÕsqP‘¾¼÷µvW8×„,<BPá]#—„¬P‡ñ§_Ÿï“²^ôöÛÛ{óùõÕ|~úv~ÈùPıNmıwikú•Ğ4ÔéÆÏÍ«wÜw:|dë†¾mıÖá#Ï¼c pß²„^¤§O»ÆĞÑ·ßµ$”ua	&c}éÇôŸ¨È|¨§ƒ^Tç^ûe{5ö$(š±jO¨†pÕ‡­±¬<Nzìc›a<÷¸sıfÎ]Éœ`³hÒ¦^¶Mæº[>w—9îş9óëÛU>w¹÷Ï…T\'d©àOR&©í!¼´!G÷§½}´áE•Ë¶Œ3íG^wá+Ô‘í!8eæå>ÉÒáiÚ§6=¾ú1 ¸²¼peéúç‡,2Ìşn¬ı¢Z/m(i·C?ÉÂß.œõ\ÒÅsúÚ+SsÌSÊôqÚ~ŒÉ\½¶™qrÇ>Ïé/´)ô›œ»:öÒ pÆªe™¹1÷”ê?»æü’¾ìç.×!¨¸NÈÒAªºã=qRÛºîOŸP}„ıºÄ¼:İ¶š—²¦cÈ´ái–ŒæÍ? ·ã=Éò‚Udë®²$<Lîqáé´S]Gí×‹í¤ÏN7fnQlÈ¥257~’ºS›İqL¦Û…qrÇ®Û$sqê¦ß‚Ê¸.˜ÃÜ2;×ÚÜ‡s&b–ÛÛ?s~³?w¶<BPñH!+êÚu7öäIÖCV+¬ËÀõ}ï¯êE©^xê…hi*õÔÖ.¶³}¡ÇÈ½®•©¹%cÙºš´›.Àƒaî…q†}R§k—,ŞÏ	8†¬hÎçÌanÙÒ5‹ÛÛ?s~³?wÂ{oñ,Y@…½F$`Ezÿ\Å0ÊÆ¢Ëœ€òşù5ü
+_ÜÖÿŞ*ôv©1¤løuÁÌ¼Ô¯üm’í¾®	qKÀíäB–¨,q^È’…¦ú3»(•ía!š¶—§>]°·C_á‰…^ÀvãØºI(I^«ñ&sÑõ„š›;™‹"}&¡@úª?íÈ»nÆÖç¬-çwÁüÅäØûÎanÙ’s=›ÛÛ?wîòzÎçNè>ğlY@ÅÚ×H)ÌÈ¶£á'›‡Ãf”ñ×{ıÓ§dLSÏ±PÇŒ7üA!í…w“?¾±ğ ÜN)d‰RÀóB–ºé¢RÿûÓ~¯¢Î"4,ªU}X†~b °uİótá+â¡şd.åò¤]»?·ğŸüš¤6—Â8Ùc7mL½$ˆÙ~Ûm{îd{üFkÆûºxóË¼¹êíå¤ÿ¾Œ§Ç]0÷YŸ;1}ğ\Y@×€gUY5Ü3Ü§U„Å?p)BPÁ5àY²Ö"¡Ä{rñ¨¶Íş¡C"ğıY@× ø¸?€Tp €û# øY@…\#  Ÿwß€WGÈ   €²    `E„,    X!¨k àóî› ğêY@× ø¸?€Tp xVüÏˆà:Y@×€gEÈ€ë d\# Õë†¬m³?í›mòúQÍ9†{8Îsçğï^!¨È]#ÿŸÆİ_òööÑN§æäùúlŞßŞÜv%oïŸÍ×™m¼¶\Èúñ%¼zõ5Ä¦ÙíıîØì6^İmvÍñ¸k6^YB/Ú¿k/ãÊù¸ÕØ…ã\tîzÒfò¾¶ö[¿î`…smçzÎÜ36»ãÂãYÉv?w2öw}>q)BPá]#°Î	YZ¸ÍÇ…áˆà\·	Y6Tuáâ¸Û¨}+x´%ëv!½İŸšıÖ)_]á8éË{_kçq…s}¥%ïÃÉôö]9h…`—Ì__7ßôùÄÅY@…½Fb¸ºFÈ
+Iı$ëëó=ìÿüj·Çºñ‰Ø×çGóù5Ö?>’~õöÛÛ{[ÿ«ùü<ômúı™qcÛÃ!-ğø¾'d	½HOŸv¡£o¿‹?éï›añ;Ô—~Lqa,ğ¡vzáš{í—íÕØ“ hÆª=¡ÂU¶Æ²ò8é±m†ñÜãÎõ›9w%s‚Í¢9H›zÙ6™ënùÜ=a®Şû%ãNÏñÜ÷Ùqõ}¸æÔÁ="dúÑÁjí•n÷è½ÛA+<±’ı§æğÑ×3O²ê!«½É·aLÊüúã¸]™KÕğØlÈòÂ•¥ëŸ²TÈ0û§Ş~Q­Ï6”´Û¡Ÿdáo§z.º,÷Ú+SsÌSÊôqÚ~ŒÉ\½¶™qrÇ>Ïé/´)ô›œ»:ö&a#8cÕ²Ì\Ï˜{"	º£ñsjæ¶½Ï“°ŸµÌqÆÙ¾ñ(Y@…Y–®»Dn>âÓ¥©pÄGÿDI?MZ²ÆàÊã–XlàqyO²¼`Ùº«…,YlNîAqQé´‹T]Gí×‹í¤ÏÎ¸`ís¯kejnÉbÙÖ’_ÓÁdº]'wìºMvá^é÷‚ 2®æ0·ÌÎµ6÷áœ‰ØŸ‘¯Yz~]YxßfÖDásãÎ5Tä®‘K–pC–zÂäé~mğ
+!+3.!xnßûë‚ıÂ1,Põ"R/*sí…ÔS‹Y»Ø.,œ§cä^×Ê
+‹å¤®&íÆ…ø`˜{aœaŸÔéÚ%ùìqú­•™†@rÎæ–Ù¹®1÷nôØ‘Œ››ßœã…ã:s\<BPq³¶§O®$T¿ª'a(÷ë‚I?cêTBVa\BğÜr!KÔ–8/dÉ¢QıŠ™] Êö°¨LÛËSŸ.XŒÛ¡¯dÁÚcë&¡$y­Æ›ÌE×…ÅrvñÜ’>“P }9i(ëÆÉ»nÆÖç¬-çwÁüÅäØûÎanÙ’s½@xgŞ—°o8N;?ÙÖó›óYú¸ºzéy¶}_~|¸=BPq­kÄ˜°/¦ş§šAWÿÃİ­øk„ñ‰T|âÕí;ãäBRn\BğÜJ!K”–˜²ô½EŒÌ(,fcù~¯•ÓiÕª¾ZıÄ…±­;ô«®ÓEl·èıè¹ÌY,÷íÚı¹…ÿğôÃ–Á¥0NöØMS/	b¶ßvÛ;Ù‚pbÆûºxóË¼¹êísMŞÃ¤?™ƒ*kMŞÇYŸ51=ïA´º­>÷é¸Ùğ‹»BÈ*¸F <«ZÈªáş˜á>­z$Nxy6,e„, ‚kÀ³"d­Å>ÙyôÅx(:$^!Ë²€
+® ğq !¨à ÷G ğ²€
+¹F  >ï¾	 ¯    +"d   ÀŠY    °"BP!×È¼¾  ğ|Y@Å××  Àë d„,   ,AÈ*Î¹Fâÿõ?ns  ¼BP±ô±K¬{m›ıißlİ2mn=¬ãÏ·3Ÿ—ù.9Wß}_}| ¸BP±äñ–8ï:{œÅÈfw=Øoİz«Ûî§ãNÆ¾õù+·ivG3ÏÓ±Ùm¼ºÚìšãq×l¼²„óƒ|ŞßJVó»Ïó« ·AÈ*YeÛ}{Ìfö]9h…`—,|%ÌÄğrëóWOÏ+’ú§æ¸Û¨}+ d­µ¢ùœÀ…Y@ÅÜk$°Äº!Kïï^ï%Ôôã‹vÓ^Š}¯ßGEè37ÇiØÉöÖ¼Ì±¹æÔ¶Ş.Í¡•<IËç…,!ıÇıéÓ®ı6ÖëÛïâxİ8!Ìõ¥ÓGº•s¬5}í—Í}?ËçD×ÓÇ›?s|æ}°ıØ¹êó6Î=7oÌéüÒ÷¡ß=ï•ó7Q©;ë}µÛçö)ç!ıæëçÊJã_v¼óÎ) Ü!¨°×HüŞ~½/ºnÈR‹Ê°™.¦Ò×¢_0!(×G…,n3O¬dáÙõiúÛzì3æUwdûÎ±õôva¡L-¨‹ãéãšÏ“1«_èëc¶ç İıH»ÉS;/{õñx¯½²5Î‰‘ô“ß_hgÇÔÇgçš›»¡Ëì˜z>¹÷a2~;Ôóæ”™C±®šC{_í¶é3lçÚé>Ï`±¾î·ß®­¬4ÖÜs
+ ·AÈ*J!+†*ıÚsİUZxôe²TsºEI©
+»ÀT¦!kzR~Ò|î¼ì¸aQÛ;Ç_dëéís(—?§“•œØŸÓ~8f3¦ì×`ö9.w©ìÜsÒÊoa|ïøÌg0ÿÙ«lçæcÇ´ó™Ì½çÌ«cçÿlë&síÔÛ–Í½y–êŸuükoéœÀm²€
+ïñ¾ì…­İEÈr<â‚JX`ææ˜[8©Eğ¹ó:s\Ÿ­§·sHæ^/wNU›°ˆÌÍ£ôH½îóÎéŒ2Òcä^×ÊÎ<'Åã-Œ?ãøÎ
+Y¥ùØ1“~â>õ>dÏ»m[{o3u³ıÛNoÛ²¹×£3ÏRı³­ã-S ¸BP‘»Ft¸^èÛCVxùÃşBÔ,PdqãÎ£#´ò¾°ıË¶ãyóêş¢¡—í;?ï‘nÓšoa6èÏ“·è“¾Õ¿±‹ÈIiûñ<Û¡¯$€vãÔÏ±}½Â9Iæ¢·0¾;†ª;Ù¶s-l—æ“ÇØ®ü>¨yI›Ğ¿ƒ÷ÙˆJu¥¬ô¾ª>“skeNŸùÏ°[ÿ¬ã¯•w¯ €ï@È*J×ÈõCÖØGzAQ[”¨²°è±}9õÌEÓ2d±3™§^¬:Ç¡JçÎ+‹GİVÏ5wì{j2ÿı^[C¾%íúzƒtÂ©ÛŸsìö¼© ;ôß‡Yçxz¬«œ“v6dµòÇ[>·µã?_v®åíÒ|¦cªv…÷Á–uŸÍòù›ªÔÍ¾¯µ÷O·™{=fæY˜Ãòã?÷x—œS ¸BPQ»FäËŞÛ¯=îu¶ÆbÅ.€ğ2$›§œ  ¼BP±Æ5ò¸×Y.^$²^‡„rïI  ¯…T¼vÈ  ÀR„, ‚  €%Y@…\#kğú  Àó!d   ÀŠY    °"B    ¬ˆ    +"d   ÀŠY    °"B    ¬ˆ    +
+!    °d   ÀŠY    °"B    ¬ˆ    +"d   ÀŠY    °"BP!×È¼¾5¯ Ü;ï~ ¯T¬qÌéCêüío€‡Á |„¬Å¶Íş´o¶nY4§Îµ;æn² ÀwùıQß·K÷ğ{ønŠîë;
+À}z‘%7¶SsºÙÍ­p#İìšãq×l¼²iæ¯ì·~İÁ
+7s;×sæ>GÒomî›fw<6»ÍÍfwl»M¿_µ[q®„, ğÕïmr¿6ß_§îşÖ-İûWøN[Í}¿ø6¯²¶ûJ¶ûS³ß:å«+Ü€ßH¥/û…4çÿ@_I¿çÎ]µ[q®„¬Wögóó÷ïæçŸ^ÙZ~4¿N¿šÉë%Îm·¦{˜nm^È2ßaòìŞŸK÷ş¾ÓVó@ß¯ ¾ÍK„¬!\õak,ën”û¶<ş„m|*ÒµKòfn®rcêÄö¹~ÍOôªO£Zsn¼‹æ mêeÛd®»yswç"eKÎIi~éOEÇàœ›{?×0·ÜOPóY¯¬²şüÙüşı³ùÓî_lIÈËü:5¿~¤ûÓ6·BÈzEç†¬ô;Ç¾îêé{ıøÛ(s¾ümÿ{=¿ÿ®¾_<”çY“"78}³—mus7ÓşflY»İÕ‹7ÉøÚô7„„L¿“ùÌ£oşãÍ::cÕ²Ì\«sWmıåZ3é·4?cRV˜ûPWŸ«yY¯ìŞBV!ßc^ÈR¢7Üß'ßöµı¾^ø=`·sßëÅïû{ù~ğh>dMÿÍNáßğ*„£|èr¡ÚØ³W'0ı^p#×s˜[¶ôK@ææ65~YÍ='¥ùµ’qbİÂÜ/@Èzv¤ôçI?!2!K‚U[şûçi›_?Úr2Ìvß6¶ùıóO§^)¨”úï^ÿúåõßÊİßÏ_}™ôwn_¥v~™<Kë;¾Ã¼¥îßÃ>ï»A½N¾ÛÌ÷Âœï»-ß“º½Üş{ú~ğp<du7òé¸5ÜÈJ7ÃHêtí’/„snÀ+İH%l…ùÜÓ—@v.bÉ9)Ô_¬ºL×-Ìı„¬ø1¼¨5ÙßoOdu ‚Æ2ŞJõ´Zÿö×½ş…[^·÷·c¹ékrÜ¥¾jílÙÚcà;œ²ô<3÷ğäûÄ”mLÙäµ·÷éïõÌş{ú~ğp;dÉ2¹iÉÏû	Z,ën†ò o¾î‚Ü³¿J¹É†6º¬•|a˜²ä&áæ–Ù¹zsŸ¶Ó/­ñ<ÆLú-Ôµçcrî
+söés5!ëüˆOr¢¸pïøáIYÌËnÈJúïtaA·³}h…şvò”(<å)­LdûRuf‡iWœ»Ù>{|‡óB–ş®Ğ÷ûÂ=\ßë«ßj<U–û^Ï~ß'ßmßßöı
+àÑ<uÈöØ²á]¸†ú’Âšicê¥?™Ó/™áWşú/	ÙîÚÅúš´ûïè›~kñæ—ysÕÛ	{Ş†¾–œ“™uCı½ª[{77sîf d=¹°¨Ï YÄ·Ÿ¡_¿Ú}ê	ŠX²&O‹4İÎö¡úwÚ£8ö!kÖqˆBÖYcà;ÌYı½X¿›õ}{z—°3´™ÜëKß…v¹ïõÜ~§ì[¿_<”çÿÃwo pYOÎ.êe{XÈÛ  ‚Vò«jR®ü“~LÛÖŸ?;OglˆĞjıçæ"¯sc/YÅ¾jíìürÛçïÀ |„¬o·möüö]#d=?ıº§Vq!oñ] 8õO°†v}H“0à÷Ó
+¡¬/t¨ğ^§òı÷óRtHÉ½4dµf‡mgË*ÛgïÀ |„, ‚ >Ö à#d„, ğ±†  !¨ d€5 øY@! |¬! ÀGÈ*äYƒ×·æµ€{çİÏ àÕ²    `E„,    X!    VDÈ*äYƒ×·æµ€{çİÏ àÕ²€
+¹Fşú×¿^dÎu&u¼¿Ş ÷Š5 øY@! |—¯!¶Íş´o¶nY4§N´¤nÍ¦ÙÍnã••¬9‡%n1îwğxY@Å9!KÚèvs®3©ã-b à^Í¹·ı±Ù5ÇÓ©9iû­_×UXØKßÇ]³öİCÈR’ù]Ó«„,‚!¨Ğai©oÛÌ¹Î¤·ˆnçGóëô«ùá–isëáÙÕïm² ¶Aeé"¹PŸ¥Ü"|ÜbŒš{˜PGÈ*l`*‘º^ı9×™Ôñ1xD÷Bşl~ş6ON¿›ŸzukYèTïmÕaÌR_}F»ÍPg¿·û%ûº§c¹ºÒ¿©ßÚoã<ú@µÛ÷e2'²ú¹ı¹s•ºñ˜¼ùõ}õ6»c²ÛÎ}èkçÓ)Ï÷Üc/µk™9tcõe•sí3ÛÎ;®¾Í _»?ŒÕó|Ñ| !¨ğBSÔõêÏ¹Î¤·ˆÁ#º×eC•ÌóÔüşù§Ú7!9÷6YÌ¦‹×H/˜åµ
+5²='
+Â‚¸o#¯“'Y6@è>İO\ Oâı[ÚNê
+éWo«ºº,™Ÿeû1míù¶½ùJyæ<Y“²R;=fÜÖeº{J}æÚyÇeÙö¥ãXu>€Tx¡É#õruç\gRÇ[ÄàåBHú4é×®ìÏŸ¿›Ó¯“ú?~© ôçÏæ·j7£><ıüÕ—åÂ²„Ì5î×óÎÏ59¾ql[¯eæŸÑœ{›6.g+OLÜÅla,‹åÊ¯–óĞë¨ßbLûLûét¡BÍ!™_JÏO¸LæjÎ‡ÔíÆğæ[
+­ì±Ú%sPuç¯Ïl;ï¸,Û·’=Æé¹-&:óçøY@…N²yûõ>]æõ­IoƒG4óIO ±;^™îO¦>™€–Ê…¬.ÌuÁ¨0ïÜ|Â~İ¯>sL¥şñæÜÛ<cX0‹ö+…¬0VXLë2]×[LË¾öÚÚïÛzq¾½ì\…êwFÈŸªH;5gŒ³CVñØ+íJ!kÎ9J}jŞqY¶ï^ñõ¶Ùñ| !¨°ÁI¶5½O×Ó¤Ìë[“:Ş"¨&ÌSıdGfÅ'T“§XI›NŒœğ4yzËÎYÙ¹ªzRÇyúKÊYÏ¦zos°z‘«^‡°¡´mYhkÅzá;Õ&ÙÎ,î'‹ro1­÷I?:hÙíîII·­æÌÏÂSæ&ó³çc²íÍ×»ªS<öB;;ÿ¤İŒs”Î¥nç—eûî±#çYîeÃS¬àÒù >BPá…'Ùç±õ")óúÖ¤·ˆÁ#Ê„‰Zô~[/n›ıNåÃÓT®K½.ÎÕÔ#d½¬ú½M©:¨½h5æ°¨ëv‹áÒ‚}\8wìnÁ<5]<uExBûõÓv_ßw|2eæš-ÓùÅ¾Œ¦sÌc¹7ß™çIL½ÜN‡ß®5ó$óÍ¶óËêß§}ş{a\³oØ¯Ú.šà#d¹ğ$û5¯N$å^ßšÔñ1xD™0aCGdº€"_òÓ?F!ıÅ§Myê•}’åòêuıcÂÓd®ªıuA½=ùCgoÎ½¸§O±€ë!d¥ %e‘WÍ¹Î¤·ˆÁ#êÂËøSQÑ…‹¢‚_¿Æ°å‚HØ¯Úu–„,İ^x¡k;?×i=;7‡>Úy²Ëœ{pÂÓ*JávY@Åœ åí×æ\gRÇ[Äàµè—õtäiØïŸÍŸ^k ğ²€Š9!ª†…YÂ¡9O¥…}zÆS¬gÃ |„, ‚ >Ö à#d„, ğ±†  !¨kd^ßš× îw?€WGÈ   €²    `E„,    X!¨kd^ßš× îw?€WGÈ*äñşbàs®3®E ·$÷œ5x}À«#drxÁi‰9××"€%şùÏºûç’{÷gÙç’ö—İ·¶Íş´o¶nÙÚôX·÷q.9Y@…\#^p*‰‹½íõ­q-XâV!ë?ÿû'âşxŸóúÉ"üÔœŒıÖ«»Ğf×»fã•%1lšİÑ»c³Ûxu/ôôç¸=BP!×ˆP5qáa÷y}k·¼ßŞ>šÃéĞ|¼½¹åbN{Qšë¹ÇñööŞ|~}5Ÿï÷üxM·YÍ_şœ²®´‰eC•ÌıÔwµo„,`u„, B®˜Jâ¢ÃÛïõ­ÕêtaA~’y›àS.ïŸÍ××gó¾Â<Ö8®¹AjÉ¼K!kÍãÎ•Y?şñ¯„WOî9:LyâÓ«ë„¬t±¾ßOmtØªıİÓó”g¿íêJXêé>rÁÀÎoşœìX'İOeÙ>'¼%¤¸?}Ú5>%ìÛïö}Y7¿‡;—Àƒ"drØĞ”Ş~¯o­VçíãĞœÍÇáÔ>®¿¸¿YÈZá¸YxEk†¬ÿûß.	Uÿ÷_ÿ1„­óB–^<wº `á* „Ew_¶mCB\ø÷Û¡Ô™<}Ñı	RìXŞk¯,3§P¦P©O;\Ÿ–n7%AièC›ô×‡'sîë\‹TÈ5bC“'.8re^ßZ­N!1”Äı1`Úò¸€ùú|Ÿ´7]h°¡$„†¡N×>×o>Æ}z.çÈWr>Ûıa¬n¾KæÚõÕŸ·×ßdü>dÅz_ŸI?ÉùTÛ¹ãzÀ%ÖYñuV¤–ˆ÷<¯ïQiÁláºZÔ‡¹\;¦$@ÄëRéö¹±ì¸3çdÃŠ®;{"¤Je“•ŒûwÚ?Ú¹!¨kÄ¦ÈÛ¯÷é2¯o­TG?9éğjñ¶Ç§@]èø6¸´Û!ĞLB€Óß2ıªùÄ¾ÏQ>®>M‚×seş¼uY·=«ÉkÕßĞ±5¦sÀlÈòÂ•¥ëË='¦²â,y­C–X"ŞótŸ©Ò‚yæ"|R_-ö½`0Y¬k¹±ì¸¥²™Á`ö<D>HåËÌX“ştÿ¥¾¥ŞœKà²€
+¹Fl`Òô>]O“2¯o­TçıókxÂb·‹A!„ù"ËmÄ¼:İ¶é·²ÆqÅŠ¬òqãÅò³æªÕ†#éo˜ç¨¢}á	”9‹CVş çòdyÁ*²uå“YŞS,Àn²6»ãøÔ¦%Ûáßó„§2ºô¡ğôuëO_T™„–üœ’±'Ûsç!JAÈ+ëúş=“(“ù§íï\‹TÈ5â…&­I™×·–«Ó-ÒÓ pêù¥€1ö!uºvÉ“¬+„¬9êÇåÇ5BVæ	Ó0¿Ã!œ»ø”,”²p¼'Yñ¿–.äcCVT{Š%â}O÷™êëö://Ö…]„«öê‰ËğGbĞ°uİş§cIxêï÷óædÛµûÓ Ğ—óúœ’2İ‡HëNşÅdşNßx.EÈ*äÉ'Í«I¹×·–«‚€	41 ØÀ4–u‹zy2¤ÃA|R”ì¯àùıvmÆ²sÔ+'gÍ59V]OÊ¦*³´±ßš—[Ó9`¹'Yñ¿¥€%äSYñi•Yq¬7?d½yj£İçã\âI²€
+¹F¼à$â"£TGÌ¹Îruru/>…)ŒúŸŠá)‘icêÙ fû•íájdÕÔË'KçjËì¼“sÔ×µãwı´åı9´ıH8úO¿ü~€µ”şğ…÷_Kî96dE¬"½_‹÷>¯ïçgŸ2ñäå|œK<'BP!×ˆœ¢Z¹˜sq-X"²D-`	¹çÄÀCV|ZVÜÖY PGÈ*äñ‚Ós®3®E K”B–(,!÷²¢Ò¬HÚsß !¨kÄNKÌ¹Î¸Ü’Üs¼ğ4—´ç¾ >BP!×ˆœ–˜sq-¸%¹ç¬Áë ^!¨°Šsy}k^ ¸wŞı ^!    VDÈ   €²    `E„, B®‘5x}k^ ¸wŞı ^!¨kÄû‹KÌ¹Î¸Ü’ÜsÖàõ ¯TÈ5â§%æ\g\‹ –¨ıÏˆkäãıÿ¯æ’ö—İ·¶Íş´o¶nÙÚôX·÷Èù:5§Ş~ëÕ¹w÷ò/‡©¿Ù5Çğ>›İF×Ã="drxÁ©$.>ô¶×·Æµ`‰[…¬ÿüïÿˆûã}Îë{4] ¯ºP—çq×l¼²„^¬ŞË‚»fÓìöÜİzqİÍax¿ó{RzÏoy/ùìÉ<Õ¼ö½x„, B® jâÂÃîóúÖny-¾½}4‡Ó¡ùx{sËÅœ:ßá^çÜÚ-CVó—¿ç…¬+š—Yf±¿İ7§›.¬Í¹’ñ÷[Sç”Şó[çK>{¦-!ëî²€
+¹Ft`*‰‹o¿×·V«Ó…ù	ÛmF)Ì¼½6__ŸÍû…óıL~zØ:|¸u£sC–óZÇ |—\Èúñ%¼zrÏÑaÊŸ^]'dé²îõ~?Ş»ÍPw«öwOÌÓ‡¸ğ—…çPO÷‘•¾öËrs²ct?•ydûœğÿ¥9ÔÆÑçq¬kÎek|ÒÏ‡ü·-›¬XæmûãmKçnâ‚1$(Íã’óì}6KmJsîç±‹ó–ùÇ;çØö‘|ş/8W³ß,AÈ*ä±¡)'.:¼ı^ßZ­ÎÛÇ!Ã©9|\?\;duı5Ÿïcs!è¬²şıï»$TıßıÇ¶ÎYzñÖéñvh~--–Ù§'ív¨'u&?É×ı	½x¶cy¯½²ÌœB™^˜—ú´óÈõi¥ág<wbé83ÇMSÕÁ%S6ÙöÆ×e¹sgİbŒÎsî³é?¡Üœûydƒ¬™‡´-~şmÛ5Î– drØĞä‰\™×·V«ÃU[q‡¶<~9|}¾OÚ_]¨±A%¡N×>×ïÛÛ{óù5î«=yÊ™r–Ì+Ô·sk…s–ÌùÓ=o¼®ßò9¾ÃÚ!+¾bÀŠtÀñçõ=*-Øì"P×SÙ° ”ëÎôc™! Œ×h4.z½±ì¸3çd×ºîìyÕç°¯TÖ-ÄC_‹Æ©l'}Å2Û®{¢RÃ–Í<w‰[ŒqÁyÎ}6“ñ£ÂœİywqÈÊŒ»è\a	BP!×ˆL‘·_ïÓe^ßZ©$İ‚|ÔmO·º Ğ¨$µÛ]èèBC¨ãõ×¶)ö«æû>‡€6´œ3/İŞ–Ù9'Û¡ß±Ÿ.˜éP:oLàVlÈòÂ•¥ëË='¦²â,y­C–X"ŞótŸ©Ò‚mæ"pRß,pmÈr¶"7–·T6sa:{Â;ÎrÙfwì~ÕkÑ8…mé'[×¶{•5÷<GÒ¿úlfÛæìÎ£p¼„¬»GÈ*ä±IÓût=MÊ¼¾µR÷Ï¯IÑÛÅpÂ€Üø§@·±AÌ«Óm›~!kWŒA©d\çÏ+lK»alÕŸUv;i×±¡ÔøŞ“,/XE¶®Üsb`²!Ë{Š¥Ø-C–,v»E}gXü†§ºôÀX7öµZØÊ‚sÆœ’±'Ûsç!¼…u©L÷½dœÂ¶]dÏŞ–×kŸ;k¥1&í¬óÏóx¾ÇıãgS÷ÙöÎqaÎÙyd79oR®Ú_åıÀ„, B®/4yl½HÊ¼¾µ\nAŸ.şO}@˜ º:]»äIÖBÖ%r¿ç‚’.SÇ9'd9ã…²Â˜¶.p+Ş“¬ø_K—GrÏ±!+ª=Åñ¾§ûLÉâÎÜ»Zi¨-U{õÓûáÄ`ëºıOÇ’…ñP¿Ÿ7'Û®İŸ.Tû²`^ŸSR¦ûèèEıüqÊÛ“?ªàƒ°`—òé\¯rîŒUÆ˜´³.8Ï…Ï¦-ëşĞDiÎÓùwt}Û6ıüßâıÀ|„, B®‘\pÒ¼:‘”{}k¹:añoM^µ§,òÄ+şŠ›ˆOÀ’ğ‘ıµ<¿ß®ÍXv/Ô\</Ó§]vÎÉvèwü•@Ï_iÌX¸µÜ“¬øßRÀrÏ‰)†¬ø´Ê†¬¸?Ö›²^„„É¯na6Îİ}áıX!¨kÄN".2JuÄœë,W'>Ù±ûc (†$úŸN‰ÜÓ/SÏ1Û¯l¿Şg‚Ò\]ã˜ip¹h^âp˜Ôµs¶ÛÉùêÛ²pJøÂû¯%÷²"	V‘Ş¯Å{Ÿ×÷ó³O?øÉÿ|œ»ûÂûq-„, B®/8Eµr1ç:ãZ°D.d‰ZÀrÏ‰)†¬ø´*¬¸­²  TÈ5â§%æ\g\‹ –(…,Q
+XBî96dE¥'X‘´ç¾ >BP!×ˆœ–˜sq-¸%¹çxái.iÏ} |„, B®/8-1ç:ãZpKrÏYƒ×7 ¼:BPaçòúÖ¼6 pï¼û ¼:B    ¬ˆ    +"d   ÀŠY    °"B    ¬ˆ    +"d   ÀŠY    °"B    ¬ææÿËj[û{^†    IEND®B`‚
+[DATASET DhpSectionView 2 PARAMETERS IMAGE DATA ENDSEC]
+
+[DATASET DhpSectionView 2 PARAMETERS IMAGE ENDSEC]
+
+[DATASET DhpSectionView 2 ENDSEC]
+
+[DATASET DhpSectionView 3]
+Name=Schnitt - Architektur - 1_100
+Type=0
+CategoryName=
+ReferenceImagePath=
+NumberOfSectionView=5
+NameOfSectionView=Schnitt A-A
+Kennung=A-A
+DarstellInGrundriss-Sparren-Pfettenplan=0
+DarstellungLinien=nur sichbar
+Darstellung OpenGL=deaktiviert
+Verdeckte Linien Neuberechnen=1
+Massstab=100.000000000000
+ZoomRectangle=false,0.000000000000,0.000000000000,0.000000000000,0.000000000000
+ApplyNamesOfVisibleLayers=1
+NamesOfVisibleLayers_1=BemaÃŸungsgrenze
+NamesOfVisibleLayers_2=Dachlagenplatten_Schraffur
+NamesOfVisibleLayers_3=DeckenvermaÃŸung
+NamesOfVisibleLayers_4=Elektro
+NamesOfVisibleLayers_5=Elemente
+NamesOfVisibleLayers_6=FÃ¼llung
+NamesOfVisibleLayers_7=GelÃ¤ndekontur manuell
+NamesOfVisibleLayers_8=Gruppe -2_Schraffur
+NamesOfVisibleLayers_9=HausbreitenvermaÃŸung
+NamesOfVisibleLayers_10=HÃ¶henkoten Architektur
+NamesOfVisibleLayers_11=InnenvermaÃŸung
+NamesOfVisibleLayers_12=Kommentare
+NamesOfVisibleLayers_13=Konstruktionslinien
+NamesOfVisibleLayers_14=Lagen_Schraffur
+NamesOfVisibleLayers_15=LattungsvermaÃŸung
+NamesOfVisibleLayers_16=Raum Beschriftung
+NamesOfVisibleLayers_17=Sichtrichtung
+NamesOfVisibleLayers_18=SparrenvermaÃŸung
+NamesOfVisibleLayers_19=Standard
+NamesOfVisibleLayers_20=StockwerkshÃ¶hen
+NamesOfVisibleLayers_21=StockwerkshÃ¶hen - VermaÃŸung
+NamesOfVisibleLayers_22=Treppe oberhalb SchnitthÃ¶he
+NamesOfVisibleLayers_23=Treppe unter SchnitthÃ¶he
+NamesOfVisibleLayers_24=VermaÃŸung AnschlusswÃ¤nde
+NamesOfVisibleLayers_25=VermaÃŸung Elemente
+NamesOfVisibleLayers_26=VermaÃŸung GebÃ¤udeabmessung
+NamesOfVisibleLayers_27=VermaÃŸung InnenwÃ¤nde
+NamesOfVisibleLayers_28=VermaÃŸung Referenzachse
+NamesOfVisibleLayers_29=VermaÃŸung WandversprÃ¼nge
+NamesOfVisibleLayers_30=Wand
+NamesOfVisibleLayers_31=Wandbeschriftung
+NamesOfVisibleLayers_32=Wandinformationen
+NamesOfVisibleLayers_33=WandvermaÃŸung
+NamesOfVisibleLayers_34=Ã–ffnungsarten
+NamesOfVisibleLayers_35=Ã–ffnungsbeschriftung
+NamesOfVisibleLayers_36=Ã–ffnungsvermaÃŸung
+NamesOfVisibleLayers_37=Bauteilbeschriftung
+NamesOfVisibleLayers_38=Deckenlagenplatten_Schraffur
+NamesOfVisibleLayers_39=Sparren_Schraffur
+NameOfActiveLayer=Standard
+ApplyDarstellungPanelSetting=1
+ApplyBemassungBeschriftungData=1
+
+[DATASET DhpSectionView 3 DARSTEL_PANEL]
+Name=Schnittbereich - Architektur
+Type=0
+CategoryName=
+ReferenceImagePath=
+FavoriteNumber=0
+FunctionID=0
+OpenMode=0
+FavoriteType=0
+ButtonsState=0,0,0,0,0
+
+[DATASET DhpSectionView 3 DARSTEL_PANEL STOCKWERK_LISTE_DATA]
+GrundansichtenUebrigeStockwerke~BS 0=1~0
+GrundansichtenUebrigeStockwerke~GF 0=1~0
+GrundansichtenUebrigeStockwerke~AG 0=1~0
+GrundansichtenUebrigeStockwerke~AG 1=1~0
+
+[DATASET DhpSectionView 3 DARSTEL_PANEL STOCKWERK_LISTE_DATA ENDSEC]
+
+[DATASET DhpSectionView 3 DARSTEL_PANEL BAUTEILE_DATA]
+Mask_Sparren=001000
+Mask_Pfetten=001000
+Mask_Gratkehlsparren=001000
+Mask_Zangen=001000
+Mask_StaebeProfilstaebe=111111
+Mask_Platten=111111
+Mask_Beschl.Hilfsbau.Verbindugsm=111111
+Filter_Stockwerk=1~-19..20
+Filter_Wand=1~18
+Filter_Decke=0~
+Filter_Dach=1~
+Filter_Stabwerk=1~
+Filter_Freiekons=1~
+
+[DATASET DhpSectionView 3 DARSTEL_PANEL BAUTEILE_DATA ENDSEC]
+
+[DATASET DhpSectionView 3 DARSTEL_PANEL GEBAUDE_PLANELEMENTE_DATA]
+Etagenschnitt=0.000000
+VisibleEtagenschnitt=0
+WaendeTyp=Aktuelle
+GebPlanElemMask_WaendeDeckeLagenplatten=001110
+GebPlanElemMask_TreppenKamin=100001
+GebPlanElemMask_ReferenzAKonturenDachaut=000000
+GebPlanElemMask_LagenZiegellagen=000000
+GebPlanElemMask_Elemente=000000
+GebPlanElemMask_Aufmasselemente=000000
+PlanElementeMask_LinienKreiseSchraffuren=000000
+PlanElementeMask_BemassungTexte=000000
+PlanElementeMask_Bilder=000000
+PlanElementeMask_Punkte=000000
+
+[DATASET DhpSectionView 3 DARSTEL_PANEL GEBAUDE_PLANELEMENTE_DATA ENDSEC]
+
+[DATASET DhpSectionView 3 DARSTEL_PANEL INFO_DARSTELL_OPTIONEN_DATA]
+VollDarstellungKanten=0
+Achse=Empty
+Visible_Bohrungen=0
+Visible_Markierung=0
+Visible_Hobelflaeche=0
+Visible_Bundseite=0
+Visible_BearbeitTyp4=0
+
+[DATASET DhpSectionView 3 DARSTEL_PANEL INFO_DARSTELL_OPTIONEN_DATA BAUTEILE DATASET INFORMATION_LINE]
+Aktuelle=0
+Andere=0
+
+[DATASET DhpSectionView 3 DARSTEL_PANEL INFO_DARSTELL_OPTIONEN_DATA BAUTEILE DATASET INFORMATION_LINE BAUTEILBESCHRIFTUNGSSATZ]
+Name=Laufnummer
+Type=0
+CategoryName=alle Bauteile
+ReferenceImagePath=
+StateStaebeBauteileBeschriftung=1
+StateProfilstaebeBauteileBeschriftung=1
+StatePlattenBauteileBeschriftung=1
+StateBeschlagBauteileBeschriftung=1
+StateFormteilBauteileBeschriftung=1
+BauteileEinerBaugruppeBeschriften=0
+BauteileEinerElementesBeschriften=1
+
+[DATASET DhpSectionView 3 DARSTEL_PANEL INFO_DARSTELL_OPTIONEN_DATA BAUTEILE DATASET INFORMATION_LINE BAUTEILBESCHRIFTUNGSSATZ SATEBE BAUTEILEBESCHRIFTUNGEN]
+Name=Laufnummer
+Type=0
+CategoryName=
+ReferenceImagePath=
+LageZumBauteil=aufStab
+Abstand=0.000000
+PositionDerBeschriftung=stabMitte
+AusrichtungDerBeschriftung=parallel X Object
+TextEbene=parallel Bild
+AnzeigenSchwerpunkt=0
+SchriftgroesseAmBildschirm=fest nur fuer Schrifthoehe gemessen auf Papier
+BeschriftungAls=Beschriftung
+NameTextStyle=Beschriftung Bildschirm
+
+[DATASET DhpSectionView 3 DARSTEL_PANEL INFO_DARSTELL_OPTIONEN_DATA BAUTEILE DATASET INFORMATION_LINE BAUTEILBESCHRIFTUNGSSATZ SATEBE BAUTEILEBESCHRIFTUNGEN TEXTFELDBESCHRIFTUNG 0]
+
+[DATASET DhpSectionView 3 DARSTEL_PANEL INFO_DARSTELL_OPTIONEN_DATA BAUTEILE DATASET INFORMATION_LINE BAUTEILBESCHRIFTUNGSSATZ SATEBE BAUTEILEBESCHRIFTUNGEN TEXTFELDBESCHRIFTUNG 0 MULTILINE_STRING]
+Line1=#KLNr#
+
+[DATASET DhpSectionView 3 DARSTEL_PANEL INFO_DARSTELL_OPTIONEN_DATA BAUTEILE DATASET INFORMATION_LINE BAUTEILBESCHRIFTUNGSSATZ SATEBE BAUTEILEBESCHRIFTUNGEN TEXTFELDBESCHRIFTUNG 0 MULTILINE_STRING ENDSEC]
+
+[DATASET DhpSectionView 3 DARSTEL_PANEL INFO_DARSTELL_OPTIONEN_DATA BAUTEILE DATASET INFORMATION_LINE BAUTEILBESCHRIFTUNGSSATZ SATEBE BAUTEILEBESCHRIFTUNGEN TEXTFELDBESCHRIFTUNG 0 ENDSEC]
+
+[DATASET DhpSectionView 3 DARSTEL_PANEL INFO_DARSTELL_OPTIONEN_DATA BAUTEILE DATASET INFORMATION_LINE BAUTEILBESCHRIFTUNGSSATZ SATEBE BAUTEILEBESCHRIFTUNGEN ENDSEC]
+
+[DATASET DhpSectionView 3 DARSTEL_PANEL INFO_DARSTELL_OPTIONEN_DATA BAUTEILE DATASET INFORMATION_LINE BAUTEILBESCHRIFTUNGSSATZ PROFILSATEBE BAUTEILEBESCHRIFTUNGEN]
+Name=Laufnummer
+Type=0
+CategoryName=
+ReferenceImagePath=
+LageZumBauteil=aufStab
+Abstand=0.000000
+PositionDerBeschriftung=stabMitte
+AusrichtungDerBeschriftung=parallel X Object
+TextEbene=parallel Bild
+AnzeigenSchwerpunkt=0
+SchriftgroesseAmBildschirm=fest nur fuer Schrifthoehe gemessen auf Papier
+BeschriftungAls=Beschriftung
+NameTextStyle=Beschriftung Bildschirm
+
+[DATASET DhpSectionView 3 DARSTEL_PANEL INFO_DARSTELL_OPTIONEN_DATA BAUTEILE DATASET INFORMATION_LINE BAUTEILBESCHRIFTUNGSSATZ PROFILSATEBE BAUTEILEBESCHRIFTUNGEN TEXTFELDBESCHRIFTUNG 0]
+
+[DATASET DhpSectionView 3 DARSTEL_PANEL INFO_DARSTELL_OPTIONEN_DATA BAUTEILE DATASET INFORMATION_LINE BAUTEILBESCHRIFTUNGSSATZ PROFILSATEBE BAUTEILEBESCHRIFTUNGEN TEXTFELDBESCHRIFTUNG 0 MULTILINE_STRING]
+Line1=#KLNr#
+
+[DATASET DhpSectionView 3 DARSTEL_PANEL INFO_DARSTELL_OPTIONEN_DATA BAUTEILE DATASET INFORMATION_LINE BAUTEILBESCHRIFTUNGSSATZ PROFILSATEBE BAUTEILEBESCHRIFTUNGEN TEXTFELDBESCHRIFTUNG 0 MULTILINE_STRING ENDSEC]
+
+[DATASET DhpSectionView 3 DARSTEL_PANEL INFO_DARSTELL_OPTIONEN_DATA BAUTEILE DATASET INFORMATION_LINE BAUTEILBESCHRIFTUNGSSATZ PROFILSATEBE BAUTEILEBESCHRIFTUNGEN TEXTFELDBESCHRIFTUNG 0 ENDSEC]
+
+[DATASET DhpSectionView 3 DARSTEL_PANEL INFO_DARSTELL_OPTIONEN_DATA BAUTEILE DATASET INFORMATION_LINE BAUTEILBESCHRIFTUNGSSATZ PROFILSATEBE BAUTEILEBESCHRIFTUNGEN ENDSEC]
+
+[DATASET DhpSectionView 3 DARSTEL_PANEL INFO_DARSTELL_OPTIONEN_DATA BAUTEILE DATASET INFORMATION_LINE BAUTEILBESCHRIFTUNGSSATZ PLATTEN BAUTEILEBESCHRIFTUNGEN]
+Name=Laufnummer
+Type=0
+CategoryName=
+ReferenceImagePath=
+LageZumBauteil=aufStab
+Abstand=0.000000
+PositionDerBeschriftung=stabMitte
+AusrichtungDerBeschriftung=parallel X Object
+TextEbene=parallel Bild
+AnzeigenSchwerpunkt=0
+SchriftgroesseAmBildschirm=fest nur fuer Schrifthoehe gemessen auf Papier
+BeschriftungAls=Beschriftung
+NameTextStyle=Beschriftung Bildschirm
+
+[DATASET DhpSectionView 3 DARSTEL_PANEL INFO_DARSTELL_OPTIONEN_DATA BAUTEILE DATASET INFORMATION_LINE BAUTEILBESCHRIFTUNGSSATZ PLATTEN BAUTEILEBESCHRIFTUNGEN TEXTFELDBESCHRIFTUNG 0]
+
+[DATASET DhpSectionView 3 DARSTEL_PANEL INFO_DARSTELL_OPTIONEN_DATA BAUTEILE DATASET INFORMATION_LINE BAUTEILBESCHRIFTUNGSSATZ PLATTEN BAUTEILEBESCHRIFTUNGEN TEXTFELDBESCHRIFTUNG 0 MULTILINE_STRING]
+Line1=#KLNr#
+
+[DATASET DhpSectionView 3 DARSTEL_PANEL INFO_DARSTELL_OPTIONEN_DATA BAUTEILE DATASET INFORMATION_LINE BAUTEILBESCHRIFTUNGSSATZ PLATTEN BAUTEILEBESCHRIFTUNGEN TEXTFELDBESCHRIFTUNG 0 MULTILINE_STRING ENDSEC]
+
+[DATASET DhpSectionView 3 DARSTEL_PANEL INFO_DARSTELL_OPTIONEN_DATA BAUTEILE DATASET INFORMATION_LINE BAUTEILBESCHRIFTUNGSSATZ PLATTEN BAUTEILEBESCHRIFTUNGEN TEXTFELDBESCHRIFTUNG 0 ENDSEC]
+
+[DATASET DhpSectionView 3 DARSTEL_PANEL INFO_DARSTELL_OPTIONEN_DATA BAUTEILE DATASET INFORMATION_LINE BAUTEILBESCHRIFTUNGSSATZ PLATTEN BAUTEILEBESCHRIFTUNGEN ENDSEC]
+
+[DATASET DhpSectionView 3 DARSTEL_PANEL INFO_DARSTELL_OPTIONEN_DATA BAUTEILE DATASET INFORMATION_LINE BAUTEILBESCHRIFTUNGSSATZ BESCHLAEGE BAUTEILEBESCHRIFTUNGEN]
+Name=Laufnummer
+Type=0
+CategoryName=
+ReferenceImagePath=
+LageZumBauteil=aufStab
+Abstand=0.000000
+PositionDerBeschriftung=stabMitte
+AusrichtungDerBeschriftung=parallel X Object
+TextEbene=parallel Bild
+AnzeigenSchwerpunkt=0
+SchriftgroesseAmBildschirm=fest nur fuer Schrifthoehe gemessen auf Papier
+BeschriftungAls=Beschriftung
+NameTextStyle=Beschriftung Bildschirm
+
+[DATASET DhpSectionView 3 DARSTEL_PANEL INFO_DARSTELL_OPTIONEN_DATA BAUTEILE DATASET INFORMATION_LINE BAUTEILBESCHRIFTUNGSSATZ BESCHLAEGE BAUTEILEBESCHRIFTUNGEN TEXTFELDBESCHRIFTUNG 0]
+
+[DATASET DhpSectionView 3 DARSTEL_PANEL INFO_DARSTELL_OPTIONEN_DATA BAUTEILE DATASET INFORMATION_LINE BAUTEILBESCHRIFTUNGSSATZ BESCHLAEGE BAUTEILEBESCHRIFTUNGEN TEXTFELDBESCHRIFTUNG 0 MULTILINE_STRING]
+Line1=#KLNr#
+
+[DATASET DhpSectionView 3 DARSTEL_PANEL INFO_DARSTELL_OPTIONEN_DATA BAUTEILE DATASET INFORMATION_LINE BAUTEILBESCHRIFTUNGSSATZ BESCHLAEGE BAUTEILEBESCHRIFTUNGEN TEXTFELDBESCHRIFTUNG 0 MULTILINE_STRING ENDSEC]
+
+[DATASET DhpSectionView 3 DARSTEL_PANEL INFO_DARSTELL_OPTIONEN_DATA BAUTEILE DATASET INFORMATION_LINE BAUTEILBESCHRIFTUNGSSATZ BESCHLAEGE BAUTEILEBESCHRIFTUNGEN TEXTFELDBESCHRIFTUNG 0 ENDSEC]
+
+[DATASET DhpSectionView 3 DARSTEL_PANEL INFO_DARSTELL_OPTIONEN_DATA BAUTEILE DATASET INFORMATION_LINE BAUTEILBESCHRIFTUNGSSATZ BESCHLAEGE BAUTEILEBESCHRIFTUNGEN ENDSEC]
+
+[DATASET DhpSectionView 3 DARSTEL_PANEL INFO_DARSTELL_OPTIONEN_DATA BAUTEILE DATASET INFORMATION_LINE BAUTEILBESCHRIFTUNGSSATZ FORMTEIL BAUTEILEBESCHRIFTUNGEN]
+Name=Laufnummer
+Type=0
+CategoryName=
+ReferenceImagePath=
+LageZumBauteil=aufStab
+Abstand=0.000000
+PositionDerBeschriftung=stabMitte
+AusrichtungDerBeschriftung=parallel X Object
+TextEbene=parallel Bild
+AnzeigenSchwerpunkt=0
+SchriftgroesseAmBildschirm=fest nur fuer Schrifthoehe gemessen auf Papier
+BeschriftungAls=Beschriftung
+NameTextStyle=Beschriftung Bildschirm
+
+[DATASET DhpSectionView 3 DARSTEL_PANEL INFO_DARSTELL_OPTIONEN_DATA BAUTEILE DATASET INFORMATION_LINE BAUTEILBESCHRIFTUNGSSATZ FORMTEIL BAUTEILEBESCHRIFTUNGEN TEXTFELDBESCHRIFTUNG 0]
+
+[DATASET DhpSectionView 3 DARSTEL_PANEL INFO_DARSTELL_OPTIONEN_DATA BAUTEILE DATASET INFORMATION_LINE BAUTEILBESCHRIFTUNGSSATZ FORMTEIL BAUTEILEBESCHRIFTUNGEN TEXTFELDBESCHRIFTUNG 0 MULTILINE_STRING]
+Line1=#KLNr#
+
+[DATASET DhpSectionView 3 DARSTEL_PANEL INFO_DARSTELL_OPTIONEN_DATA BAUTEILE DATASET INFORMATION_LINE BAUTEILBESCHRIFTUNGSSATZ FORMTEIL BAUTEILEBESCHRIFTUNGEN TEXTFELDBESCHRIFTUNG 0 MULTILINE_STRING ENDSEC]
+
+[DATASET DhpSectionView 3 DARSTEL_PANEL INFO_DARSTELL_OPTIONEN_DATA BAUTEILE DATASET INFORMATION_LINE BAUTEILBESCHRIFTUNGSSATZ FORMTEIL BAUTEILEBESCHRIFTUNGEN TEXTFELDBESCHRIFTUNG 0 ENDSEC]
+
+[DATASET DhpSectionView 3 DARSTEL_PANEL INFO_DARSTELL_OPTIONEN_DATA BAUTEILE DATASET INFORMATION_LINE BAUTEILBESCHRIFTUNGSSATZ FORMTEIL BAUTEILEBESCHRIFTUNGEN ENDSEC]
+
+[DATASET DhpSectionView 3 DARSTEL_PANEL INFO_DARSTELL_OPTIONEN_DATA BAUTEILE DATASET INFORMATION_LINE BAUTEILBESCHRIFTUNGSSATZ ENDSEC]
+
+[DATASET DhpSectionView 3 DARSTEL_PANEL INFO_DARSTELL_OPTIONEN_DATA BAUTEILE DATASET INFORMATION_LINE ENDSEC]
+
+[DATASET DhpSectionView 3 DARSTEL_PANEL INFO_DARSTELL_OPTIONEN_DATA BAUGRUPPE DATASET INFORMATION_LINE]
+Aktuelle=0
+Andere=0
+
+[DATASET DhpSectionView 3 DARSTEL_PANEL INFO_DARSTELL_OPTIONEN_DATA BAUGRUPPE DATASET INFORMATION_LINE BAUGRUPPENBESCHRIFTUNGEN]
+Name=Nr. Idnr.
+Type=0
+CategoryName=
+ReferenceImagePath=
+PositionDerBeschriftung=Schwerpunkt
+AusrichtungDerBeschriftung=parallel X Object
+TextEbene=parallel Bild
+AnzeigenSchwerpunkt=0
+SchriftgroesseAmBildschirm=aendert sich mit zoom
+BeschriftungAls=Text
+NameTextStyle=DHP-Standard
+
+[DATASET DhpSectionView 3 DARSTEL_PANEL INFO_DARSTELL_OPTIONEN_DATA BAUGRUPPE DATASET INFORMATION_LINE BAUGRUPPENBESCHRIFTUNGEN TEXTFELDBESCHRIFTUNG 0]
+
+[DATASET DhpSectionView 3 DARSTEL_PANEL INFO_DARSTELL_OPTIONEN_DATA BAUGRUPPE DATASET INFORMATION_LINE BAUGRUPPENBESCHRIFTUNGEN TEXTFELDBESCHRIFTUNG 0 MULTILINE_STRING]
+Line1=#BGNr#,#BGIdnr#
+
+[DATASET DhpSectionView 3 DARSTEL_PANEL INFO_DARSTELL_OPTIONEN_DATA BAUGRUPPE DATASET INFORMATION_LINE BAUGRUPPENBESCHRIFTUNGEN TEXTFELDBESCHRIFTUNG 0 MULTILINE_STRING ENDSEC]
+
+[DATASET DhpSectionView 3 DARSTEL_PANEL INFO_DARSTELL_OPTIONEN_DATA BAUGRUPPE DATASET INFORMATION_LINE BAUGRUPPENBESCHRIFTUNGEN TEXTFELDBESCHRIFTUNG 0 ENDSEC]
+
+[DATASET DhpSectionView 3 DARSTEL_PANEL INFO_DARSTELL_OPTIONEN_DATA BAUGRUPPE DATASET INFORMATION_LINE BAUGRUPPENBESCHRIFTUNGEN ENDSEC]
+
+[DATASET DhpSectionView 3 DARSTEL_PANEL INFO_DARSTELL_OPTIONEN_DATA BAUGRUPPE DATASET INFORMATION_LINE ENDSEC]
+
+[DATASET DhpSectionView 3 DARSTEL_PANEL INFO_DARSTELL_OPTIONEN_DATA ELEMENTE DATASET INFORMATION_LINE]
+Aktuelle=0
+Andere=0
+
+[DATASET DhpSectionView 3 DARSTEL_PANEL INFO_DARSTELL_OPTIONEN_DATA ELEMENTE DATASET INFORMATION_LINE ELEMENTBESCHRIFTUNGEN]
+Name=AH - Elementnummer
+Type=0
+CategoryName=
+ReferenceImagePath=
+AnzeigenElementgrenze=1
+Position bei Waenden=wie oben definiert
+Zusaetzlich bei Waenden=Dreieck an Elementgrenzen
+PositionDerBeschriftung=Schwerpunkt
+AusrichtungDerBeschriftung=parallel X Bild
+TextEbene=parallel Bild
+AnzeigenSchwerpunkt=0
+SchriftgroesseAmBildschirm=aendert sich mit zoom
+BeschriftungAls=Text
+NameTextStyle=AH - Beschriftung - 2mm - eingerahmt
+
+[DATASET DhpSectionView 3 DARSTEL_PANEL INFO_DARSTELL_OPTIONEN_DATA ELEMENTE DATASET INFORMATION_LINE ELEMENTBESCHRIFTUNGEN TEXTFELDBESCHRIFTUNG 0]
+
+[DATASET DhpSectionView 3 DARSTEL_PANEL INFO_DARSTELL_OPTIONEN_DATA ELEMENTE DATASET INFORMATION_LINE ELEMENTBESCHRIFTUNGEN TEXTFELDBESCHRIFTUNG 0 MULTILINE_STRING]
+Line1=#ELNr#
+
+[DATASET DhpSectionView 3 DARSTEL_PANEL INFO_DARSTELL_OPTIONEN_DATA ELEMENTE DATASET INFORMATION_LINE ELEMENTBESCHRIFTUNGEN TEXTFELDBESCHRIFTUNG 0 MULTILINE_STRING ENDSEC]
+
+[DATASET DhpSectionView 3 DARSTEL_PANEL INFO_DARSTELL_OPTIONEN_DATA ELEMENTE DATASET INFORMATION_LINE ELEMENTBESCHRIFTUNGEN TEXTFELDBESCHRIFTUNG 0 ENDSEC]
+
+[DATASET DhpSectionView 3 DARSTEL_PANEL INFO_DARSTELL_OPTIONEN_DATA ELEMENTE DATASET INFORMATION_LINE ELEMENTBESCHRIFTUNGEN ENDSEC]
+
+[DATASET DhpSectionView 3 DARSTEL_PANEL INFO_DARSTELL_OPTIONEN_DATA ELEMENTE DATASET INFORMATION_LINE ENDSEC]
+
+[DATASET DhpSectionView 3 DARSTEL_PANEL INFO_DARSTELL_OPTIONEN_DATA ENDSEC]
+
+[DATASET DhpSectionView 3 DARSTEL_PANEL ANSICHTENSCHNITTE_DATA]
+AnsichtenSchnitteAnzeigePlanelemente=1~
+Visible_LinienKreiseSchraffuren=1~1
+Visible_BemassungTexte=1~1
+Visible_Bilder=1~1
+
+[DATASET DhpSectionView 3 DARSTEL_PANEL ANSICHTENSCHNITTE_DATA ENDSEC]
+
+[DATASET DhpSectionView 3 DARSTEL_PANEL ENDSEC]
+
+[DATASET DhpSectionView 3 BEMASSUNG_BESCHRIFTUNG_DATA]
+ButtonsState=0,0,0,0,1
+Name=Schnittbereich - Architektur
+Type=159
+CategoryName=
+ReferenceImagePath=
+FavoriteNumber=0
+FunctionID=0
+OpenMode=0
+FavoriteType=0
+
+[DATASET DhpSectionView 3 BEMASSUNG_BESCHRIFTUNG_DATA ALGEMEIN_STILE_DATA]
+GelaendekonturLayer=GelÃ¤ndekontur manuell
+AutomatischNeuberechnen=1
+AutomatischAnzeigen=1
+Textstil=AH - Beschriftung - 2mm
+Bemassungsstil=Architektur
+Bemassungsfaktor=1.000000000000
+BemassungsgrenzenLayer=BemaÃŸungsgrenze
+
+[DATASET DhpSectionView 3 BEMASSUNG_BESCHRIFTUNG_DATA ALGEMEIN_STILE_DATA MASSEINHEITEN]
+Name=Standard M
+Type=0
+CategoryName=
+ReferenceImagePath=
+StabquerschnitteUnitType=meter
+StabquerschnitteNrZecimale=3
+StablaengenUnitType=meter
+StablaengenNrZecimale=3
+PlattendickenUnitType=meter
+PlattendickenNrZecimale=3
+BeschriftungEinzelstabzeichnungUnitType=meter
+BeschriftungEinzelstabzeichnungNrZecimale=3
+DurchmesserBohrungenUnitType=meter
+DurchmesserBohrungenNrZecimale=3
+LinienlaengenUnitType=meter
+LinienlaengenNrZecimale=3
+FlaechenUnitType=Quadratmeter
+FlaechenNrZecimale=3
+OffnungsflaechenUnitType=Quadratmeter
+OffnungsflaechenNrZecimale=3
+OffnungshoehenGrundrissplanUnitType=meter
+OffnungshoehenGrundrissplanNrZecimale=3
+OffnungsabmessungenUnitType=meter
+OffnungsabmessungenNrZecimale=3
+PunktkoordinatenUnitType=meter
+PunktkoordinatenNrZecimale=3
+GewichteUnitType=Kilogramm (kg)
+GewichteNrZecimale=3
+VolumenUnitType=Kubikmeter
+VolumenNrZecimale=3
+MasskettenDXFAblageUnitType=meter
+MasskettenDXFAblageNrZecimale=3
+SteigungTreppenUnitType=meter
+SteigungTreppenNrZecimale=3
+Separator=s_/
+MasseinheitAnzeigen=0
+
+[DATASET DhpSectionView 3 BEMASSUNG_BESCHRIFTUNG_DATA ALGEMEIN_STILE_DATA MASSEINHEITEN ENDSEC]
+
+[DATASET DhpSectionView 3 BEMASSUNG_BESCHRIFTUNG_DATA ALGEMEIN_STILE_DATA SCHRAFFUREN UND FUELLUNGEN]
+Name=AH - CLT - Architektur
+Type=0
+CategoryName=
+ReferenceImagePath=
+DachlagenSchraffirenSchnittFlaechen=fuellen
+DachlagenSchraffirenUngeschnitteneFlaechen=ohne
+DeckenlagenSchraffirenSchnittFlaechen=fuellen
+DeckenlagenSchraffirenUngeschnitteneFlaechen=ohne
+WandlagenSchraffirenSchnittFlaechen=ohne
+WaendeSchraffirenSchnittFlaechen=fuellen
+WaendeSchraffirenUngeschnitteneFlaechen=ohne
+Gruppen0=0
+DeckenlagenSchraffirenSchnittFlaechen0=fuellen
+DeckenlagenSchraffirenUngeschnitteneFlaechen0=ohne
+Gruppen1=
+DeckenlagenSchraffirenSchnittFlaechen1=ohne
+DeckenlagenSchraffirenUngeschnitteneFlaechen1=ohne
+Gruppen2=
+DeckenlagenSchraffirenSchnittFlaechen2=ohne
+DeckenlagenSchraffirenUngeschnitteneFlaechen2=ohne
+Gruppen3=
+DeckenlagenSchraffirenSchnittFlaechen3=ohne
+DeckenlagenSchraffirenUngeschnitteneFlaechen3=ohne
+
+[DATASET DhpSectionView 3 BEMASSUNG_BESCHRIFTUNG_DATA ALGEMEIN_STILE_DATA SCHRAFFUREN UND FUELLUNGEN ENDSEC]
+
+[DATASET DhpSectionView 3 BEMASSUNG_BESCHRIFTUNG_DATA ALGEMEIN_STILE_DATA ENDSEC]
+
+[DATASET DhpSectionView 3 BEMASSUNG_BESCHRIFTUNG_DATA BESCHRIFTUNGEN_DATA]
+Kamin=0
+DachflaechenFenster=0
+FensterOeffnungsart=0
+
+[DATASET DhpSectionView 3 BEMASSUNG_BESCHRIFTUNG_DATA BESCHRIFTUNGEN_DATA ENDSEC]
+
+[DATASET DhpSectionView 3 BEMASSUNG_BESCHRIFTUNG_DATA HOEHEKOTTEN_DATA]
+Erzeugen OK_RFB_DECKE=1
+Erzeugen OK_FFB_DECKE=1
+Erzeugen WAND_OK_AUFBAU=1
+Erzeugen FIRST_TRAUFE_AUFBAU=1
+Erzeugen WAND_OK_SPARREN=0
+Erzeugen FIRST_TRAUFE_SPARREN=0
+Seite ZANGEN=Keine
+Seite PFETTEN=Keine
+
+[DATASET DhpSectionView 3 BEMASSUNG_BESCHRIFTUNG_DATA HOEHEKOTTEN_DATA OK_RFB_DECKE HOEHENKOTEN]
+Name=AH - OK RFB
+Type=1
+CategoryName=
+ReferenceImagePath=
+FavoriteNumber=0
+FunctionID=0
+OpenMode=0
+FavoriteType=0
+Bemassungsstil=Architektur
+FarbsetIndex=-10
+DreieckDarstellen=gefÃ¼llt
+MasshilfslinieDarstellen=Ja
+HoehenkoteSeite=Oberseite
+
+[DATASET DhpSectionView 3 BEMASSUNG_BESCHRIFTUNG_DATA HOEHEKOTTEN_DATA OK_RFB_DECKE HOEHENKOTEN ZUSATZTEXT_UNTER_HOEHENKOTE TEXTFELDBESCHRIFTUNG 0]
+
+[DATASET DhpSectionView 3 BEMASSUNG_BESCHRIFTUNG_DATA HOEHEKOTTEN_DATA OK_RFB_DECKE HOEHENKOTEN ZUSATZTEXT_UNTER_HOEHENKOTE TEXTFELDBESCHRIFTUNG 0 MULTILINE_STRING]
+Line1=OK RFB
+
+[DATASET DhpSectionView 3 BEMASSUNG_BESCHRIFTUNG_DATA HOEHEKOTTEN_DATA OK_RFB_DECKE HOEHENKOTEN ZUSATZTEXT_UNTER_HOEHENKOTE TEXTFELDBESCHRIFTUNG 0 MULTILINE_STRING ENDSEC]
+
+[DATASET DhpSectionView 3 BEMASSUNG_BESCHRIFTUNG_DATA HOEHEKOTTEN_DATA OK_RFB_DECKE HOEHENKOTEN ZUSATZTEXT_UNTER_HOEHENKOTE TEXTFELDBESCHRIFTUNG 0 ENDSEC]
+
+[DATASET DhpSectionView 3 BEMASSUNG_BESCHRIFTUNG_DATA HOEHEKOTTEN_DATA OK_RFB_DECKE HOEHENKOTEN ENDSEC]
+
+[DATASET DhpSectionView 3 BEMASSUNG_BESCHRIFTUNG_DATA HOEHEKOTTEN_DATA OK_FFB_DECKE HOEHENKOTEN]
+Name=AH - OK FFB
+Type=1
+CategoryName=
+ReferenceImagePath=
+FavoriteNumber=0
+FunctionID=0
+OpenMode=0
+FavoriteType=0
+Bemassungsstil=Architektur
+FarbsetIndex=-10
+DreieckDarstellen=ungefÃ¼llt
+MasshilfslinieDarstellen=Ja
+HoehenkoteSeite=Oberseite
+
+[DATASET DhpSectionView 3 BEMASSUNG_BESCHRIFTUNG_DATA HOEHEKOTTEN_DATA OK_FFB_DECKE HOEHENKOTEN ZUSATZTEXT_UNTER_HOEHENKOTE TEXTFELDBESCHRIFTUNG 0]
+
+[DATASET DhpSectionView 3 BEMASSUNG_BESCHRIFTUNG_DATA HOEHEKOTTEN_DATA OK_FFB_DECKE HOEHENKOTEN ZUSATZTEXT_UNTER_HOEHENKOTE TEXTFELDBESCHRIFTUNG 0 MULTILINE_STRING]
+Line1=OK FFB
+
+[DATASET DhpSectionView 3 BEMASSUNG_BESCHRIFTUNG_DATA HOEHEKOTTEN_DATA OK_FFB_DECKE HOEHENKOTEN ZUSATZTEXT_UNTER_HOEHENKOTE TEXTFELDBESCHRIFTUNG 0 MULTILINE_STRING ENDSEC]
+
+[DATASET DhpSectionView 3 BEMASSUNG_BESCHRIFTUNG_DATA HOEHEKOTTEN_DATA OK_FFB_DECKE HOEHENKOTEN ZUSATZTEXT_UNTER_HOEHENKOTE TEXTFELDBESCHRIFTUNG 0 ENDSEC]
+
+[DATASET DhpSectionView 3 BEMASSUNG_BESCHRIFTUNG_DATA HOEHEKOTTEN_DATA OK_FFB_DECKE HOEHENKOTEN ENDSEC]
+
+[DATASET DhpSectionView 3 BEMASSUNG_BESCHRIFTUNG_DATA HOEHEKOTTEN_DATA WAND_OK_AUFBAU HOEHENKOTEN]
+Name=AH - OK Aufbau
+Type=1
+CategoryName=
+ReferenceImagePath=
+FavoriteNumber=0
+FunctionID=0
+OpenMode=0
+FavoriteType=0
+Bemassungsstil=Architektur
+FarbsetIndex=-10
+DreieckDarstellen=ungefÃ¼llt
+MasshilfslinieDarstellen=Ja
+HoehenkoteSeite=Oberseite
+
+[DATASET DhpSectionView 3 BEMASSUNG_BESCHRIFTUNG_DATA HOEHEKOTTEN_DATA WAND_OK_AUFBAU HOEHENKOTEN ZUSATZTEXT_UNTER_HOEHENKOTE TEXTFELDBESCHRIFTUNG 0]
+
+[DATASET DhpSectionView 3 BEMASSUNG_BESCHRIFTUNG_DATA HOEHEKOTTEN_DATA WAND_OK_AUFBAU HOEHENKOTEN ZUSATZTEXT_UNTER_HOEHENKOTE TEXTFELDBESCHRIFTUNG 0 MULTILINE_STRING]
+Line1=OK Aufbau
+
+[DATASET DhpSectionView 3 BEMASSUNG_BESCHRIFTUNG_DATA HOEHEKOTTEN_DATA WAND_OK_AUFBAU HOEHENKOTEN ZUSATZTEXT_UNTER_HOEHENKOTE TEXTFELDBESCHRIFTUNG 0 MULTILINE_STRING ENDSEC]
+
+[DATASET DhpSectionView 3 BEMASSUNG_BESCHRIFTUNG_DATA HOEHEKOTTEN_DATA WAND_OK_AUFBAU HOEHENKOTEN ZUSATZTEXT_UNTER_HOEHENKOTE TEXTFELDBESCHRIFTUNG 0 ENDSEC]
+
+[DATASET DhpSectionView 3 BEMASSUNG_BESCHRIFTUNG_DATA HOEHEKOTTEN_DATA WAND_OK_AUFBAU HOEHENKOTEN ENDSEC]
+
+[DATASET DhpSectionView 3 BEMASSUNG_BESCHRIFTUNG_DATA HOEHEKOTTEN_DATA FIRST_TRAUFE_AUFBAU HOEHENKOTEN]
+Name=AH - OK Dacheindeckung
+Type=1
+CategoryName=
+ReferenceImagePath=
+FavoriteNumber=0
+FunctionID=0
+OpenMode=0
+FavoriteType=0
+Bemassungsstil=Architektur
+FarbsetIndex=-10
+DreieckDarstellen=ungefÃ¼llt
+MasshilfslinieDarstellen=Ja
+HoehenkoteSeite=Oberseite
+
+[DATASET DhpSectionView 3 BEMASSUNG_BESCHRIFTUNG_DATA HOEHEKOTTEN_DATA FIRST_TRAUFE_AUFBAU HOEHENKOTEN ZUSATZTEXT_UNTER_HOEHENKOTE TEXTFELDBESCHRIFTUNG 0]
+
+[DATASET DhpSectionView 3 BEMASSUNG_BESCHRIFTUNG_DATA HOEHEKOTTEN_DATA FIRST_TRAUFE_AUFBAU HOEHENKOTEN ZUSATZTEXT_UNTER_HOEHENKOTE TEXTFELDBESCHRIFTUNG 0 MULTILINE_STRING]
+Line1=OK Dacheindeckung
+
+[DATASET DhpSectionView 3 BEMASSUNG_BESCHRIFTUNG_DATA HOEHEKOTTEN_DATA FIRST_TRAUFE_AUFBAU HOEHENKOTEN ZUSATZTEXT_UNTER_HOEHENKOTE TEXTFELDBESCHRIFTUNG 0 MULTILINE_STRING ENDSEC]
+
+[DATASET DhpSectionView 3 BEMASSUNG_BESCHRIFTUNG_DATA HOEHEKOTTEN_DATA FIRST_TRAUFE_AUFBAU HOEHENKOTEN ZUSATZTEXT_UNTER_HOEHENKOTE TEXTFELDBESCHRIFTUNG 0 ENDSEC]
+
+[DATASET DhpSectionView 3 BEMASSUNG_BESCHRIFTUNG_DATA HOEHEKOTTEN_DATA FIRST_TRAUFE_AUFBAU HOEHENKOTEN ENDSEC]
+
+[DATASET DhpSectionView 3 BEMASSUNG_BESCHRIFTUNG_DATA HOEHEKOTTEN_DATA ENDSEC]
+
+[DATASET DhpSectionView 3 BEMASSUNG_BESCHRIFTUNG_DATA VERMASSUNG_DATA]
+Vermassung  Hausbreite=ZwischenvermaÃŸung
+Vermassung  Abstaende_Wanddicken=Keine
+Vermassung  Stockwerke=ZwischenvermaÃŸung
+Vermassung  Deckenabstaende=ZwischenvermaÃŸung
+Vermassung  Dachueberstand=ZwischenvermaÃŸung
+Vermassung  Kaminverwahrung=Keine
+Vermassung  Pfettenabstand=Keine
+Vermassung  Koppelpfetten=Keine
+Vermassung  Zangen_an_Sparren=Keine
+Vermassung  Zangen_Bearbeit=Keine
+Vermassung  Dachlatten=Keine
+BemassungKerven=Keine
+LaengsmassVon=lotr. Obholz
+TraufabschnitteSparren=0
+Winkelvermassung=0
+FirstpfetteVermassen=0
+Kervenbeschriftung=keine
+
+[DATASET DhpSectionView 3 BEMASSUNG_BESCHRIFTUNG_DATA VERMASSUNG_DATA ENDSEC]
+
+[DATASET DhpSectionView 3 BEMASSUNG_BESCHRIFTUNG_DATA SCHATTEN_TIEFEN_DATA]
+
+[DATASET DhpSectionView 3 BEMASSUNG_BESCHRIFTUNG_DATA SCHATTEN_TIEFEN_DATA LICHT_DATA]
+FarbeUmgebungslicht=16777215
+FarbeGerichtetesLicht=16777215
+Lichteinfall Horiz=0.000000000000
+Lichteinfall Vert=0.000000000000
+SchattenDarstellen=0
+
+[DATASET DhpSectionView 3 BEMASSUNG_BESCHRIFTUNG_DATA SCHATTEN_TIEFEN_DATA LICHT_DATA ENDSEC]
+
+[DATASET DhpSectionView 3 BEMASSUNG_BESCHRIFTUNG_DATA SCHATTEN_TIEFEN_DATA TIEFENVERLAUF_FLAECHEN]
+Darstellen=0
+Farbe=16777215
+Tiefenverlauf=0 , 0
+Wirkgrad=0 , 0
+
+[DATASET DhpSectionView 3 BEMASSUNG_BESCHRIFTUNG_DATA SCHATTEN_TIEFEN_DATA TIEFENVERLAUF_FLAECHEN ENDSEC]
+
+[DATASET DhpSectionView 3 BEMASSUNG_BESCHRIFTUNG_DATA SCHATTEN_TIEFEN_DATA TIEFENVERLAUF_LINIEN]
+Darstellen=1
+Farbe=24
+Strichstaerke=0.000180000000
+
+[DATASET DhpSectionView 3 BEMASSUNG_BESCHRIFTUNG_DATA SCHATTEN_TIEFEN_DATA TIEFENVERLAUF_LINIEN TIEFENABSETZUNG 1]
+Position=0
+Strichstaerke=0.000000000000
+Saettigung=0
+
+[DATASET DhpSectionView 3 BEMASSUNG_BESCHRIFTUNG_DATA SCHATTEN_TIEFEN_DATA TIEFENVERLAUF_LINIEN TIEFENABSETZUNG 1 ENDSEC]
+
+[DATASET DhpSectionView 3 BEMASSUNG_BESCHRIFTUNG_DATA SCHATTEN_TIEFEN_DATA TIEFENVERLAUF_LINIEN TIEFENABSETZUNG 2]
+Position=0
+Strichstaerke=0.000000000000
+Saettigung=0
+
+[DATASET DhpSectionView 3 BEMASSUNG_BESCHRIFTUNG_DATA SCHATTEN_TIEFEN_DATA TIEFENVERLAUF_LINIEN TIEFENABSETZUNG 2 ENDSEC]
+
+[DATASET DhpSectionView 3 BEMASSUNG_BESCHRIFTUNG_DATA SCHATTEN_TIEFEN_DATA TIEFENVERLAUF_LINIEN TIEFENABSETZUNG 3]
+Position=0
+Strichstaerke=0.000000000000
+Saettigung=0
+
+[DATASET DhpSectionView 3 BEMASSUNG_BESCHRIFTUNG_DATA SCHATTEN_TIEFEN_DATA TIEFENVERLAUF_LINIEN TIEFENABSETZUNG 3 ENDSEC]
+
+[DATASET DhpSectionView 3 BEMASSUNG_BESCHRIFTUNG_DATA SCHATTEN_TIEFEN_DATA TIEFENVERLAUF_LINIEN ENDSEC]
+
+[DATASET DhpSectionView 3 BEMASSUNG_BESCHRIFTUNG_DATA SCHATTEN_TIEFEN_DATA ENDSEC]
+
+[DATASET DhpSectionView 3 BEMASSUNG_BESCHRIFTUNG_DATA ENDSEC]
+
+[DATASET DhpSectionView 3 PARAMETERS IMAGE]
+Position=0.000000000000,0.000000000000,0.000000000000,0.000000000000
+
+[DATASET DhpSectionView 3 PARAMETERS IMAGE DATA]
+DataSize=14269
+‰PNG
+
+   IHDR  Y   ì   †îlh   gAMA  ±üa   	pHYs  À  ÀjÖ‰	  7_IDATx^íİ=nëZ–öñw$W\aãáÂhåàD€
+N75àü ªÀ38Ê=¤fÑàËµÉM..®ıAŠ–õñ~¸"÷')‘Úéãûÿşş÷¿7üñ    `„,    ØPY    €mğ$    6DÈ   €²    `C„,    Ø!    6DÈ
+äy4Ïrœ   _É[S	BPğh×Hêx¸   Ô#d d  À"dİ­}s<Ÿ›óéĞì&ûÍ~RïŞİöq²   `²îV4Çss:ì&û/dİîq²Öyyyk>ÎÍÛË‹[²¶  À5²îV4v‡æ4>l™—Ip9ËS¢–˜½ÙÖíêê¶Â|¼²]s8šÃáØ—õs	õÛı»¾ıL?ïäqJ¿ãxâ¸Ÿ¶½|îi¹käícì«óÙ¼¿Şv8X²^^ß›ÏÉq¶>ŞÜºÑa)ŒûùŞ¼ö}Øí”nl™gıøkÚ  €çEÈº[cĞĞĞ>ôk»-¯UéÃÅt{m]=f¬B€êÃĞqß—õBûŠÕ¾öÓø’¹§•BÖÇÛ}-È—†¬.|LÃcM€úÖõöBà’÷gM  ğ¼YwK…‚!,è `CCmÙu÷ñ)ÕTjêBËœêß=ÎÖlÜX¶ÕÜÓ>dU›PGÓÏ÷×!d}¨§}²?Ô¯({{ymŞ?ÇòóÇ»ÙN?I‹ïKN^kM  ğ¼Ywkº§<µ/0reÔ• bŸT6Y­Ùq†p”šßVsO+…¬aÑßº‡Àµ4d	}œ1E](Ÿt…í6¤tûÇsÒ±îÉV¹¬m^uàëëØ¹¥¬i  !ënyAº:`¨P3	#™°1Û^Zwúôgw8dÍÛÌËíxê8m8ºè8SsO«½FtPğÊoÅš¥«B‰'?:,uÛòdª/µekBÖëûç$êíî=ŠóƒT®  €‡u·l`èB~ªÓm÷‹ÆãÑŠTØ°ÛKê¶ú÷4Œ;”%BÖäßEyìxóãÔÈbıq¶’sO«Y*(xå·âÒ•~½î;BV×~{·   dá{­ü5½[‘ºFBPá¢{J2‡[µ4dy!j„’¿.¸AÈÒõ
+ç8ÌÕ„£¢R¿Ê¹¦   !ßj\óï´nG:dÙ' cĞ¸e‹CÖì8çÇÚ…Ÿ±\~Õn‹%eÃ¯'öAÏnkñéšİŸzÚ&Ö´   dx´kdiÈ  À!¸ !   !¸ !   !¸ !   !¸€\#æY  à+yk*AÈ   €²    `C„,    Ø!(käÑxÇ	  €m²€‚G»F¸æ  ¾!ëìÍé|nÎçSsØ9å›Ù7Çó±Ù»e[ÈõÿÕc§²   °Ä…¬]s8™ÃÉq¯êİç¸T ÙÏÍq¯ËJ¤?	lÊp~Y€  ğµ7d…€õÕO~®aëğ1mÔN‡]ûšõY   _ë9CV*`¿v×é‚…”uüc6Ö”Á@oçÚµÌ\Î“~F€†:§C³ËÙŸƒÃ1Óç<dı±oë‡§Y¶/5vk|b–;¶µíjÇnåÎ]ò=N+]#//oÍGèï£y{yqëXkÚl…  ğµ/dík²ˆ:lH™ZÈ‡…z¬[*Ó}êíR;=GÛ–Ãn÷á$ûë‘ú¸ãvœgfÕçÄÈµÛú=¨í#uîlöX}ÅõöÑœ?Şš·sóñV²V´Ù
+!  àk=YÈ’'İ“’ÙyZÓ.ğ-?\èÅù’²Êÿğä(–ÙºZn»]*âyùO“Z³sËìÌ¸Õí2¿ª˜ê#wîfm:c¨ó•®‘”bpòêXkÚl…  ğµößd‹÷¾|¶8×r¡aI™ŞÎ´Ë…™ÜvÛ„W®ê+–Ô8væØªÛé?ÜQ9vîÜÍÊêä®‘—×÷æóó½y}iSøÀÏæı5ÿdjM›-²   ¾Öóşá‹°mŸÒLŸjì§d©1'á ÓÎşz]î×ífıäÆ´çÀ“«£Æ²¥öØµÓÇR9vöÜI©÷8-w¼¾6Ÿï¯îvSÃ³1HåÚ\!  àk=qÈŠûÚp\°‡ùøkdU¡![Ö-â‡şGUwA»v}ÈÊé+Wg:Öän,8¶|;UÖPíØ…s—|ÓR×ÈËËkóş©ûêõO©¶j³5B  À×z¢uÇäIMøËNò68wÉ%ÿÊ„£¢RÌbM›­qÍ  |-BÖM’'?úIGùi¢íÏ]êIıeÀÜ³XÓfk\ó   _‹<Ú5Â5  ğµY@!   K²€B   – d„,   ,AÈ
+äy4Şq  `„,    Ø!    6DÈ   €²€¹F¶àõ  €ÇCÈ
+¶¸F¸Î   !( d  `	BP@È²öÍñ|lö³××píñ¶Rš÷õkw85§ÃÎ-{»Cs:Ÿ›óùÔvNù·º×Ï8 @#dß²vÍá$Aí‹…²è<šW6£w¶ ÜÍùl÷~İMİÊy*Ìc×>?[s®á8¤¬ò:²×Å¢ëd-B <BPğ½!Ë.evŞşIÄ„,y‚sã‚÷Enä<IÈL†&™£÷y»Çÿü}İãu³à˜Y €•Y@Ám…,¡ÃRgúûã>ÖëÛâÓ›ná&‹Í±¾ôcúˆ‹pYPõt°Ó‹ÀÔk¿ì¨ÆE3VœëP>XĞç„›Ç;_¶İ‚ñgOÍb»ò8ó÷(¿¿–´?F1@äwéçĞÛ×Ö-|æêŞkÑ÷¯ÏO0'ç0¯;®9¦ãÁl×]'şœËeãge¬#Æóºôœ  ®‰Ü^ÈÊ,–Ã‚Ï,Ğô“û$£İıÌØz¡'ô\tYêµW¦æ<™§”éã´ıhµ}Ù'8‘s¾fs©_ÊRÇT'õ¥öÇí¢vŒÂS@ævs¼³cTJŸÃªsm?s•ïu ÛÆíØŞ“WÆÑçÌn¯³)Ûº]âØr}Ï	 àšY@ÁÍ‡,Y|·‹­Q\h9íÃBL×QûõâqÖgg¾HM½.•©¹Ùğ0««Uö9ìëÙ1†ó b¯½£rüì1ÆÉ½GÙıúXæ–şÁ‹1pÅñìñvu†>—|½}ÕŸ9¡Ú'ßËi?ş“¢Vn\é;²ÖÎ9{.Kó‹e¹ş ßÜ^ÈR‹«° Ó-½ğÊ-º¤Zz‹ÇIHĞô©×¥25·ÙX¶®VÙç°¯â^ŸÒGlãµ·cTŸ=¦šqâ>½h/íÏÉœ›‚1ĞÏç8”-ş:ûª?s¢t<¹rÓWnÜšµjÎ™s©Ë²ç5×? à»²€‚Û
+Y²°2Oô"o²(›·—§za><İ˜…n[w¾Ø¶¯Õx“¹èzBÍÍD"5¶È/2Ã¾˜õ«çœ:ßSá}Ñ}¥Ş£Ôş¸%óI†ı,úíñªscÛ7uj>sÂk¯åÊ½ãHŒ[ül®³7§,{^sı ¾!(øŞE(š/¢ä'àCùñ¨^Î¢+,U}õSù¡Ÿ¸¨³uİÅİt¡'Ì¡şd.ùá¤]»ÿ+BV©ı8½1¨øí79¦Òû¢ûJ½G™÷®d|J’#óRız2Çi¹îsÑç0q®ë>s"Ñ¾ªÜöÕJ;¿.Ö]'BÏ)w.§íÒçué9 \!(ø¾õ¤$-(qBÅ*[õÎ% <>BP@ÈújòxõÓzŸ7Š`°Î% <:BP@È  À„, €  €%Y@!   K²€¹F¶àõ  €ÇCÈ   €²    `C„,    Ø!(k àóî› ğìY@× ø¸?€p xTÿüç?İıµ¸?€p xT„, ø„, à®‘——·æãüÑ¼½¼¸å¢¦N´¤.€Ûõ¼!kßÏÇf?{}¯jásí¾kîµãŞÂ¹Å­!dŞ5ò÷ÿifûî].8½¼¾7ŸŸïÍk_FÈC*dıøÇ¿f¼zå5Ä®9œÎÍù¬šÃÎ«{¡İ¡9ÍÎ+›Ñ‹âï\ÀËù¸ÖØ™ã\tîzÒfò¾¶{¿î`ƒsmçºfî3ßõÀ##dö‘€EÈ"dà:!Ë†ª.\œ;µo÷²öÇJöÇssÜ;å›Ëçâ "}yïké<np®	Y¸„, À»F.	Y1 ||Œ?ıû|”Åğ¢·_^^›÷ÏÏæıı£oç‡œ7ÕïùÜÖ•¶¦_	MCnüÔ¼ºqÇ}ç·dİĞ·­ßúx‹ÇSw ®ã{B–Ğ‹ôùÓ®1tôím 	eİBX‚ÉX_ú1}Ä'*² êé`§Õ©×~ÙQ=	Šf¬Òª!\õak,Ë3?ö±Í0{Ü©~ç.§&Ø,šƒ´)—ígs=,Ÿ»Ëœ?wÍüúv…Ï]ê½Åc!d_²Tğ')†Ôö^Ú£ûÓ^ŞÚğ¢Êe[Æ™ö#¯»ğêÈöœórŸdéğ4íS›_ù \Y^¸²tıõ!K…³¿[ Æk¿¨Ö‹gJÚíĞÏláoÎz.óÅóüµW¦æ<™§”éã´ı“¹zmã¤}2Ó_h“éwvîÊtØ›…s(–%æºbîsªÿäşÊùÍú²Ÿ»Tx4„, àkB–RıÓï‰“ÚÖõtÚø„jì#ì×ı˜ æÕé¶Õ¼Ü5C O³dŒ0¨ş \÷$ËV‘­»YÈ’ğ0¹gÄ…§Ó>,Luµ_/¶g}vº1S‹b»@Î•©¹Ùğ3«;µ;œ&Ádº'uìºÍl.NÀô{AP×s¨-³s-Í}8g"ögÙ±½ı•ó«şÜÙ>ğhY@Á=…¬¨k×İØgO²¾0d…±BÀºü |½ïıuA½(ÕO½Í-B¥ZÀÚÅvr¡/ô©×¥25·ÙX¶®&í¦ğ`˜{fœaŸÔéÚÍïkÎ…!+‚óš9Ô–-YUìØŞşÊùUî„÷ŞâQ²€{HÀŠôşZÙ0ÊÆ¢KM@y}ÿ~…/nëoú	O»ÔR6üº`b^êWş†6³í¾®	qKÀõ¤B–(,±.dÉBSıŠ™]”Êö°·—§>]°·C_á‰…^ÀvãØº³P2{­Æ›ÌE×jnvìÙ\és
+¤¯òÓä±ë6al}ÎÚ²p~Ì_Lİ°ïYpájË–œëjvloíÜåuÍçNè>ğhY@ÁÖ×H.ÌÈ¶£á'›c8ª(ã¯öú§O³1M=ÄB3Şğ5†@6¶:ÜMşøÆÂc p=¹%rKÔ…,u?æ‹Jıï{ÎÇ£Zˆ:‹Ğ°¨VõU`ú‰ÀÖuÌÓ…¯,ˆ‡ú“¹äÈ“víşÔÂòk’Ú\2ã$İ´1õfAÌöÛnÛs'Ûã¯0Zïëâ9Ô—ysÕÛËIÿ}O»`îUŸ;1}ğXY@×€GU
+Y%ÜÜ§U÷„Å?p)BPÀ5àQ²¶"¡Ä{rq¯öÍñ®C"ğıY@× ø¸?€p €û# øY@\#  Ÿwß€gGÈ   €²    `C„,    Ø!(k àóî› ğìY@× ø¸?€p xTüÏˆàk²€® Š _ƒ|õ5òòòÖ|œ?š·—·¼ÆËËkóşùÙ¼¿–û¨o‹y¸mÏ²öÍñ|lö³×÷ªæná8×ÎáŞ#<BPà]#ÿŸf¶o­¯Y/¯ïÍçç{ózÅ°ôcX.²~üã_3^½òb×Nçæ|ÖNÍaçÕ½ĞîĞœN‡fç•ÍèEûw-àe\9×;sœ‹Î]OÚLŞ×Öqï×lp®í\×Ì=aw8-<ìÓq'c×ç—"dö‘€EÈÊ#d÷á:!Ë†ª.\œ;µo÷²daİ.¤÷ÇssÜ;å›Ëçâ "}yïké<np®¿(dÉûp6ı„}_´B°›Í__7ßôùÄÅY@w\²^Ş>ÌO­ÆŠ*û|íö‡ ¥Ûœ›·¾	Y±Ï÷·i›·I¨{}ÿû¤MôöÑiÃ_~^íØïñ˜>Û€5Ö³ı¸ß²„^¤ÏŸv¡£oˆ?éï›añ;Ô—~Lqa,ğ¡vzášzí—ÕØ“ hÆ*=¡ÂU¶Æ²ü8ócÛã¹Çê7qîrj‚Í¢9H›rÙ~6×Ãò¹{Â\½÷KÆãÚ÷Ùqõ}¸jêà²€‚­CV^T RaflJO¨†vc=½¨§*åÇóËróê^·_*LÙ1Ü&²¼peéúëC–
+fÿtÁÛ/ªõâÙ†’v;ô3[øÛÅ©‹.K½öÊÔœ'ó”2}œ¶c2W¯mbœÔ±OÆsúm2ıÎÎ]™{“°¬˜C±,1×sŸ™İÑø95óÛŞçIØÏZâ¸2ãlß¸„, `ó%O±t Ñafö„«3<±J<›>MÃPh“	Y²Ÿ\Éky²5>¡ª›—	YÀ}ğdyÁ*²u7Y²ØœÜ_â¢Òi©ºÚ¯Û³>;ã‚9¶O½.•©¹ÍË¶î”üŠ˜&ÓíÌ8©c×m’÷B¿•1p]0‡Ú2;×ÒÜ‡s&bFr¾6déùueá}«ş¬‰ÌçÆë|\ÜBPpõ•øõº.èŒáhÒnxšôÑîCY¨WY¡<lËş1,UÏ‹Ü­ïıuÁ~á¨z©•©öBê©Å¬]lgÎÓ1R¯Ke™Åò¬®&íâBZægØ'uºv³…|ò¸3ı–‚J¥!¬™Cm™ësáFÉ¸©ùÕ¯È×ÊqqY@½F$`Ez­1ÔôaF…§.ØLC’<]
+OŒl8›´ƒíc6	YBf}´-şróJ…,3€Û“
+Y¢°Äº%‹Fõ+fv*ÛÃ¢rŞ^útÁbÜ}Í¬İ8¶î,”Ì^«ñ&sÑõDf±œ\<·¤ÏY(¾œÀ4”uã$]·	cësÖ–…ó»`şbrì†}Ï‚çP[¶ä\/Æ™÷%ìÓÎO¶õüj>kBWWo~mß—®|Å5şàD{CÂÓ'‚B@éË‚±LÂ×ÎŠÎıÓ¤¡]¢¼Õ6óÌÔKÍËYB©÷¸¹%rKÔ…,}ßã3
+‹ÙX~<ªEåtA„Eµª¯ÆC?qalëıê…ëtÛ-zc?z.5‹å¾]»?µğ~Ø²!¸dÆI»icêÍ‚˜í·İ¶çN¶‡ <Sñ¾.C}™7W½½Öä=œõ'sPe­ÉûXõYÓó„@«Ûês?7~qSY@×€GU
+Y%ÜÜ§U÷Ä	OÏ†% p xT„¬­Ø';÷¾oÅ]‡Ä¯@ÈÂ2„, €k |ÜÀGÈ
+¸F ÀÇı |„, @® €Ï»oÀ³#d   À†Y    °!B    lˆÈ5²¯o   <BP°Å5Âu  ğ<Y@!   K²€‚5×Hü¿şÇm®3  €çAÈ
+–^#6`‰m¯³}s<›½[¦ÕÖÃ6îñ|ë9óy©wÉ¹úîóüìãÀu²€‚%×ˆ°Äºëì~#»Ãi8öà¸wëmnœ;ûÚç/7Ş®9œÌ<Ï§æ°óê^hwhN§C³óÊfôœïäó¶èø6²é˜ß}Ÿ}| ¸BP@ÈÊÛÛc6Ğ°ï‹ƒVv³…¯„™^®}şrãéyERÿÜœ;µo„¬í²6t'Ÿ3 ¸!(¨½FRKl²ôşîõQBM?ş¸h7íe¡Ø×ñêù}„>Ssœ†dÿ«æeÍUSGØzz;7‡ÖìIZj</d	é?îŸ?í:îc½¾ı!×ÂìP_ú1}Ä [8ÇúXç¯ı²Ú÷3Nt=}¼©ñÇgŞÛ«>oãÜSóñÆœÎoş>ôã»ç½pş&
+u«ŞW»½¶O9óÏ`º~ª,7şeÇ[wNà:Y@½Fâ—¸ğöë}Ñ×†,µ¨‹ébjşZô¦!¥ú(Åmâ‰•,<»>Mÿa[½b^™qG¶ï[OogæÊÔ‚:;>®©ñ<“±ú…¾>f{ÚíĞ´›<u±ó²çX÷Ú+Ûâœ³~ãÛãíì˜úøì\Ss7t™SÏ'õ>LæÑo‡zŞœsÈÖUsRï«İ6}†íT;İ§óÌÖ×ıöÛÅã/•åÆª=§ p„,  ²b¨Ò¯=_²r¾L‚jÎQ·(ÉõQ`˜Ê4dMCÊÂOš×ÎËU±½süY¶Ş^0‡ìxés:	Y³óûsÚÇlÆ”ı:TŸãÜqçÊÖ“Vòx3ã{Çg>ƒéÏ^a;5;¦Ïdî=g^;‡ôg#[w6×Nù¸mYíõèÌ3WÕñou¼¹s
+ ×AÈ
+¼kÄû²¶^t!Ë]ğˆ(a™šcjá¤Ákçµr\Ÿ­§·3s˜Í=7^êœª6a™šGî=‘zİç/œÓŠ2Òc¤^—ÊV“ìñfÆ¯8¾U!+7;æ¬Ÿ¸O½ÉónÛ–ŞÛDİdÿÂ¶ÓÛ¶¬öztæ™«¿êø·:ŞÜ9€ë d©kD‡+áÕ‰¾=d…×qáÙ‘?á/DÍE7î<:²@ËÿáÛ¿lë9®›W÷í¼lßéyt›Öäx3s°A/{¼EŸô­şíˆ]DNú›·ÏÓ¸úšĞnœò9¶¯78'³¹(ÙãÍŒï¡êN¶í\3Û¹ùÌcl—Ô¼¤MèßÎÁûlD¹ºR–{_UŸ³sk¥¦ÏôgØ­¿êøKeëî ğY@Aîùú5öß‘…„^P”%ª,,zl_N=³@‘À4YìLæ©«Îqè…ÒÚyañ¨Ûê¹ÎÇûšÌÿxTãæçngI»¾Ş`¾áÔíÏ9v{ŞTĞú‰ïCÕ9ë&ç¤İŸY­ôñæÏméøÆÏ—k~;7Ÿé˜ª]æ}°eİg3ş¦
+u“ïkéıÓmj¯ÇÄ<3sX~ükwÉ9€ë d¥kD¾ì½ıÚı^g[,VìOCB°yÊ	 À3 d[\#÷{µéâE2!ëyH(÷4  ğ\Y@Ás‡,   ,EÈ
+Y   X‚È5²¯o   <B    lˆ    "d   À†Y    °!B    lˆ    "d   À†Y    °¡²     ÛàI    lˆ    "d   À†Y    °!B    lˆ    "drlÁë[óÚ À­óîg ğìY@Á×HMRçoû ÜÖ à#d-¶oçc³wË¢š:_mí˜»EÈ ßå÷G}ßÎİÃoá»)º­ï( ·éIB–ÜØÎÍùj7·ÌtwhN§C³óÊR¤M˜¿rÜûuÜÌí\×Ì½Æ¬ßÒÜwÍátj»?šİáÔœ»~¿j·á\	Y à+ßÛä~m¾¿Îİı{^7wïßà;m3wôı
+àÛ<GÈÚC(ÙÏÍqï”o.s^|#•¾ìRÍş¾fı®»j·á\	YÏìÏæçïßÍÏ?½²­üh~5?f¯—XÛnK·0\[]È2ßaòìŞŸs÷ş¾Ó6sGß¯ ¾ÍS„¬!\õak,ën”Ç¶<ş„m|*Òµ›ÿäÍÜ\åÆ8Ô‰íSıšŸèŸFµjn¼‹æ mÊeûÙ\uswç"eKÎIn~óŸŠÁ95÷~®an©Ÿ ¦²Y&dıù³ùıûgó§İ¿Ø’5–ÿøun~ı˜ïŸ·¹BÖ3Z²æß9öuWOßëÇßF©ùğ·ıïõôş›ú~pW?dMBŠÜàôÍ^¶ÕÍ9ÜLû›±dívW/Ş$ãkÓßıNæSGßüÇ›u´bÅ²Ä\‹sWmıåšsÖon~Æ¤,3÷¡®>WuYÏìÖBV
+!ß£.d© Ñîï“ïûÚ~_/ü°Û©ïõì÷ı­|¿¸7²¦ÿf'óox
+ÂQ¾t¹PmìÙ«˜~/¸‘ë‚9Ô–-ı¹„¹M_Vµç$7¿ÖlœX73÷²)ıyÒOˆLÈ’`Õ–ÿşùcÚæ×¶Ü†³İ·m~ÿüÓ©—*¹ş»×¿~yı·’c÷Ç÷óW_&ı­í+×Î/“§qóºkÇÀw¨Yêş=ìó¾ÔëÙw›ù^¨ù°Ûò½0©ÛKí¿¥ïW wçÁCVw#ŸŞˆ[Ã,w3Œ¤N×nö…°æ¼ÑTÂV˜Ï-}	$ç"–œ“LİğÅªËtİÌÜ/@Èz2aÃ‹
+Y“ııöäIV r!h,Óá-WO+õo}Ğë_è±åu{!1–›¾&Çë«ÔÎ–m=¾Ãº¥à™¸‡Ï¾OLÙĞÆ”M^{ÛqŸş^Oì¿¥ïW wç±C–Ü g7-¹áy?A‹eİÍP¾ ôÍ×ıB›bòW	7ÙĞF—µf_¦lv“¿pµev®ŞÜ'¤íôKk<™1gıfêÚó19w™¹ûô¹ªCÈz?â“œ(.Üû~xÒcó²À¯Y³ş;]XĞílZ¦§<%
+Oy²cë Ù¾Têã0í²s7Û«ÇÀwX²ôw…¾ßgîáú^_üPã©²Ô÷zòû~öÑöımß¯ îÍC‡¬ái-nĞ™›a¸á©/ù!¬™6¦Şü'sbú%3üÊ_ÿ%!Û]»X_“¶cÿ}Óo-C}™7W½=cÏÛĞ×’sRY7Ô?ªºù¹ws3ç®!ëÁ…E}* È"¾ııúÕîSOPÄÒ5yZ¤év¶-Ó¿ÓnøÃÙ±W„¬ªã„¬Ucà;Ô…¬ş^¬ŒßÍú¾=½‡KØÚLîõ¹ïL»Ô÷zj¿Sö­ß¯ îÊãÿá‹›7¸=„¬gõ²=,ämPPAkö«jR®ü“~LÛÖŸ?;OglˆĞJı§æ"¯Sc/YÙ¾JíìüRÛkÇÀw` >BÖ·Û7G~û¦²ŸşİS«¸·‹ø. œû'XC»>¤Iğûi…PÖ—:Tx¯çÒı÷óRtHI½4dµªÃ¶³e…íUcà;°†  !( d€5 øY@! |¬! ÀGÈ
+Y àc >BP@È k ğ²€¹F¶àõ­ym àÖy÷3 xv„,    Ø!    6DÈ   €²€¹F¶àõ­ym àÖy÷3 xv„, @®‘¿şõ¯©¹Î¤÷×» àV±†  !( d€ïò5Ä¾9ÍŞ-‹jêDKê–ìšÃéÔv^YÎ–sXâã~×±÷‡¬	YÒF·«¹Î¤·ˆ€[UsoûcwhNçssÖ{¿®+³°—¾O‡f7ì»…¥Ìæ÷•%dôpY@K5¤¾mSsIo\Ïæ×ùWóÃ-ÓjëáÑ•ïm² ¶Aeé"9SŸ¥\#|\cŒ’[˜PFÈ
+l`Ê‘º^ıšëLêx‹Ü£[!6?›§	çßÍÏ?½º%„,tŠ÷¶bÈ0f©¯>£§Ãn¨s<Úı‚Æ}İÓ±T]éßÔo÷q} :û2™“	YıÜ†şÜ¹JİxLŞüú¾z»Ãi¶ßÎ}èkçÓÉÏwí±çÚµÌº±ú²Â9Hö™lçWßfÏ¯İŸ>Æây¾h>€x¡)Eêzõk®3©ã-bpn5dÙP%ó<7¿ş©öÕ d¡Sso“Åì|ñé³¼V¡F¶‡à¤BAX÷mäõìI–ºOE÷è“…x¿À–¶“ºBúÕÛª®.›ÍÏ²ı˜¶ö|ÛŞ|¥<q¬IY®3në2İ¿=¹>Sí¼ã²lû„Üql:ÀGÈ
+¼Ğä‘z©º5×™Ôñ1¸G©2šôëGWöçÏßÍù×Iı¿T úógó[µƒQ~şêËRáÇYBæ÷ëy§ç:;¾ql[¯eæîQÍ½M—³À•'&îb6³–Årá×sO†Æyè…uÔïO1¦}Îûét¡BÍa6¿9=?yâ2™«9R·Ã›o.,´’Çi7›ƒª[{¼>“í¼ã²lßJò§ç6ÿ™èÔÏğ²€œd;òöë}ºÌë[“:Ş"÷¨òIO ±;^™îO¦>™€6—
+Y]˜ë‚QfŞ©ù„ıº_}æ˜rıã.ÕÜÛ<cX0‹ö/
+Ya¬°˜Öeº®·˜–}íµu<¶õâ|{É¹
+ÕoEÈŸªH;5gŒÕ!+{ì…v¹Us‚\Ÿšw\–í»—=F½mö_<ÀGÈ
+lp’mMïÓõ4)óúÖ¤·ˆÁ=Ê„	óÔG?Ù‘§Yñ	Õä)Ö¬M§FNxš<=Še+BVr®ªÔqÀ…şfe„¬GS¼·¹X½ÈU¯CØĞÚ¶,´5‹b½ğŠj3ÛN,î'‹ro1­÷I?:hÙíîII·­æ0›Ÿ/„§6ÌMægÏÇdÛ›¯=vU'{ì™vvş³vç ÈKİÎ;.ËöİËcGÎ³ÜË†§XÁ¥ó|„, ÀO²ÏcëERæõ­Ioƒ{”!´èı¶^Ü6û 3J‡§©T==–z«©GÈzZå{›,RuPzÑjÌaQ?ÖíÃ¹û¸pîØİ‚ykºxêŠğ„*öë-¦í¾¾ïødÊÌ5Z¦ó‹}!Lç˜1Æro¾•çIL=ßN‡ß®UyfóM¶óËêß§}ú{a\³oØ¯Ú.šà#d©ğ$û5¯N$å^ßšÔñ1¸G‰0aCÇ,ÈtE¾ä§ŒBú‹O›:òÔ+ù$ËåÕëúÇÊ„§É\U=ûë‚z{ò+†Î6î^Í½¸§O±€¯CÈ
+rJÊ"¯<ª¹Î¤·ˆÁ=êÂËøSQÑ…‹¢‚_¿Æ°¥‚HØ¯Úu–„,İ^x¡k;=×i=;7‡>Úy²KÍ½¸	áiO¥p=„,  &@yûµšëLêx‹<ıï²<ûı³ùÓ+Ã]b >BPP¢JY¨Õ<•ºöéO±k ğ²€B øXC €² ÀÇ |„, @®‘-x}k^ ¸uŞı !    6DÈ   €²    `C„, @®‘-x}k^ ¸uŞı !(kÄû‹KÔ\g\‹ ®Iî9[ğú€gGÈ
+äñ‚Ó5××"€%şùÏºûkÉ=Çû³ìµ¤ıe÷­}s<›½[¶5=Ö5Ç}DœK !(kÄN9qñ¡·½¾5®E K\+dıçÿïDÜïs^ß#Y„Ÿ›³qÜ{uÚšÓéĞì¼²™{»æp²çîÔv^İ=ü¹®È5¢TI\xØ}^ßÚÖ×âËË[óqşhŞ^^Üò”%íÖ±TÍ8×šË¹¹­÷ËËkóşùÙ¼¿ŞŞñâ:®²š¿ü%X²¾hş!Ë†*™û¹9vjßYÀæY@\#:0åÄE‡·ßë[ËÕyy}o>'?Íl}¼¹u£-BG÷ó½yíû˜mßP°ùª¹tıÊ9_ßwíÜìùÍÉ…¬%ıà~¥BÖükÆ«'÷¦<ñéÕ×„¬ùbıxïq:HìÕşîiyÊsÜwu%,õt©``çW?';ÖY÷S˜G²Ï	/d	é#îŸ?íŸöíÇ¾¬›ßİKàN²€¹FlhJ‰‹o¿×·–ªÓ-Ğ§‹éšEû¡ƒÕöûöíÛÇ¹ùx[×wíÜYXbËõïÿÛ%¡êÿşë?†°µ.déÅs§v®BXt÷eû6$Ä…¿êIÉÓİŸĞ!Åå½öÊs
+e: åú´óHõiévS”†>´I}x2çî¾Î%p¿Y@\#64yâ‚#Uæõ­¥êÔ,˜Cö,.`>ß_‡…ıGôşP¿¢ì-,âÇòóÇ»Ù~Ëö“šW7FŞÛ Êº ’®?)K÷1\Å°÷/9†uç»«xûë}¾¿%ß§áü©íÔqH=Ü¶­CV|Å€é€%â=Ïë{”[0ÛE¸®§õaA.ŸMÓ âç^éö©±ì¸•s²aE×­‡H©\Ù$dÍÆ‹ı;íïí\wŒÈ5bSäí×ût™×·–«#ıø%gƒC·`V‹mÙÖãÓ—nÖ¥²şµì/>ÉRı„ín.ºŸ®lİëöx&¡%W_ÍI1´+oc)}¼óqSÇ°ln]YÿÚ=¿©s¢^›c-÷£Æt÷Á†,/\Yº¾Üsb`Š!+>Á’×:dÙ€%â=O÷9—[0W.Â'õ»û`Xì{Á`²X×RcÙqse•Á z"¤Òef¬Iºÿ\ßRïÎ%pÇY@\#60izŸ®§I™×·VSGŒ«_$›',Q~^W6[¬ïBæŞÈ¼ú/qM‚†/¶Ë×WsZq¼³º!”Ä1ü:âõısjõvò.x/fç·æ†'PÓ÷`yÈJŸÜ.ïI–¬"[Wî910Ùå=ÅÒìš!kw8OmZ²ş=Ox*£ÛHê	O_·üôE‘IhIÏi6öd»v"„¼²®ïáß3Ù€2™ÿ¼ııKà~²€¹F¼Ğä±õ")óúÖjêh©_c‹jö¹²µ!+7/á-ìóõÕœV¯­[£k?8çşø—Ãêó]<‡í|>>Úöİ9ÊYOÁ{’ÿkéòHî96dE¥§X"Ş÷tŸsİbİ^GùÅº°‹pÕ^=qşˆC¶®Ûÿt,	Cıã±nN¶]»ú² ®Ï))Ó}ˆyİÉ²˜ÌßéûÏ%p§Y@\#©à¤yu")÷úÖRu¼…ölaüµòÂ>WÖõ­êÙíY?²­û™.şåIĞä)ŒZØçëÛ9-;ŞØßá¼« ö…>ûéÃ…ï…~ËçĞÖóûQó’c‹c^xğ}RO²âsKÈ='¦²âÓ*²âşX¯>d=	yj£İëq.ñ Y@\#^pq‘‘«#j®³T¸°~ÊLÅİ¢z,¿®W¹°/•¿Ø=½÷q\¡WiaŸ®oæ»ğxõµâ9»?†ŞÚcXú^Øó]{‡÷¢†¶	gCáé—ßîGî_xÿµäcCV$Á*Òûµxïóú~|ö)O^Öã\â1²€¹F¼à•ÊEÍuÆµ`‰TÈ¥€%äSYñiUXq[#d@!(kÄNKÔ\g\‹ –È…,‘XBî96dE¹'X‘´ç¾ >BP ×ˆœ–¨¹Î¸\“Üs¼ğTKÚsß !(kÄNKÔ\g\‹ ®Iî9[ğú€gGÈ
+ì‚b-¯oÍk ·Î»ŸÀ³#d   À†Y    °!B    lˆÈ5²¯oÍk ·Î»ŸÀ³#drx1p‰šëŒkÀ5É=g^ß ğìY@\#^pZ¢æ:ãZ°DéF\"÷ïÿUKÚ_vßÚ7Çó±Ù»e[Óc]sÜG çëÜœ{Ç½WçÖİÊ{¾t¦şîĞœÂûpj;]·ˆÈ5â§œ¸øĞÛ^ß×"€%®²şó¿ÿw"î÷9¯ïÑt¾éB]œ§C³óÊfôbõVÜ%»æp²çîÚ‹ënÃûµèœß’Ü{~Íó|ÉgOæ©æu·ïÅó drè UvŸ×·¶õµøòòÖ|œ?š·—·<eI»µc,U3Îµæ²FnnkçıòòÚ¼~6ï¯·w¼¸k†¬æ/	Ö…¬/
+4O²ÌblÎW]X›s%ã÷¦Î=È½ç×<Ï—|öL[BÖÍ#drèÀ”Ş~¯o-Wçåõ½ùœü”­õñæÖ¶aÜÏ÷æµïc¶}CÁæ«æÒõ+ç|}ßµs³ç7'²–ôƒû•
+Y?şñ¯¯Üst˜òÄ§W_²tY÷úxïq§Ãn¨»Wû»§æéC\øËÂs¨§û˜5í—¥ædÇ:ë~
+óHö9á/şss(£ÏãX×œËÖø¤1ùo[6	X±ÌÛöÇÚæÎİÄcHPªã’óì}6smrsîçqˆó–ùÇ;çÔö1ûü_p®ªß,AÈ
+ä±¡)%.:¼ı^ßZªN·@Ÿ.¦kí[„BVÛïÛG´oçæãm]ßµs#da‰-CÖ¿ÿıo—„ªÿû¯ÿÂÖº¥onoæ×Òb™}zÒn‡zRgò“|İŸĞ‹g;–÷Ú+KÌ)”é…y®O;TŸÖ<üŒçN,§rÜÙqªz!¸$Ê&ÛŞøº,uî¬kŒqÁyN}6½ñ‡ ”šs?d5ó¶ÙÏ¿m»Å¹Â„, @®š<qÁ‘*óúÖRujÌ¡úrø|öm8ĞûCıŠ²·°ˆËÏïfû-ÛOj^İ}@xoL(ëHºş4¤,=ŞKÄpÃVÜ¿äÖïn¬â9ìCV¬÷ùş–|Ÿ†ó§¶SÇ!õpÛ¶YñuV¤–ˆ÷<¯ïQnÁfºZÈ†¡|6M?v‘€úì÷ÆE¯7–·rNvq­ëVÏC¨>‡}¹²n!úZ4Na{ÖW,³íº'*å1lYå¹›¹ÆœçÔgs6~”™³;Ìñ.Y‰q+,AÈ
+ä±)òöë}ºÌë[ËÕ‘…~¼±ÛàĞ-˜Õb[¶‡…õøô¥[„Ç…u©¬-û‹O²T?a»›‹î§+CA÷º=IhÉÕWsRcí
+ÇÇXJï|ÜÔ1,›[WÖ¿vÏoêœ¨×æXËı¨1ãÀ}°!ËW–®/÷œ˜bÈŠO°äµY6`‰xÏÓ}Îål•‹ÀIıî>8,pmÈr¶"5–7WV¹0­‡ğ3_¶;œº_õZ4Nf[úIÖµí%dÕçHúWŸÍd›Ìœİyd—uóY@\#60izŸ®§I™×·VSGŒ«_$›',Q~^W6[¬ïBæŞÈ¼ú/M‚†/¶Ë×WsZq¼³º!”Ä1ü:âõısjõvò.x/fç·æ†'PÓ÷`yÈJŸÜ.ïI–¬"[Wî910Ùå=ÅÒìš!K»İ¢¾3,~ÃSİFúˆ`¬;öµZØÊ‚³bN³±'ÛµóŞÂ:W¦û^2NfÛ.²³ç@oËë­ÏµÑ“vÖúó<ïqÿøÙÔ}¶}„sœ™sr‰ã7)Wí¿äıÀ„, @®/4yl½HÊ¼¾µš:Zê×Ø¢Ú…}®lmÈÊÍKxû|}5§ÇkëÖèÚÏÎ¹?ş%Ç°ú|Ïa;Ÿ¶}wÎ‡2BÖSğdÅÿZº<’{YQé)–ˆ÷=İçœ,îÌ5ÔšÒ"PµW?½ş@	¶®Ûÿt,YõÇº9ÙvíşùBµ/êúœ’2İGG/êëÇÉoOş¨‚wÂ‚]Ê§sı’sgl2Æ¤uÁyÎ|6mY÷‡&rsÎ¿£ëÛ¶óÏÿ5ŞÔ#dr¤‚“æÕ‰¤Üë[KÕñÚ³…yòWÔÊû\Y×·ªg·gıÈ¶îgºø—'A“§0jaŸ¯oç´ìxcK„ó®‚JØúìC¤w¾şù-ŸC[ÏïGÍK-yáyÂ÷I=ÉŠÿÍ,!÷œ˜bÈŠO«lÈŠûc½úõ$$„L~uÕ8w·…÷c3„, @®/8‰¸ÈÈÕ5×YªN\Ø?e
+¦‹ânQ=–‡_×«\Ø—Ê†_OìƒŞ‹û8®ĞÀÎ«´°O×7ó]x¼zŒZñ‰œİCoí1,}/ìù®=‡Ã{ÑCÛ„³¡ğôËï÷#÷‡/¼ÿZrÏ±!+’`éıZ¼÷y}?>ûôƒŸü×ãÜİŞ¯BÈ
+äñ‚ST*5××"€%R!K”–{NL1dÅ§U1`Åm e„, @®/8-Qsq-X"²D.`	¹çØå`EÒû øY@\#^pZ¢æ:ãZpMrÏñÂS-iÏ} |„, @®/8-Qsq-¸&¹çlÁë !(°Šµ¼¾5¯ Ü:ï~ Ï    "d   À†Y    °!B    lˆ    "d   À†Y    °!B    lˆ    ›ù£ùÿa¶3õäU    IEND®B`‚
+[DATASET DhpSectionView 3 PARAMETERS IMAGE DATA ENDSEC]
+
+[DATASET DhpSectionView 3 PARAMETERS IMAGE ENDSEC]
+
+[DATASET DhpSectionView 3 ENDSEC]
