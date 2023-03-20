@@ -1,0 +1,72 @@
+Projekte.Kurzname:Address,1650,265,0,"Adresse"
+Projekte.Name:Project,1470,257,0,"Projekt"
+Projekte.Status,1380,1,2
+Projekte.Name2,3975,9,0,"Name"
+Projekte.Kennung,1200,0,2
+Projekte.Unternehmensbereich,1470,8,0,"Unternehmens-¶bereich"
+Projekte.Typ,1110,8,2
+Projekte.Kurztext,2820,1,0
+Projekte.Beschreibung,3720,512,0
+Projekte.Name1,1020,8,0,"Anrede"
+Projekte.Name3,1920,8,0,"Namenszusatz"
+Projekte.Straße,1920,8,0
+Projekte.PLZ,840,8,0
+Projekte.Ort,1920,8,0
+Projekte.Lieferadresse,1560,8,0
+Projekte.LieferadresseName1,2325,8,0,"Anrede (Lieferadresse)"
+Projekte.LieferadresseName2,2220,8,0,"Name (Lieferadresse)"
+Projekte.LieferadresseName3,2955,8,0,"Namenszusatz (Lieferadresse)"
+Projekte.LieferadresseStraße,2220,8,0,"Straße (Lieferadresse)"
+Projekte.LieferadressePLZ,2010,8,0,"PLZ (Lieferadresse)"
+Projekte.LieferadresseOrt,2220,8,0,"Ort (Lieferadresse)"
+Projekte.Priorität,840,8,2
+Projekte.Kostenstelle,480,0,2,"KSt"
+Projekte.Nachkalkulation,1470,8,2
+Projekte.Vergabenummer,1560,8,0
+Projekte.Anlage:System,1470,264,0
+Projekte.Angebotsabgabe,1470,8,2,"Abgabe¶Angebot","dd/mm/yyyy hh:mm"
+Projekte.Zuschlagsfrist,1470,8,2,,"dd/mm/yyyy hh:mm"
+Projekte.Startdatum,1470,8,2,,"General Date"
+Projekte.Termin,1470,9,2,"Datum¶Fertigstellung","General Date"
+Projekte.Angebotssumme,1020,8,1,"Summe¶Angebot","Currency"
+Projekte.Auftragssumme,1020,9,1,"Summe¶Auftrag","Currency"
+Erlösschmälerung,1020,8,1,"Skonto¶netto","Currency"
+Gesamtkosten,1020,1,1,"Kosten¶Gesamt","Currency"
+Nettoforderungen,1020,1,1,"Erlöse¶Netto","Currency"
+Gewinn,1020,1,1,,"Currency"
+Gewinnanteil,750,1,1,"Gewinn¶anteil","Percent"
+Nettobestellwert,1020,8,1,"Bestellt¶Netto","Currency"
+KG1,1020,8,1,"Kosten¶Lohn","Currency"
+KG2,1020,8,1,"Kosten¶Material","Currency"
+KG3,885,8,1,"Kosten¶Geräte","Currency"
+KG4,1020,8,1,"Kosten¶Fremdes","Currency"
+KG5,1020,8,1,"Kosten¶Rohstoffe","Currency"
+KG6,1020,8,1,"Kosten¶Hilfstoffe","Currency"
+KG7,1020,8,1,"Kosten¶Entsorg.","Currency"
+KG0,750,8,1,"Kosten¶Sonstiges","Currency"
+Ertrag,750,8,1,,"Percent"
+Projekte.Mindestertrag,750,8,1,"Mind.¶Ertrag","0.00######%"
+Projekte.Schätzzeit,1020,8,1,"Zeit in Std.¶geschätzt","0.00"
+Projekte.Sollzeit,1020,8,1,"Zeit in Std.¶Soll","0.00"
+Projekte.Abrechnungszeit,1020,8,1,"Zeit in Std.¶berechnet","0.00"
+Gesamtzeit,1020,8,1,"Zeit in Std.¶Ist","0.00"
+DB1hIst,1020,8,1,"DB I / Std¶Ist","Currency"
+Forderungen,1020,1,1,"Fakturiert¶Brutto","Currency"
+Zahlungen,1020,1,1,"Gezahlt¶Brutto","Currency"
+Skonto,1020,8,1,"Skonto¶Brutto","Currency"
+Ausgleich,1020,0,1,"Ausgleich¶Brutto","Currency"
+Restbetrag,1020,0,1,"Zu zahlen¶Brutto","Currency"
+Rechnungsdatum,1020,1,2,"Datum¶Rechnung","General Date"
+Zahlungsdatum,1020,9,2,"Datum¶Zahlung","General Date"
+Mahndruckdatum,1020,8,2,"Mahn-¶datum","General Date"
+Mahngebühren,1200,8,1,"Mahn-¶gebühren","Currency"
+Verzugszinsen,1200,8,1,"Verzugs-¶zinsen","Currency"
+Bruttoabzüge,1200,8,1,"Brutto-¶abzüge","Currency"
+Projekte.Sicherheitsleistung,1200,8,2,"Sicherheits-¶leistung"
+Gewährleistungseinbehalt,1470,8,1,"Gewährleistung¶Einbehalt","Currency"
+Gewährleistungsfrist,1470,8,2,"Gewährleistung¶Frist","General Date"
+Projekte.Eigentümer,1470,8,2
+Projekte.Erstanlagedatum,1650,9,2,,"General Date"
+Projekte.Bearbeiter,1470,8,2
+Projekte.Änderungsdatum,1650,9,2,,"General Date"
+Projekte.Zeichen,930,9,2

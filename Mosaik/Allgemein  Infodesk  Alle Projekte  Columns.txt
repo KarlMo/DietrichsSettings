@@ -1,0 +1,39 @@
+Projekte.Zeichen,585,0,2
+Projekte.Kurzname:Address,3600,257,0,"Kunde"
+Projekte.Name:Project,2730,257,0,"Projekt"
+Projekte.Kennung,2220,8,0
+Projekte.Status,2070,1,2
+Projekte.Typ,1125,9,2
+Projekte.Kurztext,4755,1,0
+Projekte.Anlage:System,1800,256,0
+Projekte.Beschreibung,5370,512,0
+Projekte.Thema,4320,0,0
+Projekte.Stichwörter,5340,0,0
+Projekte.Kommentar,5370,512,0
+Projekte.Name1,1455,9,0,"Anrede"
+Projekte.Name2,3150,1,0,"Name"
+Projekte.Name3,225,0,0
+Projekte.Straße,2220,9,0
+Projekte.PLZ,960,9,0
+Projekte.Ort,1560,1,0
+Projekte.Lieferadresse,1560,8,0
+Projekte.LieferadresseName1,2325,8,0,"Anrede (Lieferadresse)"
+Projekte.LieferadresseName2,2220,8,0,"Name (Lieferadresse)"
+Projekte.LieferadresseName3,2955,8,0,"Namenszusatz (Lieferadresse)"
+Projekte.LieferadresseStraße,2220,8,0,"Straße (Lieferadresse)"
+Projekte.LieferadressePLZ,2010,8,0,"PLZ (Lieferadresse)"
+Projekte.LieferadresseOrt,2220,8,0,"Ort (Lieferadresse)"
+Projekte.Vorgangsart,3270,8,0
+Projekte.Archiv,3270,8,0
+Projekte.Priorität,960,8,2
+Projekte.Vergabenummer,1800,8,0
+Projekte.Vertreter,1800,8,0
+Projekte.Unternehmensbereich,2220,8,0
+Projekte.Kostenstelle,645,8,2,"KSt"
+Projekte.Startdatum,1275,8,2,,"General Date"
+Projekte.Termin,1275,8,2,,"General Date"
+Projekte.Schätzzeit,1170,8,2,,"0.0 h"
+Projekte.Änderungsdatum,2010,9,2,,"General Date"
+Projekte.Bearbeiter,1380,9,2
+Projekte.Erstanlagedatum,2010,9,2,,"General Date"
+Projekte.Eigentümer,1380,8,2
