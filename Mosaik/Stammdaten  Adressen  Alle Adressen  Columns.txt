@@ -1,0 +1,75 @@
+Adressen.Kurzname,2025,1,0
+Adressen.Typ:Classification,1290,4,2
+Adressen.Matchcode,3120,0,0
+Adressen.Name1,1170,0,0,"Anrede"
+Adressen.Name2,3375,1,0,"Name"
+Adressen.Name3,3270,0,0,"Namenszusatz"
+Adressen.Postfach,2190,0,0
+Adressen.PPZ,1140,0,0
+Adressen.Postfachort,3240,0,0
+Adressen.Nummer,1770,0,0
+Adressen.Postanschrift,1380,0,2
+Adressen.Ländercode,1485,0,2,,"[Chr(59) & ""<Inland>¶"" & ActiveClient.ListCountries]"
+Adressen.Briefanrede,3270,0,0
+Adressen.Telefon,2085,1,0
+Adressen.Mobiltelefon,1755,1,0
+Adressen.Kommunikation,3585,1,0
+Adressen.PLZ,660,1,0
+Adressen.Ort,1425,1,0
+Adressen.Straße,1995,1,0
+Adressen.Telefax,3240,0,0
+Adressen.Gruppe,1170,0,0
+Adressen.Info,5340,512,0
+Adressen.Divers,675,0,2,,"Yes/No"
+Adressen.Herkunft,2220,0,0
+Adressen.Branche,2220,0,0
+Adressen.Autotelefon,2220,0,0
+Adressen.Internetadresse,2220,0,0
+Adressen.Bankname,2220,0,0
+Adressen.BLZ,1065,0,1
+Adressen.Bankkonto,1170,0,1
+Adressen.IBAN,2745,0,0
+Adressen.BIC,1275,0,0
+Adressen.SperrkontoIBAN,2745,0,0
+Adressen.SperrkontoBIC,1590,0,0
+Adressen.SperrkontoBLZ,1590,0,0
+Adressen.Sperrkontobankname,2220,0,0
+Adressen.Sperrkontonummer,2010,0,0
+Adressen.Bankkontoinhaber,2220,0,0
+Adressen.Vertreter,1770,0,0
+Adressen.Zahlungsart,1275,0,0
+Adressen.Zahlungsmittel,1695,0,0
+Adressen.Versandtext,1275,0,0
+Adressen.Korrespondenzsprache,2625,0,2,,"[Chr(59) & ""<Standard>¶"" & ActiveClient.ListCorrespondenceLanguages]"
+Adressen.ILN,1485,0,0
+Adressen.Fahrtzone,1170,0,0
+Adressen.Preiscode,1695,1,2
+Adressen.Kalkulationsart,1695,0,2
+Adressen.Steuercode,2010,0,2
+Adressen.Erfüllungsort,1695,0,2,,"[Chr(59) & ""<Wohnort>¶"" & Client.ListCountries]"
+Adressen.Rechnungsstellung,2010,0,2
+Adressen.Mahncode,1800,0,2
+Adressen.Grundrabatt,1275,0,1,,"Percent"
+Adressen.Kosten,855,0,1,,"Currency"
+Adressen.Kostensatz,1170,0,1,,"Percent"
+Adressen.Kalkulationszuschlag,2220,0,1,,"0.00######%"
+Adressen.Preiszuschlag,1485,0,1,,"0.00######%"
+Adressen.Konto,750,4,2,,"0000"
+Adressen.Sammelkonto,1485,4,2,,"0000"
+Adressen.Sachkonto,1170,4,2,,"0000"
+Adressen.UStID,1800,0,0
+Adressen.Kreditlimit,1170,0,1,,"Currency"
+Adressen.Kreditsperre,1380,0,2,,"Yes/No"
+Adressen.Ausgeblendet,1485,0,2,,"Yes/No"
+Adressen.Geschlecht,1170,0,2
+Adressen.Archivunterordner,1905,0,0
+Adressen.Umsatzdatum,1380,1,2,,"General Date"
+Adressen.Erstkontakt,1170,0,2,,"General Date"
+Adressen.Mahndruckdatum,1800,0,2,,"General Date"
+Adressen.Zahlungsdatum,1590,1,2,,"General Date"
+Adressen.Synchronisierung,1800,0,2,,"General Date"
+Adressen.Löschdatum,1275,0,2,,"General Date"
+Adressen.Änderungsdatum,1800,0,2,,"General Date"
+Adressen.Erstanlagedatum,1800,1,2,,"General Date"
+Adressen.Bearbeiter,2010,0,0
+Adressen.Eigentümer,2010,0,0
