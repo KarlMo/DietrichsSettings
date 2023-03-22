@@ -1,1 +1,2 @@
-*.reg text diff
+
+*.reg working-tree-encoding=UTF-16LE-BOM eol=CRLF
