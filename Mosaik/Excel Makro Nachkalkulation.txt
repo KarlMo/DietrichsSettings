@@ -1,0 +1,105 @@
+Sub Nachkalkulation()
+'
+' Nachkalkulation
+'
+'
+    Dim zeileMATek
+    Dim zeileMATzu1
+    Dim zeileMATvk1
+    Dim zeileMATzu2
+    Dim zeileMATvk2
+    Dim zeileLOHNvk
+    Dim zeileVK10
+    Dim zeileVK20
+        
+    zeileMATek = "R"
+    zeileMATzu1 = "S"
+    zeileMATvk1 = "T"
+    zeileMATzu2 = "U"
+    zeileMATvk2 = "V"
+    zeileLOHNvk = "W"
+    zeileVK1 = "X"
+    zeileVK2 = "Y"
+    
+    Application.CutCopyMode = False
+    ActiveSheet.ListObjects.Add(xlSrcRange, , , xlYes).Name = "Tabelle1"
+    Range("Tabelle1[#All]").Select
+    ActiveSheet.ListObjects("Tabelle1").TableStyle = "TableStyleMedium21"
+    ActiveSheet.ListObjects("Tabelle1").ShowTotals = True
+    ActiveWindow.ScrollColumn = 4
+    Range("Tabelle1[[#Totals],[Kosten GP]]").Select
+    ActiveSheet.ListObjects("Tabelle1").ListColumns("Kosten GP").TotalsCalculation _
+        = xlTotalsCalculationSum
+    
+    Range(zeileMATek & "1").Select
+    ActiveCell.FormulaR1C1 = "MaterialEK"
+    Range(zeileMATek & "2").Select
+    ActiveCell.FormulaR1C1 = _
+        "=IF(@[Kalk.-Gruppe]=""Material"",[@[Kosten GP]],0)"
+    Selection.AutoFill Destination:=Range("Tabelle1[MaterialEK]")
+    ActiveSheet.ListObjects("Tabelle1").ListColumns("MaterialEK").TotalsCalculation = _
+        xlTotalsCalculationSum
+    
+    Range(zeileMATzu1 & "1").Select
+    ActiveCell.FormulaR1C1 = "Zuschlag10"
+    Range(zeileMATzu1 & "2").Select
+    ActiveCell.FormulaR1C1 = "1.1"
+    Range(zeileMATzu1 & "2").Select
+    Selection.NumberFormat = "#,##0.00_ ;-#,##0.00 "
+    Selection.AutoFill Destination:=Range("Tabelle1[Zuschlag10]")
+    
+    Range(zeileMATvk1 & "1").Select
+    ActiveCell.FormulaR1C1 = "VK10"
+    Range(zeileMATvk1 & "2").Select
+    ActiveCell.FormulaR1C1 = _
+        "=[@[MaterialEK]]*[@[Zuschlag10]]"
+    Selection.AutoFill Destination:=Range("Tabelle1[VK10]")
+    ActiveSheet.ListObjects("Tabelle1").ListColumns("VK10").TotalsCalculation = _
+        xlTotalsCalculationSum
+    
+    Range(zeileMATzu2 & "1").Select
+    ActiveCell.FormulaR1C1 = "Zuschlag20"
+    Range(zeileMATzu2 & "2").Select
+    ActiveCell.FormulaR1C1 = "1.2"
+    Range(zeileMATzu2 & "2").Select
+    Selection.NumberFormat = "#,##0.00_ ;-#,##0.00 "
+    Selection.AutoFill Destination:=Range("Tabelle1[Zuschlag20]")
+    
+    Range(zeileMATvk2 & "1").Select
+    ActiveCell.FormulaR1C1 = "VK20"
+    Range(zeileMATvk2 & "2").Select
+    ActiveCell.FormulaR1C1 = _
+        "=[@[MaterialEK]]*[@[Zuschlag20]]"
+    Selection.AutoFill Destination:=Range("Tabelle1[VK20]")
+    ActiveSheet.ListObjects("Tabelle1").ListColumns("VK20").TotalsCalculation = _
+        xlTotalsCalculationSum
+
+    Range(zeileLOHNvk & "1").Select
+    ActiveCell.FormulaR1C1 = "LohnVK"
+    Range(zeileLOHNvk & "2").Select
+    ActiveCell.FormulaR1C1 = _
+        "=IF(@[Kalk.-Gruppe]=""Material"",0,[@[GP]])"
+    Selection.AutoFill Destination:=Range("Tabelle1[LohnVK]")
+    ActiveSheet.ListObjects("Tabelle1").ListColumns("LohnVK").TotalsCalculation = _
+        xlTotalsCalculationSum
+
+
+    Range(zeileVK1 & "1").Select
+    ActiveCell.FormulaR1C1 = "VK10gesamt"
+    Range(zeileVK1 & "2").Select
+    ActiveCell.FormulaR1C1 = _
+        "=[@[LohnVK]]+[@[VK10]]"
+    Selection.AutoFill Destination:=Range("Tabelle1[VK10gesamt]")
+    ActiveSheet.ListObjects("Tabelle1").ListColumns("VK10gesamt").TotalsCalculation = _
+        xlTotalsCalculationSum
+        
+        
+    Range(zeileVK2 & "1").Select
+    ActiveCell.FormulaR1C1 = "VK20gesamt"
+    Range(zeileVK2 & "2").Select
+    ActiveCell.FormulaR1C1 = _
+        "=[@[LohnVK]]+[@[VK20]]"
+    Selection.AutoFill Destination:=Range("Tabelle1[VK20gesamt]")
+    ActiveSheet.ListObjects("Tabelle1").ListColumns("VK20gesamt").TotalsCalculation = _
+        xlTotalsCalculationSum
+End Sub
