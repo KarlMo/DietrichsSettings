@@ -18,8 +18,11 @@ Sub Nachkalkulation()
     zeileMATzu2 = "U"
     zeileMATvk2 = "V"
     zeileLOHNvk = "W"
-    zeileVK1 = "X"
-    zeileVK2 = "Y"
+    
+    zeileVK0 = "X"
+    zeileVK1 = "Y"
+    zeileVK2 = "Z"
+    
     
     Application.CutCopyMode = False
     ActiveSheet.ListObjects.Add(xlSrcRange, , , xlYes).Name = "Tabelle1"
@@ -35,7 +38,7 @@ Sub Nachkalkulation()
     ActiveCell.FormulaR1C1 = "MaterialEK"
     Range(zeileMATek & "2").Select
     ActiveCell.FormulaR1C1 = _
-        "=IF(@[Kalk.-Gruppe]=""Material"",[@[Kosten GP]],0)"
+        "=IF(@[Kalk.-Gruppe]=""Material"",[@[Kosten GP]],IF(@[Kalk.-Gruppe]=""Sonstiges"",[@[Kosten GP]],0))"
     Selection.AutoFill Destination:=Range("Tabelle1[MaterialEK]")
     ActiveSheet.ListObjects("Tabelle1").ListColumns("MaterialEK").TotalsCalculation = _
         xlTotalsCalculationSum
@@ -78,12 +81,20 @@ Sub Nachkalkulation()
     ActiveCell.FormulaR1C1 = "LohnVK"
     Range(zeileLOHNvk & "2").Select
     ActiveCell.FormulaR1C1 = _
-        "=IF(@[Kalk.-Gruppe]=""Material"",0,[@[GP]])"
+        "=IF(@[Kalk.-Gruppe]=""Material"",0,IF(@[Kalk.-Gruppe]=""Sonstiges"",0,[@[GP]]))"
     Selection.AutoFill Destination:=Range("Tabelle1[LohnVK]")
     ActiveSheet.ListObjects("Tabelle1").ListColumns("LohnVK").TotalsCalculation = _
         xlTotalsCalculationSum
 
-
+    Range(zeileVK0 & "1").Select
+    ActiveCell.FormulaR1C1 = "VK00gesamt"
+    Range(zeileVK0 & "2").Select
+    ActiveCell.FormulaR1C1 = _
+        "=[@[LohnVK]]+[@[MaterialEK]]"
+    Selection.AutoFill Destination:=Range("Tabelle1[VK00gesamt]")
+    ActiveSheet.ListObjects("Tabelle1").ListColumns("VK00gesamt").TotalsCalculation = _
+        xlTotalsCalculationSum
+        
     Range(zeileVK1 & "1").Select
     ActiveCell.FormulaR1C1 = "VK10gesamt"
     Range(zeileVK1 & "2").Select
@@ -93,7 +104,6 @@ Sub Nachkalkulation()
     ActiveSheet.ListObjects("Tabelle1").ListColumns("VK10gesamt").TotalsCalculation = _
         xlTotalsCalculationSum
         
-        
     Range(zeileVK2 & "1").Select
     ActiveCell.FormulaR1C1 = "VK20gesamt"
     Range(zeileVK2 & "2").Select
@@ -102,4 +112,100 @@ Sub Nachkalkulation()
     Selection.AutoFill Destination:=Range("Tabelle1[VK20gesamt]")
     ActiveSheet.ListObjects("Tabelle1").ListColumns("VK20gesamt").TotalsCalculation = _
         xlTotalsCalculationSum
+  
+
+'
+' ergebnis
+    Call ergebnis
+    
+'
+' formatieren
+    Call formatieren
+    
+'
+' bereinigen
+    Call bereinigen
+
+End Sub
+
+
+Private Sub ergebnis()
+
+'
+' Text einfügen
+'
+    Rows("1:5").Select
+    Selection.Insert Shift:=xlDown, CopyOrigin:=xlFormatFromLeftOrAbove
+    Range("A1").Select
+    Selection.NumberFormat = "General"
+    ActiveCell.FormulaR1C1 = "= ""Nachkalkulation ""  & R[6]C"
+    Range("A2").Select
+    ActiveCell.FormulaR1C1 = "Arbeit + Material (+00%):"
+    Range("A3").Select
+    ActiveCell.FormulaR1C1 = "Arbeit + Material (+10%):"
+    Range("A4").Select
+    ActiveCell.FormulaR1C1 = "Arbeit + Material (+20%):"
+    Range("A5").Select
+    Columns("A:A").EntireColumn.AutoFit
+
+'
+' Formeln einfügen
+'
+    Range("B2:B4").Select
+    Selection.NumberFormat = "#,##0.00 $"
+    Range("B2").Select
+    ActiveCell.FormulaR1C1 = "=Tabelle1[[#Totals],[VK00gesamt]]"
+    Range("B3").Select
+    ActiveCell.FormulaR1C1 = "=Tabelle1[[#Totals],[VK10gesamt]]"
+    Range("B4").Select
+    ActiveCell.FormulaR1C1 = "=Tabelle1[[#Totals],[VK20gesamt]]"
+    Range("A1:A4").Select
+End Sub
+
+
+
+Private Sub formatieren()
+
+    With Selection.Font
+        .ThemeColor = xlThemeColorAccent1
+        .TintAndShade = 0
+    End With
+    Range("B2").Select
+    With Selection.Font
+        .Color = -16776961
+        .TintAndShade = 0
+    End With
+    Range("B3").Select
+    With Selection.Font
+        .Color = -16727809
+        .TintAndShade = 0
+    End With
+    Range("B4").Select
+    With Selection.Font
+        .Color = -11489280
+        .TintAndShade = 0
+    End With
+End Sub
+
+
+
+Private Sub bereinigen()
+
+    Cells.Select
+    Cells.EntireColumn.AutoFit
+    Columns("C:C").Select
+    Selection.Delete Shift:=xlToLeft
+    Columns("F:F").Select
+    Selection.Delete Shift:=xlToLeft
+    Columns("G:I").Select
+    Selection.ColumnWidth = 40
+    ActiveWindow.SmallScroll ToRight:=9
+    Columns("N:O").Select
+    Selection.EntireColumn.Hidden = True
+    Columns("Q:T").Select
+    Selection.EntireColumn.Hidden = True
+    ActiveWindow.ScrollColumn = 11
+    Columns("Y:Y").Select
+    Range("A1:B4").Select
+    Selection.Copy
 End Sub
